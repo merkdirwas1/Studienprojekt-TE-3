@@ -2,8 +2,11 @@ from time import sleep
 from hfselect import Dataset, compute_task_ranking
 import csv
 cnt = 0
+
+# read tasks queries
 with open("../dataset_calls.csv", "r") as f:
 
+    # read query
     reader = csv.reader(f, delimiter="\t")
     for line in reader:
         print(str(cnt) + "/1396")
@@ -16,6 +19,8 @@ with open("../dataset_calls.csv", "r") as f:
             text_col = line[2]
 
         regression = True if line[4] == "True" else False
+
+        #try HF request over library
         try:
             dataset = Dataset.from_hugging_face(
                 name=line[0],
@@ -32,6 +37,8 @@ with open("../dataset_calls.csv", "r") as f:
             ranking = compute_task_ranking(dataset, "bert-base-multilingual-uncased", device_name="cuda")
             df = ranking.to_pandas()
             name= ""
+
+            # build unique name for each task
             if subset is not None:
                 name = line[0] +"_"+ subset
                 name = name.replace("/", "_")
@@ -39,12 +46,18 @@ with open("../dataset_calls.csv", "r") as f:
                 name = line[0]
                 name = name.replace("/", "_")
             df.to_csv(name + "_data.scv", index=False)
+            
+            
+            # save values 
             with open("dataset_calls_correct", "a", encoding="utf-8") as call_file:
                 call_file.write(line[0]+ "\t" + line[1] + "\t" +  line[2]+ "\t" +  line[3]+ "\t" + line[4]+ "\t" + line[5]+ "\t" + line[6]+ "\t" + line[7]+"\n")
             sleep(15)
         except Exception as error:
+            # log error 
             with open("error", "a", encoding="utf-8") as error_file:
                 error_file.write(line[0]+ "\n" + str(error) + " \n\n")
             with open("dataset_calls_notcorrect", "a", encoding="utf-8") as call_file:
                 call_file.write(line[0]+ "\t" + line[1] + "\t" +  line[2]+ "\t" +  line[3]+ "\t" + line[4]+ "\t" + line[5]+ "\t" + line[6]+ "\t" + line[7]+"\n")
+
+            # sleep so HF doesnt get to many requests
             sleep(15)
