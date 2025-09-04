@@ -11,6 +11,7 @@ from warnings import simplefilter
 simplefilter(action="ignore", category=pd.errors.PerformanceWarning)
 
 def create_statistics():
+    # create a table that holds statistic data over a task
     con = sqlite3.connect("Studienprojekt.db")
     cur = con.cursor()
     cur.execute("DROP TABLE IF EXISTS statistics")
@@ -32,6 +33,7 @@ def create_statistics():
 
 
 def create_datatables():
+    # saves for each Task the results as seperated table. it also saves the language, categorie and size for later 
     con = sqlite3.connect("Studienprojekt.db")
     cur = con.cursor()
 
@@ -62,11 +64,12 @@ def create_datatables():
            con.commit()
 
 def create_meta_table():
+    # creates a table with information over a task
+    # it saves Name, size, language, Task categorie (e.g. text generation) 
     api = HfApi()
     con = sqlite3.connect("Studienprojekt.db")
     cur = con.cursor()
 
-    #cur.execute("CREATE TABLE IF NOT EXISTS  Metadata(Name, size, language, categorie)")
     cur.execute("DROP TABLE IF EXISTS Metadata")
     cur.execute("CREATE TABLE Metadata(Name, size, language, categorie)")
     with open("/archiv/datasets_names", "r") as f:
@@ -76,6 +79,7 @@ def create_meta_table():
             categories = []
             sleep(1)
             try:
+                # get task categorie from HF
                 card_data = api.list_datasets(search=line[0])
                 data = list(card_data)[0].tags
 
@@ -86,6 +90,7 @@ def create_meta_table():
                         categories.append(cat)
                 categorie_data[line[0]] = categories
             except:
+                # if a task doesnt have any task categorie on HF 
                 print(line[0])
 
     with open("dataset_calls.csv", "r") as f:
@@ -111,6 +116,7 @@ def create_meta_table():
 
 
 def create_matrix():
+    # create an 2d array over all LogMe values
     con = sqlite3.connect("Studienprojekt.db")
     cur = con.cursor()
     res = cur.execute("SELECT Name FROM Metadata")
@@ -136,6 +142,7 @@ def create_matrix():
                 tmp[idx] = datapoint[1]
         array_complete[name] = tmp
     array_complete.to_sql(name="array_complete", con = con)
+
 
 
 
