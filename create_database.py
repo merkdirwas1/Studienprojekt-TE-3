@@ -9,9 +9,6 @@ import pandas as pd
 from warnings import simplefilter
 
 simplefilter(action="ignore", category=pd.errors.PerformanceWarning)
-"""pd.set_option('display.max_rows', None)
-pd.set_option('display.max_columns', None)"""
-
 
 def create_statistics():
     con = sqlite3.connect("Studienprojekt.db")
@@ -64,11 +61,6 @@ def create_datatables():
 
            con.commit()
 
-
-
-
-
-
 def create_meta_table():
     api = HfApi()
     con = sqlite3.connect("Studienprojekt.db")
@@ -119,7 +111,6 @@ def create_meta_table():
 
 
 def create_matrix():
-
     con = sqlite3.connect("Studienprojekt.db")
     cur = con.cursor()
     res = cur.execute("SELECT Name FROM Metadata")
@@ -145,5 +136,6 @@ def create_matrix():
                 tmp[idx] = datapoint[1]
         array_complete[name] = tmp
     array_complete.to_sql(name="array_complete", con = con)
+
 
 
