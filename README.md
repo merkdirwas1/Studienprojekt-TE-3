@@ -49,6 +49,7 @@ Like in the top 10 the most Tasks are in the text-classification categorie or in
 | **text-classification** | **multiple-choice** | **token-classification** | **question-answering** | **zero-shot-classification** | **text-generation** | **translation** |
 |-------------------------|---------------------|--------------------------|------------------------|------------------------------|---------------------|-----------------|
 | 16                      | 5                   | 4                        | 2                      | 1                            | 1                   | 1               |
+
 In the languages 9 Tasks are in english and the rest are singleton in one language. 
 TODO: insert image
 In the top 50 the trend continues again and it shows that there are a few dataset that occur very often in the top 50. the first 2 top 50 Tasks occur over 50%.
@@ -57,3 +58,30 @@ The distribution of the sizes can be seen in the table:
 | **max** | **large** | **small** | **tiny** |
 |---------|-----------|-----------|----------|
 | 27      | 2         | 2         | 3        |
+
+The trend of the 10 and 25 top k continues in the top 50 and the most tasks are text-classification follow up by multiple-choise and token classification.
+
+| text-classification | multiple-choice | token-classification | question-answering | text2text-generation | text-generation | translation | zero-shot-classification | text-retrieval | fill-mask |
+|---------------------|-----------------|----------------------|--------------------|----------------------|-----------------|-------------|--------------------------|----------------|-----------|
+| 34                  | 9               | 7                    | 4                  | 3                    | 2               | 1           | 1                        | 1              | 1         |
+
+In the languages it is the same and 21 of the Tasks are in english while the other languages are only once or twice. 
+
+TODO: Image insert
+
+In the top 100 it shows that the dataset claritylab_utcd_out-of-domain is in the top 100 of over 0.69% of all target Tasks. All four plots shows that the top k intermediate tasks are only a few tasks that could be good intermediate tasks. This could be a characteristic of this intermediate task or a weakness of the LogMe-ESM method.
+
+The distribution of the sizes can be seen in the table: 
+
+| **max** | **large** | **small** | **tiny** |
+|---------|-----------|-----------|----------|
+| 44      | 3         | 10        | 32       |
+
+It shows that it is more likely that the best intermediate task is a max set because the percentage share of the max Tasks is larger than the percentage share of max Tasks over all tasks.
+
+If we look into the categories of the top 100 then it shows that the best Tasks are in multiple-choice, token-classification and question-answering. That the amount of text-classification Tasks is so high is because the most tasks are in text-classification too. 
+
+| **text-classification** | **multiple-choice** | **token-classification** | **question-answering** | **text2text-generation** | **text-retrieval** | **zero-shot-classification** | **text-generation** | **translation** | **fill-mask** | **sentence-similarity** | **None** |
+|-------------------------|---------------------|--------------------------|------------------------|--------------------------|--------------------|------------------------------|---------------------|-----------------|---------------|-------------------------|----------|
+| 87                      | 16                  | 20                       | 17                     | 6                        | 5                  | 4                            | 4                   | 2               | 1             | 1                       | 1        |
+
