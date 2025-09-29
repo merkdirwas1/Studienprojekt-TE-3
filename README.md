@@ -10,3 +10,28 @@ To investigate the impact of the size on the LogMe Score I defined 4 groups of s
 | large    | 5k to 7.5k Datapoints  | 101 Tasks |
 | small    | 2.5 to 5k Datapoints   | 134 Tasks |
 | Tiny     | up to 2.5k Datapoints  | 575 Tasks |
+
+## Which impact has the Task size on the LogMe Score
+
+TODO: image inserte
+
+The Figure Shows the Range of the LogMe scores where a Task of one size group is the intermediate task and a Task of an other group is the target Task. It shows that there are only small differences if the intermediate Task group is changed and only if the Target Task is another group the range is changing. It also shows that the most values are under 0 and it shifts to left if the target Task get smaller. It also shows that if the Target task is an tiny one the range of the LogMe scores goes up to 1300+.
+
+TODO: image inserte
+
+This Figure shows the spread of the LogME score in correlation with the size of a task. It shows that the plot converges at 0 and if the size is getting smaller the range of  possible logMe scores is getting larger. So larger tasks have a smaller spread than smaller ones.  This Figure is filtered because some of the Tasks produces LogMe scores over 100 so they compress so it is bad to read. 
+
+## Which Tasks are often in the Top 50 intermediate Tasks?
+
+I want to investigate the top k intermediate tasks over all task to examine if there are specific tasks that occur more often then other. For better plots I only show Task which occur more then 300 times in the top k.
+
+TODO: image inserte
+
+As the Fig. shows there are a few tasks which appear often in the Top 10 intermediate Tasks. There are 2 Tasks that occur more then 500 times which means that over 36% of all target task it could be a good intermediate task.
+
+All of the 6 Tasks are in the max size class.
+If we look into the Task categories we see that the most intermediate datasets come from the text-classification categorie  and there are just two other categories 
+
+| **text-classification** | **multiple-choice** | **token-classification** |
+|-------------------------|---------------------|--------------------------|
+| 6                       | 2                   | 1                        |
