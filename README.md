@@ -35,3 +35,25 @@ If we look into the Task categories we see that the most intermediate datasets c
 | **text-classification** | **multiple-choice** | **token-classification** |
 |-------------------------|---------------------|--------------------------|
 | 6                       | 2                   | 1                        |
+
+With a look into the languages we see that 4 of the datasets are in english. One is in chinese and one in gujarati.
+
+TODO: insert image
+In the top 25 the trend continues and many more intermediate task occur often in the top 25 of all inter tasks. 
+The distribution of the sizes can be seen in the table: 
+| **text-classification** | **multiple-choice** | **token-classification** |
+|-------------------------|---------------------|--------------------------|
+| 6                       | 2                   | 1                        |
+
+Like in the top 10 the most Tasks are in the text-classification categorie or in multiple-choice or in token classification.
+| **text-classification** | **multiple-choice** | **token-classification** | **question-answering** | **zero-shot-classification** | **text-generation** | **translation** |
+|-------------------------|---------------------|--------------------------|------------------------|------------------------------|---------------------|-----------------|
+| 16                      | 5                   | 4                        | 2                      | 1                            | 1                   | 1               |
+In the languages 9 Tasks are in english and the rest are singleton in one language. 
+TODO: insert image
+In the top 50 the trend continues again and it shows that there are a few dataset that occur very often in the top 50. the first 2 top 50 Tasks occur over 50%.
+The distribution of the sizes can be seen in the table: 
+
+| **max** | **large** | **small** | **tiny** |
+|---------|-----------|-----------|----------|
+| 27      | 2         | 2         | 3        |
