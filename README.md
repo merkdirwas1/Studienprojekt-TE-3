@@ -1,11 +1,12 @@
 # Studienprojekt-TE-3
 
 ## Table of Contents
-1. [Which impact has the Task size on the LogMe Score](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/README.md#which-impact-has-the-task-size-on-the-logme-score)
-2. [Which Tasks are often in the Top k intermediate Tasks?](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/README.md#which-tasks-are-often-in-the-top-k-intermediate-tasks)
-3. [top k symetrie](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#top-k-symetrie)
+1. Methods
+2. [Which impact has the Task size on the LogMe Score](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/README.md#which-impact-has-the-task-size-on-the-logme-score)
+3. [Which Tasks are often in the Top k intermediate Tasks?](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/README.md#which-tasks-are-often-in-the-top-k-intermediate-tasks)
+4. [top k symetrie](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#top-k-symetrie)
 
-
+## Methods
 A class is defined by a specific feature of the Tasks as, language, Size, Task Domain. If Tasks are sharing a feature they are part of the same group. 
 
 **Definition: Size classes**
@@ -19,12 +20,11 @@ To investigate the impact of the size on the LogMe Score I defined 4 groups of s
 | Tiny     | up to 2.5k Datapoints  | 575 Tasks |
 
 To investigate the impact of Task to each other I defined two kinds of symmetrie. The first one is top-k symmetrie an the second one is distance symmetrie.
-
 **Definition: top-k symmetrie**
+If Task A is a top-k intermediate Task of Task B and if Task B is a top-k intermediate Task of Taks A, then the both are symmetrical.
 
 **Definition: distance symmetrie**
-
-# todo: top k symmetrie erklären 
+If the distance of the LogMe score of Task A and Taks B is lower or equal of 0.1 then the Task A and B are strong symmetrical. If this distance is smaller or equal then 0.5 they are weak symmetrical.
 
 ## Which impact has the Task size on the LogMe Score
 TODO: what did you do to answer the question
