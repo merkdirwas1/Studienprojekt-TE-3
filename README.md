@@ -116,19 +116,20 @@ If we look into the categories of the top 100 then it shows that the best Tasks 
 | 87                      | 16                  | 20                       | 17                     | 6                        | 5                  | 4                            | 4                   | 2               | 1             | 1                       | 1        |
 
 
-## top k symetrie
-# TODO: what you whant with this
-
+## Who symmetrical in order of top-k symmetrie are the Groups?
+I want to investigate if this method is symmetrical and if are the groups of the different classes more likely symmetrical? For the size groups I ploted the percentage of symetrical pairs for increasing top-k. For the other two classes there are only tables because they have too much group with to less Tasks per group to plot each of them. 
 
 ### Size 
-#### max-Size-Class
-![size](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/max%20100.png)
-#### large-Size-Class
-![size](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/Large%20100.png)
-#### small-Size-Class
-![size](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/small%20100.png)
-#### tiny-Size-Class
-![size](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/tiny%20100.png)
+max-Size-group
+![max-Size-Group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/max%20100.png)
+large-Size-group
+![large-Size-group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/Large%20100.png)
+small-Size-group
+![small-Size-group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/small%20100.png)
+tiny-Size-group
+![tiny-Size-Group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/tiny%20100.png)
+
+The plots shows that the max and the large group have a high top-k symmetrie for low top-k and it drops fast for increasing k. The small and tiny group have a low symmetrie. The Groups here are only for the Target Task so the top k can be from other groups. It shows only that the choice of the target Task change how symmetrical the methode is. 
 
 ### Language 
 TODO
