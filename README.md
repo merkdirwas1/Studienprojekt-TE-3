@@ -13,6 +13,7 @@ To investigate the impact of the size on the LogMe Score I defined 4 groups of s
 
 ## Which impact has the Task size on the LogMe Score
 
+![SIZE]([http://url/to/img.png](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/newplot(8).png))
 TODO: image inserte
 
 The Figure Shows the Range of the LogMe scores where a Task of one size group is the intermediate task and a Task of an other group is the target Task. It shows that there are only small differences if the intermediate Task group is changed and only if the Target Task is another group the range is changing. It also shows that the most values are under 0 and it shifts to left if the target Task get smaller. It also shows that if the Target task is an tiny one the range of the LogMe scores goes up to 1300+.
