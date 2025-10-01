@@ -5,7 +5,7 @@
 2. [Which impact has the Task size on the LogMe Score](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#which-impact-has-the-task-size-on-the-logme-score)
 3. [Which Tasks are often in the Top k intermediate Tasks?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#which-tasks-are-often-in-the-top-k-intermediate-tasks)
 4. [How symmetrical in order of top-k symmetrie are the Groups?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#top-k-symetrie)
-5. [How symmetrical in order of distance symmetrie are the groups?]
+5. [How symmetrical in order of distance symmetrie are the groups?](https://github.com/merkdirwas1/Studienprojekt-TE-3?tab=readme-ov-file#how-symmetrical-in-order-of-distance-symmetrie-are-the-groups)
 
 
 ## Methods
@@ -121,6 +121,9 @@ If we look into the categories of the top 100 then it shows that the best Tasks 
 ## How symmetrical in order of top-k symmetrie are the Groups?
 I want to investigate if this method is symmetrical and if are the groups of the different classes more likely symmetrical? For the size groups I ploted the percentage of symetrical pairs for increasing top-k. For the other two classes there are only tables because they have too much group with to less Tasks per group to plot each of them. 
 
+![generel](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/topksimgeneral.png)
+# TODO: auswertung
+
 ### Size 
 max-Size-group
 ![max-Size-Group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/max%20100.png)
@@ -133,12 +136,12 @@ tiny-Size-group
 
 The plots shows that the max and the large group have a high top-k symmetrie for low top-k and it drops fast for increasing k. The small and tiny group have a low symmetrie. The Groups here are only for the Target Task so the top k can be from other groups. It shows only that the choice of the target Task change how symmetrical the methode is. Becouse the sum of the percentage of the top 1 pairs is near 100 further work would investigate which pairs that are and why they behave like that.
 
+# TODO: auswertung generel einfügen
+
 ### Language 
 TODO
 ### Categorie 
 TODO
-
-
 
 
 ## How symmetrical in order of distance symmetrie are the groups?
