@@ -1,10 +1,8 @@
 # Studienprojekt-TE-3
 
 ## Table of Contents
-1. [Example](##WhichimpacthastheTasksizeontheLogMeScore)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+1. [Which impact has the Task size on the LogMe Score](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/README.md#which-impact-has-the-task-size-on-the-logme-score)
+2. [top k symetrie](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#top-k-symetrie)
 
 
 A class is defined by a specific feature of the Tasks as, language, Size, Task Domain. If Tasks are sharing a feature they are part of the same group. 
