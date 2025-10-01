@@ -25,10 +25,10 @@ TODO: what did you do to answer the question
 
 This Figure shows the spread of the LogME score in correlation with the size of a task. It shows that the plot converges at 0 and if the size is getting smaller the range of  possible logMe scores is getting larger. So larger tasks have a smaller spread than smaller ones.  This Figure is filtered because some of the Tasks produces LogMe scores over 100 so they compress so it is bad to read. 
 
-## Which Tasks are often in the Top 50 intermediate Tasks?
-
+## Which Tasks are often in the Top k intermediate Tasks?
 I want to investigate the top k intermediate tasks over all task to examine if there are specific tasks that occur more often then other. For better plots I only show Task which occur more then 300 times in the top k.
 
+### Top 10 top-k
 
 ![SIZE](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/Top%2010.png)
 
@@ -42,6 +42,7 @@ If we look into the Task categories we see that the most intermediate datasets c
 | 6                       | 2                   | 1                        |
 
 With a look into the languages we see that 4 of the datasets are in english. One is in chinese and one in gujarati.
+### Top 25 top-k
 
 ![SIZE](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/Top%2025.png)
 In the top 25 the trend continues and many more intermediate task occur often in the top 25 of all inter tasks. 
@@ -57,7 +58,7 @@ Like in the top 10 the most Tasks are in the text-classification categorie or in
 
 In the languages 9 Tasks are in english and the rest are singleton in one language. 
 
-
+### Top 50 top-k
 ![SIZE](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/Top%2050.png)
 
 In the top 50 the trend continues again and it shows that there are a few dataset that occur very often in the top 50. the first 2 top 50 Tasks occur over 50%.
@@ -74,6 +75,8 @@ The trend of the 10 and 25 top k continues in the top 50 and the most tasks are 
 | 34                  | 9               | 7                    | 4                  | 3                    | 2               | 1           | 1                        | 1              | 1         |
 
 In the languages it is the same and 21 of the Tasks are in english while the other languages are only once or twice. 
+
+### Top 100 top-k
 
 ![SIZE](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/Top%20100.png)
 
