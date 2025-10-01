@@ -4,7 +4,9 @@
 1. [Methods](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#methods)
 2. [Which impact has the Task size on the LogMe Score](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#which-impact-has-the-task-size-on-the-logme-score)
 3. [Which Tasks are often in the Top k intermediate Tasks?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#which-tasks-are-often-in-the-top-k-intermediate-tasks)
-4. [top k symetrie](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#top-k-symetrie)
+4. [How symmetrical in order of top-k symmetrie are the Groups?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#top-k-symetrie)
+5. [How symmetrical in order of distance symmetrie are the groups?]
+
 
 ## Methods
 
@@ -139,26 +141,45 @@ TODO
 
 
 
-## How symmetrical in order of distance symmetrie are the Groups?
+## How symmetrical in order of distance symmetrie are the groups?
 
-If task A performs well for task B, how likely is it that task B performs well for A?
+im allgemeinen
 Im allgemeinen liegt die Verteilung an starken Paaren bei um die 8.6% und bei schwachen Paaren bei um die 18.8%. Was die Frage  mit "unlikely" beantwortet.
-Sind bestimmte Größenkategorien insgesamt symmetrischer?
+
+### How symmetrical are the sizes?
 Alle kombinationen von Größenklassen haben einen gesteigerten Anteil an symetrischen Paaren, mit ausnahme von (tiny, A); (A, tiny) Paaren. Diese sind seltener symetrisch im vergleich zur Gesammtverteilung. Scheinbar sind größere Datensets öfter symetrisch zueinander als kleine Sets es sind.
 #todo: table einfügen
 
+strong
+|           | **max**       | **large**     | **small**     | **tiny**      |
+|-----------|---------------|---------------|---------------|---------------|
+| **max**   |  0,1226995294 |               |               |               |
+| **large** |  0,1156464313 |  0,1260159196 |               |               |
+| **small** |  0,1335600095 |  0,1269251656 |  0,1491718992 |               |
+| **tiny**  | 0,04804200749 | 0,04935797056 | 0,05801542937 | 0,01948834243 |
 
-Sind Sprachen symetrisch?
-Ich habe hierfür die Kategorien, stark, schwach und nicht Symetrisch eingeführt, da ich die klassische Definition mit (A,B) = (B,A) als zu streng empfand. Ein paar ist stark symetrisch, wenn die Distanz zwischen (A,B) und (B,A) <= 0.1 ist. Sie sind schwach symetrisch wenn <= 0.5 und bei >0.5 sind sie nicht symetrisch.
+Ratio gesammt 0,08603666537
+
+|           | **max**      | **large**    | **small**    | **tiny**      |
+|-----------|--------------|--------------|--------------|---------------|
+| **max**   | 0,2518830856 |              |              |               |
+| **large** | 0,2774701549 | 0,3089233347 |              |               |
+| **small** | 0,2811447811 | 0,3007277072 | 0,2978660479 |               |
+| **tiny**  | 0,1087885101 | 0,1214531788 | 0,1212529829 | 0,05382325845 |
+
+Ratio gesammt
+0,1884581279
+
+
+### How symmetrical are languages?
 Die meisten Sprachenklassen sind zu 13-20% start und zu 10-30% schwach symetrisch. Wie bei der transitivität habe sind die Werte wieder im verhältnis zu der maximal möglichen Anzahl an Paaren in dieser Sprachklasse, wobei ich hier (A,A) Paare schon ausschließe. Sprachen zeigen zudem ein erhöhtes vorkommen ans starken/ schwachen Paaren im vergleich zur Gesammtverteilung über alle Klassen hinweg.
 #todo: table einfügen
 
 
-Sind Kategorien symmetrisch?
+### How symmetrical are categories?
 Im Allgemeinen sind Kategorien nicht symmetrisch da der größte starke symetriewiert bei 30% liegt und das bei einer sehr kleinen Kategorie
 Die hälfte der Kategorien zeigt allerdings ein erhöhten anteil an stark symmetrischen paaren im vergleich zum gesammt set sodass davon auszugehen ist dass die wahrscheinlichkeit für symetrische paare in einer kategorie steigen kann. die andere hälfte ist allerdings leicht unterdurchschnittlich. Gerade die Kategorien text-generation und question-answering sind dahingehend stark unterdurchschnittlich
 #todo: table einfügen
 
-Sind size symmetrisch?
-#todo: table einfügen
+
 
