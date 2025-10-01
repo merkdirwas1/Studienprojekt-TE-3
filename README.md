@@ -116,7 +116,7 @@ If we look into the categories of the top 100 then it shows that the best Tasks 
 | 87                      | 16                  | 20                       | 17                     | 6                        | 5                  | 4                            | 4                   | 2               | 1             | 1                       | 1        |
 
 
-## Who symmetrical in order of top-k symmetrie are the Groups?
+## How symmetrical in order of top-k symmetrie are the Groups?
 I want to investigate if this method is symmetrical and if are the groups of the different classes more likely symmetrical? For the size groups I ploted the percentage of symetrical pairs for increasing top-k. For the other two classes there are only tables because they have too much group with to less Tasks per group to plot each of them. 
 
 ### Size 
@@ -135,3 +135,30 @@ The plots shows that the max and the large group have a high top-k symmetrie for
 TODO
 ### Categorie 
 TODO
+
+
+
+
+## How symmetrical in order of distance symmetrie are the Groups?
+
+If task A performs well for task B, how likely is it that task B performs well for A?
+Im allgemeinen liegt die Verteilung an starken Paaren bei um die 8.6% und bei schwachen Paaren bei um die 18.8%. Was die Frage  mit "unlikely" beantwortet.
+Sind bestimmte Größenkategorien insgesamt symmetrischer?
+Alle kombinationen von Größenklassen haben einen gesteigerten Anteil an symetrischen Paaren, mit ausnahme von (tiny, A); (A, tiny) Paaren. Diese sind seltener symetrisch im vergleich zur Gesammtverteilung. Scheinbar sind größere Datensets öfter symetrisch zueinander als kleine Sets es sind.
+#todo: table einfügen
+
+
+Sind Sprachen symetrisch?
+Ich habe hierfür die Kategorien, stark, schwach und nicht Symetrisch eingeführt, da ich die klassische Definition mit (A,B) = (B,A) als zu streng empfand. Ein paar ist stark symetrisch, wenn die Distanz zwischen (A,B) und (B,A) <= 0.1 ist. Sie sind schwach symetrisch wenn <= 0.5 und bei >0.5 sind sie nicht symetrisch.
+Die meisten Sprachenklassen sind zu 13-20% start und zu 10-30% schwach symetrisch. Wie bei der transitivität habe sind die Werte wieder im verhältnis zu der maximal möglichen Anzahl an Paaren in dieser Sprachklasse, wobei ich hier (A,A) Paare schon ausschließe. Sprachen zeigen zudem ein erhöhtes vorkommen ans starken/ schwachen Paaren im vergleich zur Gesammtverteilung über alle Klassen hinweg.
+#todo: table einfügen
+
+
+Sind Kategorien symmetrisch?
+Im Allgemeinen sind Kategorien nicht symmetrisch da der größte starke symetriewiert bei 30% liegt und das bei einer sehr kleinen Kategorie
+Die hälfte der Kategorien zeigt allerdings ein erhöhten anteil an stark symmetrischen paaren im vergleich zum gesammt set sodass davon auszugehen ist dass die wahrscheinlichkeit für symetrische paare in einer kategorie steigen kann. die andere hälfte ist allerdings leicht unterdurchschnittlich. Gerade die Kategorien text-generation und question-answering sind dahingehend stark unterdurchschnittlich
+#todo: table einfügen
+
+Sind size symmetrisch?
+#todo: table einfügen
+
