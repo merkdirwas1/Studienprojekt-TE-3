@@ -17,14 +17,13 @@ To investigate the impact of the size on the LogMe Score I defined 4 groups of s
 | small    | 2.5 to 5k Datapoints   | 134 Tasks |
 | Tiny     | up to 2.5k Datapoints  | 575 Tasks |
 
-# TODO: simmetrie erklären
+To investigate the impact of Task to each other I defined two kinds of symmetrie. The first one is top-k symmetrie an the second one is distance symmetrie.
+
+**Definition: top-k symmetrie**
+
+**Definition: distance symmetrie**
+
 # todo: top k symmetrie erklären 
-
-
-
-
-
-
 
 ## Which impact has the Task size on the LogMe Score
 TODO: what did you do to answer the question
