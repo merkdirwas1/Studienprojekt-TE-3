@@ -1,7 +1,7 @@
 # Studienprojekt-TE-3
 
 ## Table of Contents
-1. [Example](##Which impact has the Task size on the LogMe Score)
+1. [Example](##WhichimpacthastheTasksizeontheLogMeScore)
 2. [Example2](#example2)
 3. [Third Example](#third-example)
 4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
