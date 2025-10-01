@@ -11,6 +11,15 @@ To investigate the impact of the size on the LogMe Score I defined 4 groups of s
 | small    | 2.5 to 5k Datapoints   | 134 Tasks |
 | Tiny     | up to 2.5k Datapoints  | 575 Tasks |
 
+# TODO: simmetrie erklären
+# todo: top k symmetrie erklären 
+
+
+
+
+
+
+
 ## Which impact has the Task size on the LogMe Score
 TODO: what did you do to answer the question
 ![SIZE](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/newplot(8).png)
@@ -97,3 +106,5 @@ If we look into the categories of the top 100 then it shows that the best Tasks 
 |-------------------------|---------------------|--------------------------|------------------------|--------------------------|--------------------|------------------------------|---------------------|-----------------|---------------|-------------------------|----------|
 | 87                      | 16                  | 20                       | 17                     | 6                        | 5                  | 4                            | 4                   | 2               | 1             | 1                       | 1        |
 
+
+top k symetrie
