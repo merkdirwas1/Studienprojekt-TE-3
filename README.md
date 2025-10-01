@@ -8,10 +8,10 @@
 
 ## Methods
 
-**Definition: class**
+**Definition class:**<br>
 A class is defined by a specific feature of the Tasks as, language, Size, Task Domain. If Tasks are sharing a feature they are part of the same group. 
 
-**Definition: Size classes**
+**Definition Size classes:**<br>
 To investigate the impact of the size on the LogMe Score I defined 4 groups of sizes. 
 
 | **Name** | **Datapoint Range**    | **Size**  |
@@ -23,10 +23,10 @@ To investigate the impact of the size on the LogMe Score I defined 4 groups of s
 
 To investigate the impact of Task to each other I defined two kinds of symmetrie. The first one is top-k symmetrie an the second one is distance symmetrie.
 
-**Definition: top-k symmetrie**
+**Definition top-k symmetrie: **<br>
 If Task A is a top-k intermediate Task of Task B and if Task B is a top-k intermediate Task of Taks A, then the both are symmetrical.
 
-**Definition: distance symmetrie**
+**Definition distance symmetrie:**<br>
 If the distance of the LogMe score of Task A and Taks B is lower or equal of 0.1 then the Task A and B are strong symmetrical. If this distance is smaller or equal then 0.5 they are weak symmetrical.
 
 ## Which impact has the Task size on the LogMe Score
