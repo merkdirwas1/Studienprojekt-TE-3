@@ -122,16 +122,12 @@ If we look into the categories of the top 100 then it shows that the best Tasks 
 
 ### Size 
 #### max-Size-Class
-![size](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/max%2020.png)
 ![size](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/max%20100.png)
 #### large-Size-Class
-![size](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/large%2020.png)
 ![size](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/Large%20100.png)
 #### small-Size-Class
-![size](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/small%2020.png)
 ![size](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/small%20100.png)
 #### tiny-Size-Class
-![size](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/tiny%2020.png)
 ![size](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/tiny%20100.png)
 
 ### Language 
