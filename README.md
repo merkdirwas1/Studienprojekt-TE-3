@@ -7,6 +7,8 @@
 4. [top k symetrie](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#top-k-symetrie)
 
 ## Methods
+
+**Definition: class**
 A class is defined by a specific feature of the Tasks as, language, Size, Task Domain. If Tasks are sharing a feature they are part of the same group. 
 
 **Definition: Size classes**
