@@ -129,7 +129,7 @@ small-Size-group
 tiny-Size-group
 ![tiny-Size-Group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/tiny%20100.png)
 
-The plots shows that the max and the large group have a high top-k symmetrie for low top-k and it drops fast for increasing k. The small and tiny group have a low symmetrie. The Groups here are only for the Target Task so the top k can be from other groups. It shows only that the choice of the target Task change how symmetrical the methode is. 
+The plots shows that the max and the large group have a high top-k symmetrie for low top-k and it drops fast for increasing k. The small and tiny group have a low symmetrie. The Groups here are only for the Target Task so the top k can be from other groups. It shows only that the choice of the target Task change how symmetrical the methode is. Becouse the sum of the percentage of the top 1 pairs is near 100 further work would investigate which pairs that are and why they behave like that.
 
 ### Language 
 TODO
