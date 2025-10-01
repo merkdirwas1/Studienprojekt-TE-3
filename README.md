@@ -176,13 +176,66 @@ Ratio gesammt
 
 ### How symmetrical are languages?
 Die meisten Sprachenklassen sind zu 13-20% start und zu 10-30% schwach symetrisch. Wie bei der transitivität habe sind die Werte wieder im verhältnis zu der maximal möglichen Anzahl an Paaren in dieser Sprachklasse, wobei ich hier (A,A) Paare schon ausschließe. Sprachen zeigen zudem ein erhöhtes vorkommen ans starken/ schwachen Paaren im vergleich zur Gesammtverteilung über alle Klassen hinweg.
-#todo: table einfügen
-
-
+| **Name**   | **group size** | **strong symmetrical ratio** | **weak symmetrisch ratio** |
+|------------|----------------|------------------------------|----------------------------|
+| english    |            719 |                0,04565688185 |               0,1414762844 |
+| russian    |             33 |                0,08333333333 |               0,1003787879 |
+| greek      |             33 |                0,09523809524 |              0,04761904762 |
+| polish     |              7 |                0,09666666667 |                       0,29 |
+| german     |             25 |                 0,1029411765 |               0,4044117647 |
+| tamil      |              7 |                 0,1111111111 |               0,3055555556 |
+| french     |              9 |                 0,1174242424 |               0,1856060606 |
+| none       |             17 |                 0,1212121212 |                0,196969697 |
+| turkish    |             12 |                 0,1272727273 |               0,3454545455 |
+| swedish    |             11 |                 0,1287878788 |               0,1060606061 |
+| romanian   |             33 |                 0,1333333333 |                        0,4 |
+| portuguese |              6 |                 0,1415384615 |               0,2369230769 |
+| indonesian |             26 |                 0,1428571429 |               0,3333333333 |
+| malayalam  |             10 |                 0,1428571429 |               0,1904761905 |
+| spanish    |              7 |                 0,1437908497 |               0,4052287582 |
+| slovanian  |             18 |                 0,1666666667 |               0,2777777778 |
+| japanese   |              9 |                 0,1766666667 |               0,4133333333 |
+| marathi    |             25 |                          0,2 |                          0 |
+| tagalog    |              6 |                          0,2 |               0,4666666667 |
+| urdu       |              6 |                          0,2 |               0,3333333333 |
+| chinese    |              6 |                 0,2139037433 |               0,2352941176 |
+| hindi      |             34 |                 0,2307692308 |               0,1666666667 |
+| danish     |              7 |                 0,2421052632 |               0,2315789474 |
+| arabic     |             20 |                 0,2476190476 |               0,4571428571 |
+| bengali    |             15 |                         0,25 |               0,3214285714 |
+| gujarati   |              8 |                 0,2857142857 |               0,1904761905 |
+| italian    |             13 |                 0,2857142857 |              0,04761904762 |
+| telegu     |              7 |                 0,2857142857 |              0,04761904762 |
+| norwegian  |              7 |                 0,3006535948 |              0,07843137255 |
+| kannada    |             18 |                 0,3333333333 |               0,1428571429 |
+| bulgarian  |              7 |                          0,4 |               0,3333333333 |
+| korean     |              6 |                 0,4071146245 |               0,1581027668 |
+# todo auswertung
 ### How symmetrical are categories?
 Im Allgemeinen sind Kategorien nicht symmetrisch da der größte starke symetriewiert bei 30% liegt und das bei einer sehr kleinen Kategorie
 Die hälfte der Kategorien zeigt allerdings ein erhöhten anteil an stark symmetrischen paaren im vergleich zum gesammt set sodass davon auszugehen ist dass die wahrscheinlichkeit für symetrische paare in einer kategorie steigen kann. die andere hälfte ist allerdings leicht unterdurchschnittlich. Gerade die Kategorien text-generation und question-answering sind dahingehend stark unterdurchschnittlich
-#todo: table einfügen
-
+| **Name**                       | **group size** | **strong symmetrical ratio** | **weak symmetrisch ratio** |
+|--------------------------------|----------------|------------------------------|----------------------------|
+| text-generation                |            174 |               0,007473228526 |              0,02374117111 |
+| question-answering             |            294 |                0,01418587913 |              0,02553922593 |
+| other                          |              9 |                0,02777777778 |               0,1111111111 |
+| text2text-generation           |             48 |                0,02925531915 |              0,07358156028 |
+| fill-mask                      |             26 |                0,04307692308 |               0,1969230769 |
+| zero-shot-classification       |             37 |                0,05705705706 |               0,1096096096 |
+| multiple-choice                |            146 |                0,06131317903 |              0,08899385923 |
+| token-classification           |            138 |                0,07447371205 |               0,1537078176 |
+| sentence-similarity            |             37 |                0,08408408408 |               0,2747747748 |
+| summarization                  |            133 |                 0,1212121212 |               0,2555251766 |
+| translation                    |              8 |                 0,1785714286 |               0,1785714286 |
+| feature-extraction             |            104 |                 0,1827856609 |               0,3308439134 |
+| image-classification           |             94 |                 0,1901166781 |                0,300388927 |
+| image-to-text                  |             94 |                 0,1901166781 |                0,300388927 |
+| image-segmentation             |             93 |                 0,1928471248 |               0,2942964002 |
+| image-to-image                 |             93 |                 0,1928471248 |               0,2942964002 |
+| object-detection               |             93 |                 0,1928471248 |               0,2942964002 |
+| zero-shot-image-classification |             93 |                 0,1928471248 |               0,2942964002 |
+| text-retrieval                 |             15 |                 0,2666666667 |                0,180952381 |
+| table-question-answering       |              9 |                 0,3055555556 |               0,4722222222 |
+# todo auswertung
 
 
