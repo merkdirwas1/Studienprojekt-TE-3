@@ -23,7 +23,7 @@ To investigate the impact of the size on the LogMe Score I defined 4 groups of s
 
 To investigate the impact of Task to each other I defined two kinds of symmetrie. The first one is top-k symmetrie an the second one is distance symmetrie.
 
-**Definition top-k symmetrie: **<br>
+**Definition top-k symmetrie:**<br>
 If Task A is a top-k intermediate Task of Task B and if Task B is a top-k intermediate Task of Taks A, then the both are symmetrical.
 
 **Definition distance symmetrie:**<br>
