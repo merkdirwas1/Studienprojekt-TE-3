@@ -146,70 +146,69 @@ TODO
 
 ## How symmetrical in order of distance symmetrie are the groups?
 
-im allgemeinen
-Im allgemeinen liegt die Verteilung an starken Paaren bei um die 8.6% und bei schwachen Paaren bei um die 18.8%. Was die Frage  mit "unlikely" beantwortet.
+In order to answer this question I first calculated the ratio of strong and weak pairs. For the strong pairs the ratio is 8.6% over all Tasks and for the weak pairs it is 18.8% over all Tasks. So in general this method isn't symmetrical in order of definition. Next I wanted to know if the classes shows a higher ratio, which could mean that the classes have an impact on how good two task suit each other. I dont calculate if (A,A) pairs are symmetrical.
 
 ### How symmetrical are the sizes?
-Alle kombinationen von Größenklassen haben einen gesteigerten Anteil an symetrischen Paaren, mit ausnahme von (tiny, A); (A, tiny) Paaren. Diese sind seltener symetrisch im vergleich zur Gesammtverteilung. Scheinbar sind größere Datensets öfter symetrisch zueinander als kleine Sets es sind.
-#todo: table einfügen
+For the size groups I calculated a table for the strong and the weak pairs. it shows the ratio of the symmetrical pairs, with the column stands for that the intermedate Task is in this group size and the row stands for the target task size group. 
 
-strong
-|           | **max**       | **large**     | **small**     | **tiny**      |
-|-----------|---------------|---------------|---------------|---------------|
-| **max**   |  0,1226995294 |               |               |               |
-| **large** |  0,1156464313 |  0,1260159196 |               |               |
-| **small** |  0,1335600095 |  0,1269251656 |  0,1491718992 |               |
-| **tiny**  | 0,04804200749 | 0,04935797056 | 0,05801542937 | 0,01948834243 |
+**strong pair ratio:**
+|           | **max** | **large** | **small** | **tiny** |
+|-----------|---------|-----------|-----------|----------|
+| **max**   |   10,02 |           |           |          |
+| **large** |    6,48 |      5,07 |           |          |
+| **small** |     7,2 |      4,96 |      6,48 |          |
+| **tiny**  |    9,35 |      6,65 |      6,66 |     9,27 |
 
-Ratio gesammt 0,08603666537
+It shows that max-max; max-tiny and tiny-tiny have slightly higher symmetrical pairs bit it is also unlikely that 2 Task in this group are symmetrical. Max-tiny and tiny-tiny are still near to the overall ratio so it could be random that they have this score.
 
-|           | **max**      | **large**    | **small**    | **tiny**      |
-|-----------|--------------|--------------|--------------|---------------|
-| **max**   | 0,2518830856 |              |              |               |
-| **large** | 0,2774701549 | 0,3089233347 |              |               |
-| **small** | 0,2811447811 | 0,3007277072 | 0,2978660479 |               |
-| **tiny**  | 0,1087885101 | 0,1214531788 | 0,1212529829 | 0,05382325845 |
 
-Ratio gesammt
-0,1884581279
+**weak pair ratio:**
+|           | **max** | **large** | **small** | **tiny** |
+|-----------|---------|-----------|-----------|----------|
+| **max**   |   20,58 |           |           |          |
+| **large** |   13,58 |       8,5 |           |          |
+| **small** |   18,77 |     12,61 |     17,42 |          |
+| **tiny**  |   20,17 |     12,71 |     18,45 |    19,69 |
+
+for the weak pairs it is the same like for the strong pairs. 
 
 
 ### How symmetrical are languages?
-Die meisten Sprachenklassen sind zu 13-20% start und zu 10-30% schwach symetrisch. Wie bei der transitivität habe sind die Werte wieder im verhältnis zu der maximal möglichen Anzahl an Paaren in dieser Sprachklasse, wobei ich hier (A,A) Paare schon ausschließe. Sprachen zeigen zudem ein erhöhtes vorkommen ans starken/ schwachen Paaren im vergleich zur Gesammtverteilung über alle Klassen hinweg.
-| **Name**   | **group size** | **strong symmetrical ratio** | **weak symmetrisch ratio** |
-|------------|----------------|------------------------------|----------------------------|
-| english    |            719 |                0,04565688185 |               0,1414762844 |
-| russian    |             33 |                0,08333333333 |               0,1003787879 |
-| greek      |             33 |                0,09523809524 |              0,04761904762 |
-| polish     |              7 |                0,09666666667 |                       0,29 |
-| german     |             25 |                 0,1029411765 |               0,4044117647 |
-| tamil      |              7 |                 0,1111111111 |               0,3055555556 |
-| french     |              9 |                 0,1174242424 |               0,1856060606 |
-| none       |             17 |                 0,1212121212 |                0,196969697 |
-| turkish    |             12 |                 0,1272727273 |               0,3454545455 |
-| swedish    |             11 |                 0,1287878788 |               0,1060606061 |
-| romanian   |             33 |                 0,1333333333 |                        0,4 |
-| portuguese |              6 |                 0,1415384615 |               0,2369230769 |
-| indonesian |             26 |                 0,1428571429 |               0,3333333333 |
-| malayalam  |             10 |                 0,1428571429 |               0,1904761905 |
-| spanish    |              7 |                 0,1437908497 |               0,4052287582 |
-| slovanian  |             18 |                 0,1666666667 |               0,2777777778 |
-| japanese   |              9 |                 0,1766666667 |               0,4133333333 |
-| marathi    |             25 |                          0,2 |                          0 |
-| tagalog    |              6 |                          0,2 |               0,4666666667 |
-| urdu       |              6 |                          0,2 |               0,3333333333 |
-| chinese    |              6 |                 0,2139037433 |               0,2352941176 |
-| hindi      |             34 |                 0,2307692308 |               0,1666666667 |
-| danish     |              7 |                 0,2421052632 |               0,2315789474 |
-| arabic     |             20 |                 0,2476190476 |               0,4571428571 |
-| bengali    |             15 |                         0,25 |               0,3214285714 |
-| gujarati   |              8 |                 0,2857142857 |               0,1904761905 |
-| italian    |             13 |                 0,2857142857 |              0,04761904762 |
-| telegu     |              7 |                 0,2857142857 |              0,04761904762 |
-| norwegian  |              7 |                 0,3006535948 |              0,07843137255 |
-| kannada    |             18 |                 0,3333333333 |               0,1428571429 |
-| bulgarian  |              7 |                          0,4 |               0,3333333333 |
-| korean     |              6 |                 0,4071146245 |               0,1581027668 |
+
+| **Name**   | **group size** | **strong ratio** | **weak ratio** |
+|------------|----------------|------------------|----------------|
+| english    |            719 |             4,57 |          14,15 |
+| russian    |             33 |             8,33 |          10,04 |
+| greek      |              7 |             9,52 |           4,76 |
+| polish     |             25 |             9,67 |             29 |
+| german     |             17 |            10,29 |          40,44 |
+| tamil      |              9 |            11,11 |          30,56 |
+| french     |             33 |            11,74 |          18,56 |
+| none       |             12 |            12,12 |           19,7 |
+| turkish    |             11 |            12,73 |          34,55 |
+| swedish    |             33 |            12,88 |          10,61 |
+| romanian   |              6 |            13,33 |             40 |
+| portuguese |             26 |            14,15 |          23,69 |
+| indonesian |              7 |            14,29 |          33,33 |
+| malayalam  |              7 |            14,29 |          19,05 |
+| spanish    |             18 |            14,38 |          40,52 |
+| slovanian  |              9 |            16,67 |          27,78 |
+| japanese   |             25 |            17,67 |          41,33 |
+| marathi    |              6 |               20 |              0 |
+| tagalog    |              6 |               20 |          46,67 |
+| urdu       |              6 |               20 |          33,33 |
+| chinese    |             34 |            21,39 |          23,53 |
+| hindi      |             13 |            23,08 |          16,67 |
+| danish     |             20 |            24,21 |          23,16 |
+| arabic     |             15 |            24,76 |          45,71 |
+| bengali    |              8 |               25 |          32,14 |
+| gujarati   |              7 |            28,57 |          19,05 |
+| italian    |              7 |            28,57 |           4,76 |
+| telegu     |              7 |            28,57 |           4,76 |
+| norwegian  |             18 |            30,07 |           7,84 |
+| kannada    |              7 |            33,33 |          14,29 |
+| bulgarian  |              6 |               40 |          33,33 |
+| korean     |             23 |            40,71 |          15,81 |
 # todo auswertung
 ### How symmetrical are categories?
 Im Allgemeinen sind Kategorien nicht symmetrisch da der größte starke symetriewiert bei 30% liegt und das bei einer sehr kleinen Kategorie
