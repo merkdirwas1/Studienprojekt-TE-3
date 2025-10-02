@@ -174,7 +174,7 @@ for the weak pairs it is the same like for the strong pairs.
 
 
 ### How symmetrical are languages?
-
+The results of my calculation for the languages can be found in the table below. It also shows how large each language group is.
 | **Name**   | **group size** | **strong ratio** | **weak ratio** |
 |------------|----------------|------------------|----------------|
 | english    |            719 |             4,57 |          14,15 |
@@ -209,32 +209,33 @@ for the weak pairs it is the same like for the strong pairs.
 | kannada    |              7 |            33,33 |          14,29 |
 | bulgarian  |              6 |               40 |          33,33 |
 | korean     |             23 |            40,71 |          15,81 |
-# todo auswertung
-### How symmetrical are categories?
-Im Allgemeinen sind Kategorien nicht symmetrisch da der größte starke symetriewiert bei 30% liegt und das bei einer sehr kleinen Kategorie
-Die hälfte der Kategorien zeigt allerdings ein erhöhten anteil an stark symmetrischen paaren im vergleich zum gesammt set sodass davon auszugehen ist dass die wahrscheinlichkeit für symetrische paare in einer kategorie steigen kann. die andere hälfte ist allerdings leicht unterdurchschnittlich. Gerade die Kategorien text-generation und question-answering sind dahingehend stark unterdurchschnittlich
-| **Name**                       | **group size** | **strong symmetrical ratio** | **weak symmetrisch ratio** |
-|--------------------------------|----------------|------------------------------|----------------------------|
-| text-generation                |            174 |               0,007473228526 |              0,02374117111 |
-| question-answering             |            294 |                0,01418587913 |              0,02553922593 |
-| other                          |              9 |                0,02777777778 |               0,1111111111 |
-| text2text-generation           |             48 |                0,02925531915 |              0,07358156028 |
-| fill-mask                      |             26 |                0,04307692308 |               0,1969230769 |
-| zero-shot-classification       |             37 |                0,05705705706 |               0,1096096096 |
-| multiple-choice                |            146 |                0,06131317903 |              0,08899385923 |
-| token-classification           |            138 |                0,07447371205 |               0,1537078176 |
-| sentence-similarity            |             37 |                0,08408408408 |               0,2747747748 |
-| summarization                  |            133 |                 0,1212121212 |               0,2555251766 |
-| translation                    |              8 |                 0,1785714286 |               0,1785714286 |
-| feature-extraction             |            104 |                 0,1827856609 |               0,3308439134 |
-| image-classification           |             94 |                 0,1901166781 |                0,300388927 |
-| image-to-text                  |             94 |                 0,1901166781 |                0,300388927 |
-| image-segmentation             |             93 |                 0,1928471248 |               0,2942964002 |
-| image-to-image                 |             93 |                 0,1928471248 |               0,2942964002 |
-| object-detection               |             93 |                 0,1928471248 |               0,2942964002 |
-| zero-shot-image-classification |             93 |                 0,1928471248 |               0,2942964002 |
-| text-retrieval                 |             15 |                 0,2666666667 |                0,180952381 |
-| table-question-answering       |              9 |                 0,3055555556 |               0,4722222222 |
-# todo auswertung
 
+The table shows that there are many groups which higher strong symmetrie and higher weak simmetrie, which shows that languages have a slightly impact on how the LogMe score behave. Though the most of the language Groups have a small size so it lacks of evidence that this is a general behavior. 
+
+### How symmetrical are categories?
+The results of my calculation for the categories can be found in the table below. It also shows how large each categorie group is.
+| **Name**                       | **group size** | **strong ratio** | **weak ratio** |
+|--------------------------------|----------------|------------------|----------------|
+| text-generation                |            174 |             0,75 |           2,37 |
+| question-answering             |            294 |             1,42 |           2,55 |
+| other                          |              9 |             2,78 |          11,11 |
+| text2text-generation           |             48 |             2,93 |           7,36 |
+| fill-mask                      |             26 |             4,31 |          19,69 |
+| zero-shot-classification       |             37 |             5,71 |          10,96 |
+| multiple-choice                |            146 |             6,13 |            8,9 |
+| token-classification           |            138 |             7,45 |          15,37 |
+| sentence-similarity            |             37 |             8,41 |          27,48 |
+| summarization                  |            133 |            12,12 |          25,55 |
+| translation                    |              8 |            17,86 |          17,86 |
+| feature-extraction             |            104 |            18,28 |          33,08 |
+| image-classification           |             94 |            19,01 |          30,04 |
+| image-to-text                  |             94 |            19,01 |          30,04 |
+| image-segmentation             |             93 |            19,28 |          29,43 |
+| image-to-image                 |             93 |            19,28 |          29,43 |
+| object-detection               |             93 |            19,28 |          29,43 |
+| zero-shot-image-classification |             93 |            19,28 |          29,43 |
+| text-retrieval                 |             15 |            26,67 |           18,1 |
+| table-question-answering       |              9 |            30,56 |          47,22 |
+
+Other than the language groups the categorie groups have a size large enough to give more evidence. The table shows that half of the categories have an higher strong and weak ratio than the overall set. Which means that the categories have an larger impact on the behavior of the LogMe score than language.  
 
