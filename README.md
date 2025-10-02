@@ -237,5 +237,5 @@ The results of my calculation for the categories can be found in the table below
 | text-retrieval                 |             15 |            26,67 |           18,1 |
 | table-question-answering       |              9 |            30,56 |          47,22 |
 
-Other than the language groups the categorie groups have a size large enough to give more evidence. The table shows that half of the categories have an higher strong and weak ratio than the overall set. Which means that the categories have an larger impact on the behavior of the LogMe score than language.  
+Other than the language groups the categorie groups have a size large enough to give more evidence. The table shows that half of the categories have an higher strong and weak ratio than the overall set. Which means that the categories have an larger impact on the behavior of the LogMe score than language. This method is stil not symmetrical in order of my definition.
 
