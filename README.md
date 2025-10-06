@@ -141,6 +141,7 @@ The language groups have a interesting behavior because most of the languages st
 ### Categorie 
 ![max-Size-Group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/categories.png)
 
+The categories shows the same behavior like the groups. Some of them starting with a percentage around 50-60% but they drop fast at increasing k and most of the categories dont recover ofer 20% which is slighty abouve the overall set but near them. 
 
 ## How symmetrical in order of distance symmetrie are the groups?
 
