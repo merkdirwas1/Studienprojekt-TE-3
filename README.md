@@ -122,19 +122,22 @@ If we look into the categories of the top 100 then it shows that the best Tasks 
 I want to investigate if this method is symmetrical and if are the groups of the different classes more likely symmetrical? For the size groups I ploted the percentage of symetrical pairs for increasing top-k. For the other two classes there are only tables because they have too much group with to less Tasks per group to plot each of them. 
 
 ![generel](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/topksimgeneral.png)
-# TODO: auswertung
+
+There are only a few pairs of symmetrical pairs in the overall set and it drops new 0 if the k is increasing. These makes sense because of there are a few intermedate Tasks that appears in the most top k but these sets can only have a few top k itself so there are only a few pairs left for this kind of symmetrie. It can be sayed that the ESM-LogMe method is not symmetrical for this definition.  
 
 ### Size 
 max-Size-group
 ![Size](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/size.png)
 
 
-The plots shows that the max and the large group have a high top-k symmetrie for low top-k and it drops fast for increasing k. The small and tiny group have a low symmetrie. The Groups here are only for the Target Task so the top k can be from other groups. It shows only that the choice of the target Task change how symmetrical the methode is. Becouse the sum of the percentage of the top 1 pairs is near 100 further work would investigate which pairs that are and why they behave like that.
-
-# TODO: auswertung generel einfügen
+The plots shows that the max and the large group have a high top-k symmetrie for low top-k and it drops fast for increasing k. The small and tiny group have a low symmetrie. The Groups here are only for the Target Task so the top k can be from other groups. It shows only that the choice of the target Task change how symmetrical the methode is. Becouse the sum of the percentage of the top 1 pairs is near 100 further work would investigate which pairs that are and why they behave like that. Which is intestering is that the the large group starts with a persentage that is higher than the the persentage of the overall set.
 
 ### Language 
 ![max-Size-Group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/language.png)
+
+The language groups have a interesting behavior because most of the languages starts at a low percentage and increase them over small k increases. Most of the languages gain a percentage that is higher than in the overall set or in the size groups. This could be an evidence that the language of the target task has an impact on how the sets are bound to each other. The language macedonian has in interessting pattern because after they drop in ther percentage they gain a recover over the 60%.
+
+
 ### Categorie 
 ![max-Size-Group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/categories.png)
 
