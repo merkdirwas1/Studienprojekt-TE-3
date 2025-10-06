@@ -126,22 +126,17 @@ I want to investigate if this method is symmetrical and if are the groups of the
 
 ### Size 
 max-Size-group
-![max-Size-Group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/max%20100.png)
-large-Size-group
-![large-Size-group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/Large%20100.png)
-small-Size-group
-![small-Size-group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/small%20100.png)
-tiny-Size-group
-![tiny-Size-Group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/tiny%20100.png)
+![Size](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/size.png)
+
 
 The plots shows that the max and the large group have a high top-k symmetrie for low top-k and it drops fast for increasing k. The small and tiny group have a low symmetrie. The Groups here are only for the Target Task so the top k can be from other groups. It shows only that the choice of the target Task change how symmetrical the methode is. Becouse the sum of the percentage of the top 1 pairs is near 100 further work would investigate which pairs that are and why they behave like that.
 
 # TODO: auswertung generel einfügen
 
 ### Language 
-TODO
+![max-Size-Group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/language.png)
 ### Categorie 
-TODO
+![max-Size-Group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/categories.png)
 
 
 ## How symmetrical in order of distance symmetrie are the groups?
