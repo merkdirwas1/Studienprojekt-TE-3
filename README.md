@@ -238,6 +238,8 @@ The results of my calculation for the categories can be found in the table below
 
 Other than the language groups the categorie groups have a size large enough to give more evidence. The table shows that half of the categories have an higher strong and weak ratio than the overall set. Which means that the categories have an larger impact on the behavior of the LogMe score than language. This method is stil not symmetrical in order of my definition.
 # todo -15 lang
+
+# tod omax
 | **Name**   | **Inclass**        | **Outclass**       |
 |------------|--------------------|--------------------|
 | english    | 1735.0313230254735 | 1624.1109686892019 |
@@ -256,6 +258,7 @@ Other than the language groups the categorie groups have a size large enough to 
 | spanish    | 4.6010936912531495 | 3.718795019651674  |
 | swedish    | 39.425049074065804 | 36.03396909324652  |
 
+# todo mean
 | **Name**   | **Inclass**          | **Outclass**         |
 |------------|----------------------|----------------------|
 | english    | 93.35852942322366    | 82.05229532710565    |
@@ -274,6 +277,8 @@ Other than the language groups the categorie groups have a size large enough to 
 | spanish    | 0.344799767329328    | 0.31574797309036945  |
 | swedish    | 4.023945756283439    | 3.940464393940656    |
 
+
+# todo min
 | **Name**   | **Inclass**         | **Outclass**        |
 |------------|---------------------|---------------------|
 | english    | -15.28944784638076  | -15.296238763185718 |
@@ -291,7 +296,7 @@ Other than the language groups the categorie groups have a size large enough to 
 | russian    | -0.7246318350808925 | -0.7253432519229753 |
 | spanish    | -0.7026658191829092 | -0.7050762147546915 |
 | swedish    | -0.7178182515087663 | -0.7189209661286434 |
-
+# tod omax
 | **Name**                       | **Inclass**         | **Outclass**       |
 |--------------------------------|---------------------|--------------------|
 | text-classification            | 1802.1060874757104  | 1679.2512369724063 |
@@ -314,6 +319,8 @@ Other than the language groups the categorie groups have a size large enough to 
 | zero-shot-image-classification | 7.981145947491793   | 7.981102570060276  |
 | None                           | 1802.1060874757104  | 1672.0244810604472 |
 
+# todo mean
+
 | **Name**                       | **Inclass**        | **Outclass**       |
 |--------------------------------|--------------------|--------------------|
 | text-classification            | 51.59119291285194  | 47.708272788347905 |
@@ -335,6 +342,8 @@ Other than the language groups the categorie groups have a size large enough to 
 | object-detection               | 0.6930017710689304 | 0.6941053568147919 |
 | zero-shot-image-classification | 0.6930017710689304 | 0.6941053568147919 |
 | None                           | 51.68392398458587  | 47.58802976069973  |
+
+# todo min
 
 | **Name**                       | **Inclass**          | **Outclass**        |
 |--------------------------------|----------------------|---------------------|
