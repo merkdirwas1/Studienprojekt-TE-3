@@ -388,3 +388,29 @@ Other than the language groups the categorie groups have a size large enough to 
 | large    | -0.6753015298270586 | -0.6796734575484273 |
 | small    | -0.7244323925146001 | -0.7265990974612331 |
 | tiny     | -3.566504093398874  | -3.442566581869449  |
+
+# todo
+| **Name**                       | **Top k Inclass**   |
+|--------------------------------|---------------------|
+| translation                    | 0.125               |
+| text-generation                | 0.1313888888888889  |
+| token-classification           | 0.15850604720549843 |
+| multiple-choice                | 0.16607169054721502 |
+| question-answering             | 0.20659591836734695 |
+| table-question-answering       | 0.2962962962962963  |
+| zero-shot-classification       | 0.08984660336011688 |
+| summarization                  | 0.04780801209372638 |
+| feature-extraction             | 0.04058801775147929 |
+| text-retrieval                 | 0.24444444444444444 |
+| fill-mask                      | 0.032               |
+| sentence-similarity            | 0.04382761139517896 |
+| text2text-generation           | 0.12                |
+| image-classification           | 0.03531009506564056 |
+| image-segmentation             | 0.0345704705746329  |
+| image-to-image                 | 0.0345704705746329  |
+| image-to-text                  | 0.03531009506564056 |
+| object-detection               | 0.0345704705746329  |
+| zero-shot-image-classification | 0.0345704705746329  |
+| other                          | 0.0                 |
+
+
