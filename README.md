@@ -240,6 +240,7 @@ The results of my calculation for the categories can be found in the table below
 Other than the language groups the categorie groups have a size large enough to give more evidence. The table shows that half of the categories have an higher strong and weak ratio than the overall set. Which means that the categories have an larger impact on the behavior of the LogMe score than language. This method is stil not symmetrical in order of my definition.
 
 # Are the mean / minimum / maximum in a class different from the values out of the group?
+In order to investigate if my chosen classes show an evidence of how the Tasks are bound together I calculatet the max, min and mean value of all Task in a group and of all task out of the group. If there is an evidence that the group bound task together it should e shown in these values. 
 ## Languages
 Because there are many lanugages with only a few Task I filtered all languages which dont have min. 15 task in it. The high values of english comes from the very small tasks, which have only 2 or 6 data point. 
 
