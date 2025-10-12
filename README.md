@@ -6,6 +6,7 @@
 3. [Which Tasks are often in the Top k intermediate Tasks?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#which-tasks-are-often-in-the-top-k-intermediate-tasks)
 4. [How symmetrical in order of top-k symmetrie are the Groups?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#top-k-symetrie)
 5. [How symmetrical in order of distance symmetrie are the groups?](https://github.com/merkdirwas1/Studienprojekt-TE-3?tab=readme-ov-file#how-symmetrical-in-order-of-distance-symmetrie-are-the-groups)
+6. [Are the mean / minimum / maximum in a class different from the values out of the group?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#how-symmetrical-in-order-of-distance-symmetrie-are-the-groups)
 
 
 ## Methods
@@ -239,7 +240,6 @@ The results of my calculation for the categories can be found in the table below
 Other than the language groups the categorie groups have a size large enough to give more evidence. The table shows that half of the categories have an higher strong and weak ratio than the overall set. Which means that the categories have an larger impact on the behavior of the LogMe score than language. This method is stil not symmetrical in order of my definition.
 
 # Are the mean / minimum / maximum in a class different from the values out of the group?
-
 ## Languages
 Because there are many lanugages with only a few Task I filtered all languages which dont have min. 15 task in it. The high values of english comes from the very small tasks, which have only 2 or 6 data point. 
 
