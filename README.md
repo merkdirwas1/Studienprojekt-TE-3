@@ -6,7 +6,7 @@
 3. [Which Tasks are often in the Top k intermediate Tasks?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#which-tasks-are-often-in-the-top-k-intermediate-tasks)
 4. [How symmetrical in order of top-k symmetrie are the Groups?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#top-k-symetrie)
 5. [How symmetrical in order of distance symmetrie are the groups?](https://github.com/merkdirwas1/Studienprojekt-TE-3?tab=readme-ov-file#how-symmetrical-in-order-of-distance-symmetrie-are-the-groups)
-6. [Are the mean / minimum / maximum in a class different from the values out of the group?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#how-symmetrical-in-order-of-distance-symmetrie-are-the-groups)
+6. [Are the mean / minimum / maximum in a class different from the values out of the group?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#are-the-mean--minimum--maximum-in-a-class-different-from-the-values-out-of-the-group)
 
 
 ## Methods
