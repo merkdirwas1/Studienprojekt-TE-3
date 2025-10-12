@@ -377,7 +377,8 @@ Categories min
 For the categories it is exactly the same behavior than for the languages. The in group values are near to the out group values an the by the most categories the differences are very small so that it dont produce any evidence that the tasks of the same categories are a better intermedate dataset than tasks from other groups 
 
 
-## size group 
+## Size group 
+Size group max
 | **Name** | **Inclass**        | Outclass           |
 |----------|--------------------|--------------------|
 | max      | 9.379093280187472  | 9.370476408234943  |
@@ -385,6 +386,7 @@ For the categories it is exactly the same behavior than for the languages. The i
 | small    | 6.079290820484999  | 6.076872832822961  |
 | tiny     | 1802.1060874757104 | 1671.6596575151411 |
 
+Size group mean
 | **Name** | **Inclass**          | Outclass             |
 |----------|----------------------|----------------------|
 | max      | 0.14748967044692704  | 0.14533471484362878  |
@@ -392,6 +394,7 @@ For the categories it is exactly the same behavior than for the languages. The i
 | small    | 0.017601843815750584 | 0.018859761867356495 |
 | tiny     | 122.14065318251944   | 108.87527700467786   |
 
+Size group min
 | **Name** | **Inclass**         | Outclass            |
 |----------|---------------------|---------------------|
 | max      | -15.280406535565998 | -15.293673498195245 |
@@ -399,7 +402,11 @@ For the categories it is exactly the same behavior than for the languages. The i
 | small    | -0.7266595729063818 | -0.7267329031219479 |
 | tiny     | -3.566504093398874  | -3.442566581869449  |
 
-# todo
+Also for the size groups it is the same behavior like the other two classes. There are no large differences between the groups in order of that in the groups there is evidence that ingroups intermediate Task are better for the transfer learning than out of the groups. What is interesting is that the max group has by far the lowest LogMe score then the other groups.  
+
+
+# Top k Inclas
+categories
 | **Name**                       | **Top k Inclass**   |
 |--------------------------------|---------------------|
 | translation                    | 0.125               |
@@ -423,4 +430,6 @@ For the categories it is exactly the same behavior than for the languages. The i
 | zero-shot-image-classification | 0.0345704705746329  |
 | other                          | 0.0                 |
 
+language todo
 
+size todo
