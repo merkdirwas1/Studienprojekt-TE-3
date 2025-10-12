@@ -410,46 +410,47 @@ Also for the size groups it is the same behavior like the other two classes. The
 categories
 | **Name**                       | **Top k Inclass**   |
 |--------------------------------|---------------------|
-| translation                    | 0.125               |
-| text-generation                | 0.1313888888888889  |
-| token-classification           | 0.15850604720549843 |
-| multiple-choice                | 0.16607169054721502 |
-| question-answering             | 0.20659591836734695 |
-| table-question-answering       | 0.2962962962962963  |
-| zero-shot-classification       | 0.08984660336011688 |
-| summarization                  | 0.04780801209372638 |
-| feature-extraction             | 0.04058801775147929 |
-| text-retrieval                 | 0.24444444444444444 |
-| fill-mask                      | 0.032               |
-| sentence-similarity            | 0.04382761139517896 |
+| translation                    | 12.5                |
+| text-generation                | 13.13               |
+| token-classification           | 15.85               |
+| multiple-choice                | 16.60               |
+| question-answering             | 20.65               |
+| table-question-answering       | 29.62               |
+| zero-shot-classification       | 08.98               |
+| summarization                  | 04.78               |
+| feature-extraction             | 04.05               |
+| text-retrieval                 | 24.44               |
+| fill-mask                      | 03.2                |
+| sentence-similarity            | 04.38               |
 | text2text-generation           | 0.12                |
-| image-classification           | 0.03531009506564056 |
-| image-segmentation             | 0.0345704705746329  |
-| image-to-image                 | 0.0345704705746329  |
-| image-to-text                  | 0.03531009506564056 |
-| object-detection               | 0.0345704705746329  |
-| zero-shot-image-classification | 0.0345704705746329  |
+| image-classification           | 03.53               |
+| image-segmentation             | 03.45               |
+| image-to-image                 | 03.45               |
+| image-to-text                  | 03.53               |
+| object-detection               | 03.45               |
+| zero-shot-image-classification | 03.45               |
 | other                          | 0.0                 |
 
-language todo
+language
 | **Name**   | **Inclass**          |
 |------------|----------------------|
-| english    | 0.58678016           |
-| arabic     | 0.06790123456790123  |
-| french     | 0.07167352537722908  |
-| danish     | 0.04338842975206612  |
+| english    | 58.67                |
+| arabic     | 06.79                |  
+| french     | 07.16                |
+| danish     | 04.33                |
 | norwegian  | 0.07                 |
-| swedish    | 0.0326530612244898   |
-| chinese    | 0.12345679012345678  |
-| german     | 0.09722222222222222  |
-| spanish    | 0.050347222222222224 |
-| japanese   | 0.0304               |
-| korean     | 0.05671077504725898  |
-| polish     | 0.0768               |
-| portuguese | 0.05325443786982249  |
-| russian    | 0.06777777777777778  |
+| swedish    | 03.26                |
+| chinese    | 12.34                |
+| german     | 09.72                |
+| spanish    | 05.03                |
+| japanese   | 03.04                |
+| korean     | 05.67                |
+| polish     | 07.68                |
+| portuguese | 05.32                |
+| russian    | 06.77                |
 
-size todo
+
+size
 | **Name** | **Inclass** |
 |----------|-------------|
 | max      | 0.18        |
