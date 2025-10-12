@@ -237,10 +237,14 @@ The results of my calculation for the categories can be found in the table below
 | table-question-answering       |              9 |            30,56 |          47,22 |
 
 Other than the language groups the categorie groups have a size large enough to give more evidence. The table shows that half of the categories have an higher strong and weak ratio than the overall set. Which means that the categories have an larger impact on the behavior of the LogMe score than language. This method is stil not symmetrical in order of my definition.
-# todo -15 lang
 
-# tod omax
-| **Name**   | **Inclass**        | **Outclass**       |
+# Are the mean / minimum / maximum in a class different from the values out of the group?
+
+## Languages
+Because there are many lanugages with only a few Task I filtered all languages which dont have min. 15 task in it. The high values of english comes from the very small tasks, which have only 2 or 6 data point. 
+
+Language max
+| **Name**   | **In group**        | **Out group**       |
 |------------|--------------------|--------------------|
 | english    | 1735.0313230254735 | 1624.1109686892019 |
 | french     | 2.7615756614129974 | 2.7588487293546673 |
@@ -258,7 +262,7 @@ Other than the language groups the categorie groups have a size large enough to 
 | spanish    | 4.6010936912531495 | 3.718795019651674  |
 | swedish    | 39.425049074065804 | 36.03396909324652  |
 
-# todo mean
+Language mean
 | **Name**   | **Inclass**          | **Outclass**         |
 |------------|----------------------|----------------------|
 | english    | 93.35852942322366    | 82.05229532710565    |
@@ -278,7 +282,7 @@ Other than the language groups the categorie groups have a size large enough to 
 | swedish    | 4.023945756283439    | 3.940464393940656    |
 
 
-# todo min
+Language min
 | **Name**   | **Inclass**         | **Outclass**        |
 |------------|---------------------|---------------------|
 | english    | -15.28944784638076  | -15.296238763185718 |
@@ -296,7 +300,12 @@ Other than the language groups the categorie groups have a size large enough to 
 | russian    | -0.7246318350808925 | -0.7253432519229753 |
 | spanish    | -0.7026658191829092 | -0.7050762147546915 |
 | swedish    | -0.7178182515087663 | -0.7189209661286434 |
-# tod omax
+
+The Data shows that there are no large differences between the in group maximum and the out group maximun beside in the english and the swedish group. The most Tasks are on english bit dont has to say that it is a genereal behavior because of that the tiny sets show a large spread in the LogMe values. The same behavior is shown by the mean over all in and out group values. By the minimum values it is even stronger an the values a nearer to each other. So the languages dont give a evidence if two task are bound together or if a Taks of the same language give a better intermedate task than a taks of an other language.
+
+## Categories
+
+Categories max
 | **Name**                       | **Inclass**         | **Outclass**       |
 |--------------------------------|---------------------|--------------------|
 | text-classification            | 1802.1060874757104  | 1679.2512369724063 |
@@ -319,8 +328,7 @@ Other than the language groups the categorie groups have a size large enough to 
 | zero-shot-image-classification | 7.981145947491793   | 7.981102570060276  |
 | None                           | 1802.1060874757104  | 1672.0244810604472 |
 
-# todo mean
-
+Categories mean
 | **Name**                       | **Inclass**        | **Outclass**       |
 |--------------------------------|--------------------|--------------------|
 | text-classification            | 51.59119291285194  | 47.708272788347905 |
@@ -343,8 +351,7 @@ Other than the language groups the categorie groups have a size large enough to 
 | zero-shot-image-classification | 0.6930017710689304 | 0.6941053568147919 |
 | None                           | 51.68392398458587  | 47.58802976069973  |
 
-# todo min
-
+Categories min
 | **Name**                       | **Inclass**          | **Outclass**        |
 |--------------------------------|----------------------|---------------------|
 | text-classification            | -15.280406535565998  | -15.289197121522388 |
@@ -367,7 +374,10 @@ Other than the language groups the categorie groups have a size large enough to 
 | zero-shot-image-classification | -0.6165538231539536  | -0.616478711970118  |
 | None                           | -15.280406535565998  | -15.28971421481394  |
 
+For the categories it is exactly the same behavior than for the languages. The in group values are near to the out group values an the by the most categories the differences are very small so that it dont produce any evidence that the tasks of the same categories are a better intermedate dataset than tasks from other groups 
 
+
+## size group 
 | **Name** | **Inclass**        | Outclass           |
 |----------|--------------------|--------------------|
 | max      | 9.379093280187472  | 9.370476408234943  |
