@@ -406,53 +406,61 @@ The same behaviour is observed for the size groups as for the other two classes.
 
 
 # Top k Inclas
-categories
-| **Name**                       | **Top k Inclass**   |
-|--------------------------------|---------------------|
-| translation                    | 12.5                |
-| text-generation                | 13.13               |
-| token-classification           | 15.85               |
-| multiple-choice                | 16.60               |
-| question-answering             | 20.65               |
-| table-question-answering       | 29.62               |
-| zero-shot-classification       | 08.98               |
-| summarization                  | 04.78               |
-| feature-extraction             | 04.05               |
-| text-retrieval                 | 24.44               |
-| fill-mask                      | 03.2                |
-| sentence-similarity            | 04.38               |
-| text2text-generation           | 0.12                |
-| image-classification           | 03.53               |
-| image-segmentation             | 03.45               |
-| image-to-image                 | 03.45               |
-| image-to-text                  | 03.53               |
-| object-detection               | 03.45               |
-| zero-shot-image-classification | 03.45               |
-| other                          | 0.0                 |
+In my top K symmetrie research I dont have the restiriktion that if A is in the top k of B and B is in the top K of A that A and B are in the same group. Now I want to investigate how many of the top k of an group are from the same group. For that i chose an k of 50.
 
-language
-| **Name**   | **Inclass**          |
-|------------|----------------------|
-| english    | 58.67                |
-| arabic     | 06.79                |  
-| french     | 07.16                |
-| danish     | 04.33                |
-| norwegian  | 0.07                 |
-| swedish    | 03.26                |
-| chinese    | 12.34                |
-| german     | 09.72                |
-| spanish    | 05.03                |
-| japanese   | 03.04                |
-| korean     | 05.67                |
-| polish     | 07.68                |
-| portuguese | 05.32                |
-| russian    | 06.77                |
+## categories
+| **Name**                       | **Top k Inclass** | **group size** | **group size / total size** |
+|--------------------------------|-------------------|----------------|-------------------------------|
+| translation                    | 12.5%             | 8              | 0.05%                         |
+| text-generation                | 13.13%            | 174            | 12%                          |
+| token-classification           | 15.85%            | 138            | 10%                          |
+| multiple-choice                | 16.60%            | 146            | 10%                          |
+| question-answering             | 20.65%            | 294            | 21%                          |
+| table-question-answering       | 29.62%            | 9              | 0.6%                         |
+| zero-shot-classification       | 8.98%             | 37             | 0.2%                         |
+| summarization                  | 4.78%             | 133            | 9.6%                         |
+| feature-extraction             | 4.05%             | 104            | 7.5%                         |
+| text-retrieval                 | 24.44%            | 15             | 1%                           |
+| fill-mask                      | 3.2%              | 26             | 1%                           |
+| sentence-similarity            | 4.38%             | 37             | 2%                           |
+| text2text-generation           | 0.12%             | 48             | 3%                           |
+| image-classification           | 3.53%             | 94             | 6%                           |
+| image-segmentation             | 3.45%             | 93             | 6.7%                         |
+| image-to-image                 | 3.45%             | 93             | 6.7%                         |
+| image-to-text                  | 3.53%             | 94             | 6.8%                         |
+| object-detection               | 3.45%             | 93             | 6.7%                         |
+| zero-shot-image-classification | 3.45%             | 93             | 6.7%                         |
+| other                          | 0%                | 9              | 0.6%                         |
+
+Some of the categories like token-classification or multiple-choice show a higher acurance of Task of the same group then their acurance in the dataset which is an evidence that these groups have an impact on the LogMe score. The most categories dont show these an many categories like the image-X groups have a lower acurace of intermedate tasks of the same group. So there is no clear answer if the categorie has an impact on the ESM-LogMe score.
 
 
-size
-| **Name** | **Inclass** |
-|----------|-------------|
-| max      | 0.18        |
-| large    | 0.02        |
-| small    | 0.06        |
-| tiny     | 0.51        |
+## language
+To calculate the table i filtered all languages under 15 task for better proof of evidence. 
+
+| **Name**   | **Top k Inclass** | **group size** | **group size / total size** |
+|------------|-------------------|----------------|-----------------------------|
+| english    | 58.67%            | 719            | 52.5%                       |
+| arabic     | 6.79%             | 15             | 1%                          |
+| french     | 7.16%             | 33             | 2.4%                        |
+| danish     | 4.33%             | 20             | 1.4%                        |
+| norwegian  | 0.07%             | 18             | 1.3%                        |
+| swedish    | 3.26%             | 33             | 2.4%                        |
+| chinese    | 12.34%            | 34             | 2.4%                        |
+| german     | 9.72%             | 17             | 1.3%                        |
+| spanish    | 5.03%             | 18             | 1.3%                        |
+| japanese   | 3.04%             | 25             | 1.8%                        |
+| korean     | 5.67%             | 23             | 1.6%                        |
+| polish     | 7.68%             | 25             | 1.8%                        |
+| portuguese | 5.32%             | 26             | 1.8%                        |
+| russian    | 6.77%             | 33             | 2.4%                        |
+
+Contrary to the categories near all languages have an higher acuranc of task of the same group in the top 50 then their acurance in the total dataset. That can be an evidence that these groups bound more together. But all groups exceppt english have a small group size. 
+
+## size
+| **Name** | **Inclass** | **group size** | **group size / total size** |
+|----------|-------------|----------------|-----------------------------|
+| max      | 18%         | 562            | 40.9%                       |
+| large    | 2%          | 101            | 7.3%                        |
+| small    | 6%          | 134            | 9.4%                        |
+| tiny     | 51%         | 575            | 41.9%                       |
