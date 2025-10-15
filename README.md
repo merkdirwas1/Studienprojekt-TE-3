@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1. [Methods](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#methods)
-2. [Which impact has the Task size on the LogMe Score](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#which-impact-has-the-task-size-on-the-logme-score)
+2. [Which impact has the Task size on the LogMe Score?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#which-impact-has-the-task-size-on-the-logme-score)
 3. [Which Tasks are often in the Top k intermediate Tasks?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#which-tasks-are-often-in-the-top-k-intermediate-tasks)
 4. [How symmetrical in order of top-k symmetrie are the Groups?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#top-k-symetrie)
 5. [How often do tasks from the same group appear in the top 50 of a group task? ](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#how-often-do-tasks-from-the-same-group-appear-in-the-top-50-of-a-group-task)
@@ -33,7 +33,7 @@ If Task A is a top-k intermediate task of Task B, and Task B is a top-k intermed
 **Definition distance symmetrie:**<br>
 If the LogMe score distance between Task A and Task B is 0.1 or lower, then Task A and Task B are strongly symmetrical. If this distance is smaller than or equal to 0.5, they are weakly symmetrical.
 
-## Which impact has the Task size on the LogMe Score
+## Which impact has the Task size on the LogMe Score?
 To answer this question, I examined the LogMe scores in different size groups to see if there were any indicators of how size affects the score.
 ![SIZE](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/newplot(8).png)
 
