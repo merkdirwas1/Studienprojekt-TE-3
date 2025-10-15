@@ -5,7 +5,7 @@
 2. [Which impact has the Task size on the LogMe Score](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#which-impact-has-the-task-size-on-the-logme-score)
 3. [Which Tasks are often in the Top k intermediate Tasks?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#which-tasks-are-often-in-the-top-k-intermediate-tasks)
 4. [How symmetrical in order of top-k symmetrie are the Groups?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#top-k-symetrie)
-5. [How often do tasks from the same group appear in the top 50 of a group task? ]()
+5. [How often do tasks from the same group appear in the top 50 of a group task? ](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#how-often-do-tasks-from-the-same-group-appear-in-the-top-50-of-a-group-task)
 6. [How symmetrical in order of distance symmetrie are the groups?](https://github.com/merkdirwas1/Studienprojekt-TE-3?tab=readme-ov-file#how-symmetrical-in-order-of-distance-symmetrie-are-the-groups)
 7. [Are the mean / minimum / maximum in a class different from the values out of the group?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#are-the-mean--minimum--maximum-in-a-class-different-from-the-values-out-of-the-group)
 
@@ -143,6 +143,70 @@ The language groups exhibit interesting behaviour, as most languages start at a 
 ![max-Size-Group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/categories.png)
 
 The categories show the same behaviour as the groups. Some of them start with a percentage of around 50–60%, but this drops quickly as k increases, with most of the categories failing to recover above 20%, which is slightly above the overall set, but close to it.
+
+
+
+## How often do tasks from the same group appear in the top 50 of a group task? 
+In my top K symmetry research, I don't have the restriction that if A is in the top K of B and B is in the top K of A, that A and B are in the same group. Now, I want to investigate how many of the top K of an group are from the same group. For that, I chose an K of 50.
+
+### categories
+| **Name**                       | **Top k Inclass** | **group size** | **group size / total size** |
+|--------------------------------|-------------------|----------------|-------------------------------|
+| translation                    | 12.5%             | 8              | 0.05%                         |
+| text-generation                | 13.13%            | 174            | 12%                          |
+| token-classification           | 15.85%            | 138            | 10%                          |
+| multiple-choice                | 16.60%            | 146            | 10%                          |
+| question-answering             | 20.65%            | 294            | 21%                          |
+| table-question-answering       | 29.62%            | 9              | 0.6%                         |
+| zero-shot-classification       | 8.98%             | 37             | 0.2%                         |
+| summarization                  | 4.78%             | 133            | 9.6%                         |
+| feature-extraction             | 4.05%             | 104            | 7.5%                         |
+| text-retrieval                 | 24.44%            | 15             | 1%                           |
+| fill-mask                      | 3.2%              | 26             | 1%                           |
+| sentence-similarity            | 4.38%             | 37             | 2%                           |
+| text2text-generation           | 0.12%             | 48             | 3%                           |
+| image-classification           | 3.53%             | 94             | 6%                           |
+| image-segmentation             | 3.45%             | 93             | 6.7%                         |
+| image-to-image                 | 3.45%             | 93             | 6.7%                         |
+| image-to-text                  | 3.53%             | 94             | 6.8%                         |
+| object-detection               | 3.45%             | 93             | 6.7%                         |
+| zero-shot-image-classification | 3.45%             | 93             | 6.7%                         |
+| other                          | 0%                | 9              | 0.6%                         |
+
+Some of the categories, like token-classification or multiple-choice, show a higher accuracy of tasks of the same group than their accuracy in the dataset, which is an evidence that these groups have an impact on the LogMe score. The most categories don't show these and many categories, like the Image-X groups, have a lower acuracy of intermediate tasks of the same group. So, there is no clear answer if the category has an impact on the ESM-LogMe score.
+
+
+### language
+To calculate the table, I filtered all languages under 15 tasks for better proof of evidence.
+| **Name**   | **Top k Inclass** | **group size** | **group size / total size** |
+|------------|-------------------|----------------|-----------------------------|
+| english    | 58.67%            | 719            | 52.5%                       |
+| arabic     | 6.79%             | 15             | 1%                          |
+| french     | 7.16%             | 33             | 2.4%                        |
+| danish     | 4.33%             | 20             | 1.4%                        |
+| norwegian  | 0.07%             | 18             | 1.3%                        |
+| swedish    | 3.26%             | 33             | 2.4%                        |
+| chinese    | 12.34%            | 34             | 2.4%                        |
+| german     | 9.72%             | 17             | 1.3%                        |
+| spanish    | 5.03%             | 18             | 1.3%                        |
+| japanese   | 3.04%             | 25             | 1.8%                        |
+| korean     | 5.67%             | 23             | 1.6%                        |
+| polish     | 7.68%             | 25             | 1.8%                        |
+| portuguese | 5.32%             | 26             | 1.8%                        |
+| russian    | 6.77%             | 33             | 2.4%                        |
+
+Contrary to the categories, near all languages have a higher accuracy of tasks of the same group in the top 50 than their accuracy in the total dataset. That can be an evidence that these groups bind more together. But all groups except English have a small group size. 
+
+### size
+| **Name** | **Inclass** | **group size** | **group size / total size** |
+|----------|-------------|----------------|-----------------------------|
+| max      | 18%         | 562            | 40.9%                       |
+| large    | 2%          | 101            | 7.3%                        |
+| small    | 6%          | 134            | 9.4%                        |
+| tiny     | 51%         | 575            | 41.9%                       |
+
+In the size groups, max, large and small are lower than their occurrence in the dataset. The tiny group has a higher percentage. What is interesting is that in the top k 50 symmetries this group has the lowest amount of symmetrical pairs, but in these they have the highest. 
+
 
 ## How symmetrical in order of distance symmetrie are the groups?
 
@@ -404,65 +468,3 @@ Size group min
 | tiny     | -3.566504093398874  | -3.442566581869449  |
 
 The same behaviour is observed for the size groups as for the other two classes. There are no significant differences between the groups, and there is evidence that intermediate tasks within groups are better for transfer learning than tasks outside of groups. Interestingly, the max group has by far the lowest LogMe score compared to the other groups.  
-
-
-# How often do tasks from the same group appear in the top 50 of a group task? 
-In my top K symmetry research, I don't have the restriction that if A is in the top K of B and B is in the top K of A, that A and B are in the same group. Now, I want to investigate how many of the top K of an group are from the same group. For that, I chose an K of 50.
-
-## categories
-| **Name**                       | **Top k Inclass** | **group size** | **group size / total size** |
-|--------------------------------|-------------------|----------------|-------------------------------|
-| translation                    | 12.5%             | 8              | 0.05%                         |
-| text-generation                | 13.13%            | 174            | 12%                          |
-| token-classification           | 15.85%            | 138            | 10%                          |
-| multiple-choice                | 16.60%            | 146            | 10%                          |
-| question-answering             | 20.65%            | 294            | 21%                          |
-| table-question-answering       | 29.62%            | 9              | 0.6%                         |
-| zero-shot-classification       | 8.98%             | 37             | 0.2%                         |
-| summarization                  | 4.78%             | 133            | 9.6%                         |
-| feature-extraction             | 4.05%             | 104            | 7.5%                         |
-| text-retrieval                 | 24.44%            | 15             | 1%                           |
-| fill-mask                      | 3.2%              | 26             | 1%                           |
-| sentence-similarity            | 4.38%             | 37             | 2%                           |
-| text2text-generation           | 0.12%             | 48             | 3%                           |
-| image-classification           | 3.53%             | 94             | 6%                           |
-| image-segmentation             | 3.45%             | 93             | 6.7%                         |
-| image-to-image                 | 3.45%             | 93             | 6.7%                         |
-| image-to-text                  | 3.53%             | 94             | 6.8%                         |
-| object-detection               | 3.45%             | 93             | 6.7%                         |
-| zero-shot-image-classification | 3.45%             | 93             | 6.7%                         |
-| other                          | 0%                | 9              | 0.6%                         |
-
-Some of the categories, like token-classification or multiple-choice, show a higher accuracy of tasks of the same group than their accuracy in the dataset, which is an evidence that these groups have an impact on the LogMe score. The most categories don't show these and many categories, like the Image-X groups, have a lower acuracy of intermediate tasks of the same group. So, there is no clear answer if the category has an impact on the ESM-LogMe score.
-
-
-## language
-To calculate the table, I filtered all languages under 15 tasks for better proof of evidence.
-| **Name**   | **Top k Inclass** | **group size** | **group size / total size** |
-|------------|-------------------|----------------|-----------------------------|
-| english    | 58.67%            | 719            | 52.5%                       |
-| arabic     | 6.79%             | 15             | 1%                          |
-| french     | 7.16%             | 33             | 2.4%                        |
-| danish     | 4.33%             | 20             | 1.4%                        |
-| norwegian  | 0.07%             | 18             | 1.3%                        |
-| swedish    | 3.26%             | 33             | 2.4%                        |
-| chinese    | 12.34%            | 34             | 2.4%                        |
-| german     | 9.72%             | 17             | 1.3%                        |
-| spanish    | 5.03%             | 18             | 1.3%                        |
-| japanese   | 3.04%             | 25             | 1.8%                        |
-| korean     | 5.67%             | 23             | 1.6%                        |
-| polish     | 7.68%             | 25             | 1.8%                        |
-| portuguese | 5.32%             | 26             | 1.8%                        |
-| russian    | 6.77%             | 33             | 2.4%                        |
-
-Contrary to the categories, near all languages have a higher accuracy of tasks of the same group in the top 50 than their accuracy in the total dataset. That can be an evidence that these groups bind more together. But all groups except English have a small group size. 
-
-## size
-| **Name** | **Inclass** | **group size** | **group size / total size** |
-|----------|-------------|----------------|-----------------------------|
-| max      | 18%         | 562            | 40.9%                       |
-| large    | 2%          | 101            | 7.3%                        |
-| small    | 6%          | 134            | 9.4%                        |
-| tiny     | 51%         | 575            | 41.9%                       |
-
-In the size groups, max, large and small are lower than their occurrence in the dataset. The tiny group has a higher percentage. What is interesting is that in the top k 50 symmetries this group has the lowest amount of symmetrical pairs, but in these they have the highest. 
