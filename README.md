@@ -37,10 +37,9 @@ If the LogMe score distance between Task A and Task B is 0.1 or lower, then Task
 To answer this question, I examined the LogMe scores in different size groups to see if there were any indicators of how size affects the score.
 ![SIZE](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/newplot(8).png)
 
+The figure illustrates the range of LogMe scores at which one task from one size group is the intermediate task and one task from another group is the target task. The findings indicate that when the intermediate task group is altered, there is only a marginal difference in the results. The range is subject to alteration in instances where the target task belongs to a different group. Furthermore, the data indicates that the majority of values are below 0, with a concomitant shift to the left as the target task becomes more modest in scope. Furthermore, it has been demonstrated that in the case of a relatively modest target task, the range of LogMe scores is shown to increase to a value in excess of 1300.
 
-The figure shows the range of LogMe scores where one task from one size group is the intermediate task and one task from another group is the target task. It shows that there are only small differences when the intermediate task group changes. Only if the target task is in a different group does the range change. It also shows that most values are below 0, shifting to the left as the target task gets smaller. It also shows that if the target task is tiny, the range of LogMe scores increases to over 1300.
-
-To investigate further, I would like to examine the distribution of LogMe scores. This is defined as the maximum minus the minimum LogMe score for each target task. To see if the size of the target task has an impact on the scores, I plot this in correlation with the size of the task.
+In order to conduct a more thorough investigation, it is necessary to examine the distribution of LogMe scores. This is defined as the maximum minus the minimum LogMe score for each target task. In order to ascertain whether the magnitude of the target task exerts an influence on the scores, a correlation is plotted between the size of the task and the scores.
 ![SIZE](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/spread-gr%C3%B6%C3%9Fe.png)
 
 It shows that the plot converges at 0, and that the range of possible logMe scores increases as the size decreases. Therefore, larger tasks have a smaller spread than smaller ones.  This figure has been filtered because some tasks produce LogMe scores over 100, which causes compression and makes it difficult to read.
@@ -63,7 +62,9 @@ Looking at the task categories, we see that the intermediate datasets mostly com
 |-------------------------|---------------------|--------------------------|
 | 6                       | 2                   | 1                        |
 
-Looking at the languages, we see that four of the datasets are in English. One is in Chinese and one is in Gujarati. ### Top 25 top-k
+Looking at the languages, we see that four of the datasets are in English. One is in Chinese and one is in Gujarati.
+
+### Top 25 top-k
 
 ![SIZE](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/Top%2025.png)
 The trend continues in the top 25, with many more intermediate tasks occurring, often in the top 25 of all intermediate tasks. 
@@ -102,8 +103,7 @@ In the languages it is the same and 21 of the Tasks are in english while the oth
 
 ![SIZE](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/Top%20100.png)
 
-
-The top 100 shows that the claritylab_utcd_out-of-domain dataset is in the top 100 for over 0.69% of all target tasks. All four plots show that only a few tasks could be good intermediate tasks for the top k. This could be a characteristic of these intermediate tasks or a weakness of the LogMe-ESM method.
+The top 100 shows that the claritylab_utcd_out-of-domain dataset is in the top 100 for over 0.69% of all target tasks, indicating its significant presence in the dataset. As illustrated by all four plots, only a limited number of tasks could be considered suitable intermediate tasks for the top k. This observation may be indicative of a inherent characteristic of these intermediate tasks, or alternatively, it could be perceived as a deficiency within the LogMe-ESM method.
 
 The distribution of the sizes can be seen in the table: 
 
@@ -111,8 +111,7 @@ The distribution of the sizes can be seen in the table:
 |---------|-----------|-----------|----------|
 | 44      | 3         | 10        | 32       |
 
-It shows that the best intermediate task is more likely to be a maximum set because the percentage share of maximum tasks is larger than the percentage of maximum tasks over all tasks.
-
+This finding indicates that the optimal intermediate task is more likely to be a maximum set, as the percentage share of maximum tasks is greater than the percentage of maximum tasks over all tasks.
 Looking at the top 100 categories shows that the best tasks are multiple-choice, token classification and question answering. The high number of text-classification tasks is because most tasks are in text-classification.
 
 | **text-classification** | **multiple-choice** | **token-classification** | **question-answering** | **text2text-generation** | **text-retrieval** | **zero-shot-classification** | **text-generation** | **translation** | **fill-mask** | **sentence-similarity** | **None** |
@@ -121,18 +120,17 @@ Looking at the top 100 categories shows that the best tasks are multiple-choice,
 
 
 ## How symmetrical in order of top-k symmetrie are the Groups?
-I want to investigate whether this method is symmetrical, and whether groups of different classes are more likely to be symmetrical. For the size groups, I plotted the percentage of symmetrical pairs for an increasing top-k. For the other two classes, only tables are possible because there are too many groups with too few tasks per group to plot each of them.
+I want to investigate whether this method is symmetrical, and whether groups of different classes are more likely to be symmetrical. For the size groups, the percentage of symmetrical pairs was plotted for an increasing top-k. For the remaining two classes, the utilisation of tables is imperative due to the disproportionate number of groups and the subsequent limited number of tasks assigned to each group.
 
 ![generel](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/topksimgeneral.png)
 
-There are only a few pairs of symmetrical sets in the overall set, and a new 0 is introduced if k increases. This makes sense because there are a few intermediate tasks that appear in the top k, but these sets can only contain a few top k themselves, so there are only a few pairs left for this kind of symmetry. It can be said that the ESM-LogMe method is not symmetrical according to this definition.  
+There are only a few pairs of symmetrical sets in the overall set, and a new 0 is introduced if k increases. This phenomenon can be explained by the presence of several intermediate tasks within the top k, which themselves only contain a limited number of top k elements. Consequently, this results in a reduced number of pairs available for this type of symmetry. It can be argued that the ESM-LogMe method is not symmetrical according to this definition.
 
 ### Size 
 max-Size-group
 ![Size](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/size.png)
 
-
-The plot shows that the maximum and large groups have a high top-k symmetry for low top-k, which drops quickly as k increases. The small and tiny groups have a low symmetry. The groups here are only for the target task, so the top k can come from other groups. This shows that the choice of target task affects the symmetry of the method. Because the sum of the percentage of the top 1 pairs is close to 100, further work would investigate which pairs these are and why they behave in this way. Interestingly, the large group starts with a percentage that is higher than the percentage of the overall set.
+The plot demonstrates that the maximum and large groups exhibit a high top-k symmetry for low top-k, which experiences a rapid decline as k increases. It is evident that both small and tiny groups exhibit a low degree of symmetry. The groups in question are exclusively for the target task, and thus the top k can be derived from other groups. This demonstrates that the selection of target task has a significant impact on the symmetry of the method. It is evident that the sum of the percentage of the top 1 pairs approaches 100. Consequently, further research is necessary to ascertain the specific pairs responsible for this phenomenon and to explore the underlying reasons for their behaviour. It is noteworthy that the initial percentage of the large group is higher than the percentage of the overall set.
 
 ### Language 
 ![max-Size-Group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/language.png)
@@ -143,8 +141,6 @@ The language groups exhibit interesting behaviour, as most languages start at a 
 ![max-Size-Group](https://github.com/merkdirwas1/Studienprojekt-TE-3/blob/main/images/categories.png)
 
 The categories show the same behaviour as the groups. Some of them start with a percentage of around 50–60%, but this drops quickly as k increases, with most of the categories failing to recover above 20%, which is slightly above the overall set, but close to it.
-
-
 
 ## How often do tasks from the same group appear in the top 50 of a group task? 
 In my top K symmetry research, I don't have the restriction that if A is in the top K of B and B is in the top K of A, that A and B are in the same group. Now, I want to investigate how many of the top K of an group are from the same group. For that, I chose an K of 50.
@@ -306,6 +302,7 @@ Other than the language groups, the category groups are large enough to provide 
 
 # Are the mean / minimum / maximum in a class different from the values out of the group?
 To investigate whether my chosen classes show evidence of how the tasks are bound together, I calculated the maximum, minimum and mean values of all tasks in a group and of all tasks outside the group. If the groups are bound together, this should be reflected in these values. 
+
 ## Languages
 As there are many languages with only a few tasks, I filtered out all languages with fewer than 15 tasks. The high values for English come from the very small tasks, which have only two or six data points. 
 
@@ -367,7 +364,7 @@ Language min
 | spanish    | -0.7026658191829092 | -0.7050762147546915 |
 | swedish    | -0.7178182515087663 | -0.7189209661286434 |
 
-The data shows that there are no significant differences between the in-group and out-group maximums, except for the English and Swedish groups. Most tasks are in English, but this does not necessarily indicate a general behaviour. The small sample sizes show a large spread in the LogMe values. The same behaviour is shown by the mean of all in-group and out-group values. The minimum values show an even stronger trend, with the values closer together. Therefore, the languages do not provide evidence as to whether two tasks are bound together or whether a task of the same language provides a better intermediate task than a task of a different language.
+The data indicates that there are no significant differences between the in-group and out-group maximums, with the exception of the English and Swedish groups. While the majority of tasks are conducted in English, this does not necessarily imply a universal tendency. The limited sample sizes indicate considerable variation in the LogMe values. The mean of all in-group and out-group values exhibits equivalent behaviour. The minimum values demonstrate an even more pronounced trend, with the values exhibiting greater proximity. Consequently, the languages provide no evidence to indicate whether two tasks are bound together or whether a task of the same language provides a superior intermediate task in comparison to a task of a different language.
 
 ## Categories
 
