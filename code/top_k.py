@@ -28,8 +28,6 @@ def top_k_sim(con, k,topkdict):
                     cnt += 1
     return cnt/(len(topkdict)*k)
 
-con = sqlite3.connect("Studienprojekt.db")
-
 def create_fig_topk(con, dclass):
     cursor = con.cursor()
     res = cursor.execute("SELECT categorie FROM Metadata")
@@ -221,4 +219,5 @@ def top_k(cursor,data_dict,group, k=50):
         amount = 0
     total = sum(value for value in result_dict.values())
     return amount/total, result_dict_size
+
 
