@@ -11,7 +11,11 @@
 8. [Are the mean / minimum / maximum in a class different from the values out of the group?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#are-the-mean--minimum--maximum-in-a-class-different-from-the-values-out-of-the-group)
 
 ## Reproducibility
-- todo
+- run calc logs -> neads querry 
+- after that -> prüfe voll -> needs help scores
+- create database -> verschiedene funcs -> needs names
+- todo: schauen was wofür war
+- 
 
 ## Methods
 
