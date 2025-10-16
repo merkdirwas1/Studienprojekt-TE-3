@@ -1,0 +1,1372 @@
+cardiffnlp/tweet_sentiment_multilingual	train	text	label	FALSE	all	10000	23	english, arabic, french
+strombergnlp/nordic_langid	train	sentence	language	FALSE	10k	10000	23	danish, norwegian, faroese, icelandic, swedish
+strombergnlp/nordic_langid	train	sentence	language	FALSE	50k	10000	23	danish, norwegian, faroese, icelandic, swedish
+conceptnet5/conceptnet5	train	sentence	lang	FALSE	omcs_sentences_free	10000	23	interlingua
+conceptnet5/conceptnet5	train	sentence	lang	FALSE	omcs_sentences_more	10000	23	interlingua
+nala-cub/americas_nli	test	['premise', 'hypothesis']	label	FALSE	all_languages	7486	23	interlingua
+tyqiangz/multilingual-sentiments	train	text	label	FALSE	all	10000	23	interlingua
+SachinPatel248/mqnli	train	sentence	label	FALSE	default	10000	23	interlingua
+AmazonScience/massive	train	annot_utt	scenario	FALSE	all	10000	23	interlingua
+AmazonScience/massive	train	annot_utt	scenario	FALSE	all_1.1	10000	23	interlingua
+community-datasets/tapaco	train	paraphrase	language	FALSE	all_languages	10000	23	interlingua
+laurievb/open-lid-dataset	train	text	language	FALSE	default	10000	23	interlingua
+indonlp/NusaX-senti	train	text	label	FALSE	ace	500	23	acehnese
+senti-lex/senti_lex	train	word	sentiment	FALSE	af	2299	23	afrikaan
+AmazonScience/massive	train	annot_utt	scenario	FALSE	af-ZA	10000	23	afrikaan
+Genius1237/TyDiP	test	text	labels	FALSE	af	250	23	afrikaan
+AmazonScience/massive	train	annot_utt	scenario	FALSE	sq-AL	10000	23	albanian
+senti-lex/senti_lex	train	word	sentiment	FALSE	sq	2076	23	albanian
+shmuhammad/AfriSenti-twitter-sentiment	train	tweet	label	FALSE	ary	5583	23	algerian arabic
+AmazonScience/massive	train	annot_utt	scenario	FALSE	am-ET	10000	23	amharic
+masakhane/masakhanews	train	text	label	FALSE	amh	1311	23	amharic
+shmuhammad/AfriSenti-twitter-sentiment	train	tweet	label	FALSE	amh	5984	23	amharic
+AmazonScience/massive	train	annot_utt	scenario	FALSE	ar-SA	10000	23	arabic
+BDas/ArabicNLPDataset	train	text	label	FALSE	ArabicData	10000	23	arabic
+cardiffnlp/tweet_sentiment_multilingual	train	text	label	FALSE	arabic	1839	23	arabic
+community-datasets/journalists_questions	train	tweet_id	label	FALSE	plain_text	10000	23	arabic
+Elnagara/hard	train	text	label	FALSE	plain_text	10000	23	arabic
+emotone-ar-cicling2017/emotone_ar	train	tweet	label	FALSE	default	10000	23	arabic
+hadyelsahar/ar_res_reviews	train	text	polarity	FALSE	default	8364	23	arabic
+iabufarha/ar_sarcasm	train	tweet	sarcasm	FALSE	default	8437	23	arabic
+komari6/ajgt_twitter_ar	train	text	label	FALSE	plain_text	1800	23	arabic
+mohamedadaly/labr	train	text	label	FALSE	plain_text	10000	23	arabic
+MuhammadHelmy/nafsy	train	content	prob	TRUE	default	1884	23	arabic
+ohidaoui/darija-reviews	test	review	label	FALSE	default	851	23	arabic
+senti-lex/senti_lex	train	word	sentiment	FALSE	ar	2794	23	arabic
+strombergnlp/offenseval_2020	train	text	subtask_a	FALSE	ar	7839	23	arabic
+tyqiangz/multilingual-sentiments	train	text	label	FALSE	arabic	1839	23	arabic
+senti-lex/senti_lex	train	word	sentiment	FALSE	an	97	23	aragonese
+senti-lex/senti_lex	train	word	sentiment	FALSE	hy	1657	23	armenian
+AmazonScience/massive	train	annot_utt	scenario	FALSE	hy-AM	10000	23	armenian
+nala-cub/americas_nli	test	['premise', 'hypothesis']	label	FALSE	cni	750	23	ashaninka
+ai4bharat/indic_glue	test	question	category	FALSE	csqa.as	2942	23	assamese
+ai4bharat/indic_glue	train	sectionText	correctTitle	FALSE	wstp.as	5000	23	assamese
+Divyanshu/indicxnli	train	['premise', 'hypothesis']	label	FALSE	as	10000	23	assamese
+kmi-linguistics/ilist	train	text	language_id	FALSE	default	10000	23	awadhi, bhojpuri, braj, hindi, magahi
+nala-cub/americas_nli	test	['premise', 'hypothesis']	label	FALSE	aym	750	23	aymara
+senti-lex/senti_lex	train	word	sentiment	FALSE	az	1979	23	azerbaijani
+indonlp/NusaX-senti	train	text	label	FALSE	ban	500	23	balinese
+indonlp/NusaX-senti	train	text	label	FALSE	bjn	500	23	banjarese
+senti-lex/senti_lex	train	word	sentiment	FALSE	be	1526	23	belarusian
+ai4bharat/indic_glue	test	question	category	FALSE	csqa.bn	10000	23	bengali
+ai4bharat/indic_glue	train	text	label	FALSE	sna.bn	10000	23	bengali
+ai4bharat/indic_glue	train	sectionText	correctTitle	FALSE	wstp.bn	10000	23	bengali
+AmazonScience/massive	train	annot_utt	scenario	FALSE	bn-BD	10000	23	bengali
+csebuetnlp/xnli_bn	train	['sentence1', 'sentence2']	label	FALSE	xnli_bn	10000	23	bengali
+Divyanshu/indicxnli	train	['premise', 'hypothesis']	label	FALSE	bn	10000	23	bengali
+rezacsedu/bn_hate_speech	train	text	label	FALSE	default	3418	23	bengali
+senti-lex/senti_lex	train	word	sentiment	FALSE	bn	2393	23	bengali
+senti-lex/senti_lex	train	word	sentiment	FALSE	bs	2020	23	bosnian
+joelniklaus/lextreme	train	input	label	FALSE	brazilian_court_decisions_judgment	3234	23	brazilian
+joelniklaus/lextreme	train	input	label	FALSE	brazilian_court_decisions_unanimity	1715	23	brazilian
+senti-lex/senti_lex	train	word	sentiment	FALSE	br	184	23	breton
+nala-cub/americas_nli	test	['premise', 'hypothesis']	label	FALSE	bzd	750	23	bribri
+indonlp/NusaX-senti	train	text	label	FALSE	bug	500	23	buginese
+bgglue/bgglue	train	Comment	label	TRUE	cinexio	8155	23	bulgarian
+bgglue/bgglue	train	tweet_text	labels	FALSE	ct21t1	3000	23	bulgarian
+bgglue/bgglue	train	id	answerKey	FALSE	examsbg	1512	23	bulgarian
+bgglue/bgglue	train	content	label	FALSE	fakenews	1990	23	bulgarian
+community-datasets/clickbait_news_bg	train	content	fake_news_score	FALSE	default	2815	23	bulgarian
+senti-lex/senti_lex	train	word	sentiment	FALSE	bg	2847	23	bulgarian
+AmazonScience/massive	train	annot_utt	scenario	FALSE	my-MM	10000	23	burmese
+ayehninnkhine/myanmar_news	train	text	category	FALSE	default	8116	23	burmese
+akhtet/myanmar-xnli	train	sentence1_en	label	FALSE	default	10000	23	burmese, english
+senti-lex/senti_lex	train	word	sentiment	FALSE	eu	1979	23	castilian
+AmazonScience/massive	train	annot_utt	scenario	FALSE	ca-ES	10000	23	catalan
+community-datasets/catalonia_independence	train	TWEET	LABEL	FALSE	catalan	6028	23	catalan
+senti-lex/senti_lex	train	word	sentiment	FALSE	ca	3204	23	catalan
+statworx/swiss-dialects	train	sentence	label	FALSE	default	4743	23	chamorro
+lchakkei/OpenOrca-Traditional-Chinese	train	question	system_prompt	FALSE	default	10000	23	chinese
+AmazonScience/massive	train	annot_utt	scenario	FALSE	zh-CN	10000	23	chinese
+AmazonScience/massive	train	annot_utt	scenario	FALSE	zh-TW	10000	23	chinese
+clue/clue	train	['sentence1', 'sentence2']	label	FALSE	afqmc	10000	23	chinese
+clue/clue	train	text	label	FALSE	cluewsc2020	1244	23	chinese
+clue/clue	train	['sentence1', 'sentence2']	label	FALSE	cmnli	10000	23	chinese
+clue/clue	train	abst	label	FALSE	csl	10000	23	chinese
+clue/clue	train	sentence	label	FALSE	iflytek	10000	23	chinese
+clue/clue	train	['sentence1', 'sentence2']	label	FALSE	ocnli	10000	23	chinese
+clue/clue	train	sentence	label	FALSE	tnews	10000	23	chinese
+erhwenkuo/openorca-chinese-zhtw	train	question	system_prompt	FALSE	default	10000	23	chinese
+google-research-datasets/paws-x	train	['sentence1', 'sentence2']	label	FALSE	zh	10000	23	chinese
+google/xtreme	train	['sentence1', 'sentence2']	label	FALSE	PAWS-X.zh	10000	23	chinese
+kuroneko5943/jd21	train	sentence	label	FALSE	iPhone	3729	23	chinese
+kuroneko5943/jd21	train	sentence	label	FALSE	MacBook	3160	23	chinese
+kuroneko5943/stock11	train	sentence	label	FALSE	airline	10000	23	chinese
+kuroneko5943/stock11	train	sentence	label	FALSE	car	10000	23	chinese
+kuroneko5943/stock11	train	sentence	label	FALSE	communication	10000	23	chinese
+kuroneko5943/stock11	train	sentence	label	FALSE	energy	6166	23	chinese
+kuroneko5943/stock11	train	sentence	label	FALSE	finance	6869	23	chinese
+kuroneko5943/stock11	train	sentence	label	FALSE	manufacture	10000	23	chinese
+kuroneko5943/stock11	train	sentence	label	FALSE	medical	6308	23	chinese
+kuroneko5943/stock11	train	sentence	label	FALSE	Real_estate	6707	23	chinese
+kuroneko5943/stock11	train	sentence	label	FALSE	tech	10000	23	chinese
+kuroneko5943/stock11	train	sentence	label	FALSE	wine	9683	23	chinese
+kuroneko5943/weibo16	train	sentence	label	FALSE	HM	832	23	chinese
+kuroneko5943/weibo16	train	sentence	label	FALSE	sex	414	23	chinese
+PhilipMay/stsb_multi_mt	train	['sentence1', 'sentence2']	similarity_score	TRUE	zh	5749	23	chinese
+rjhuang/my_wb_preferences	train	content	response	FALSE	default	417	23	chinese
+senti-lex/senti_lex	train	word	sentiment	FALSE	zh	1879	23	chinese
+senti-lex/senti_lex	train	word	sentiment	FALSE	zhw	3828	23	chinese
+strombergnlp/nlpcc-stance	train	text	target	FALSE	task_a	2986	23	chinese
+tyqiangz/multilingual-sentiments	train	text	label	FALSE	chinese	10000	23	chinese
+yys/OpenOrca-Chinese	train	question	system_prompt	FALSE	default	10000	23	chinese
+nanaaaa/emotion_chinese_english	train	sentence	label	FALSE	default	416	23	chinese, english
+masakhane/masakhanews	train	text	label	FALSE	sna	1288	23	chShona
+classla/copa_hr	train	premise	label	FALSE	copa_hr	400	23	croatian
+classla/FRENK-hate-hr	train	text	label	FALSE	binary	7964	23	croatian
+classla/FRENK-hate-hr	train	text	label	FALSE	multiclass	7964	23	croatian
+senti-lex/senti_lex	train	word	sentiment	FALSE	hr	2208	23	croatian
+senti-lex/senti_lex	train	word	sentiment	FALSE	cs	2599	23	czech
+alexandrainst/ddisco	train	text	domain	FALSE	default	801	23	danish
+AmazonScience/massive	train	annot_utt	scenario	FALSE	da-DK	10000	23	danish
+community-datasets/danish_political_comments	train	sentence	target	FALSE	default	9008	23	danish
+DDSC/angry-tweets	train	text	label	FALSE	default	2411	23	danish
+DDSC/europarl	train	text	label	FALSE	default	669	23	danish
+DDSC/lcc	train	text	label	FALSE	default	349	23	danish
+KBLab/overlim	train	passage	label	FALSE	boolq_da	6285	23	danish
+KBLab/overlim	train	['premise', 'hypothesis']	label	FALSE	cb_da	201	23	danish
+KBLab/overlim	train	premise	label	FALSE	copa_da	321	23	danish
+KBLab/overlim	train	['premise', 'hypothesis']	label	FALSE	mnli_da	10000	23	danish
+KBLab/overlim	train	text_a	label	FALSE	mrpc_da	3261	23	danish
+KBLab/overlim	train	['premise', 'hypothesis']	label	FALSE	qnli_da	10000	23	danish
+KBLab/overlim	train	text_b	label	FALSE	qqp_da	10000	23	danish
+KBLab/overlim	train	['premise', 'hypothesis']	label	FALSE	rte_da	2214	23	danish
+KBLab/overlim	train	text	label	FALSE	sst_da	10000	23	danish
+KBLab/overlim	train	text_b	label	TRUE	stsb_da	4312	23	danish
+KBLab/overlim	train	['premise', 'hypothesis']	label	FALSE	wnli_da	565	23	danish
+senti-lex/senti_lex	train	word	sentiment	FALSE	da	3340	23	danish
+strombergnlp/danfever	train	evidence_extract	label	FALSE	DanFever	6407	23	danish
+strombergnlp/polstance	train	quote	label	FALSE	PolStance	900	23	danish
+shmuhammad/AfriSenti-twitter-sentiment	train	tweet	label	FALSE	arq	1651	23	darija
+AmazonScience/massive	train	annot_utt	scenario	FALSE	nl-NL	10000	23	dutch
+benjaminvdb/dbrd	train	text	label	FALSE	plain_text	10000	23	dutch
+biglam/contentious_contexts	train	text	target	FALSE	default	2720	23	dutch
+PhilipMay/stsb_multi_mt	train	['sentence1', 'sentence2']	similarity_score	TRUE	nl	5749	23	dutch
+UMCU/PubMedCausal_Dutch_translated_with_MariaNMT	train	input	output	FALSE	default	2368	23	dutch
+aarnow/auditory-skills-test2	train	text	label	FALSE	default	275	23	english
+aav-ds/Israel-HAMAS_war_news	train	text	provider	FALSE	default	10000	23	english
+ade-benchmark-corpus/ade_corpus_v2	train	text	label	FALSE	Ade_corpus_v2_classification	10000	23	english
+AI-Secure/adv_glue	validation	['premise', 'hypothesis']	label	FALSE	adv_mnli	121	23	english
+AI-Secure/adv_glue	validation	['premise', 'hypothesis']	label	FALSE	adv_mnli_mismatched	162	23	english
+AI-Secure/adv_glue	validation	sentence	label	FALSE	adv_qnli	148	23	english
+AI-Secure/adv_glue	validation	['question1', 'question2']	label	FALSE	adv_qqp	78	23	english
+AI-Secure/adv_glue	validation	['sentence1', 'sentence2']	label	FALSE	adv_rte	81	23	english
+AI-Secure/adv_glue	validation	sentence	label	FALSE	adv_sst2	148	23	english
+ai4bharat/indic_glue	train	['premise', 'hypothesis']	label	FALSE	wnli.en	635	23	english
+AiresPucrs/stanford-encyclopedia-philosophy	train	text	metadata	FALSE	default	10000	23	english
+allenai/art	train	observation_2	label	FALSE	anli	10000	23	english
+allenai/scifact_entailment	train	title	verdict	FALSE	default	919	23	english
+allenai/social_bias_frames	train	post	annotatorGender	FALSE	default	10000	23	english
+allenai/swag	train	startphrase	gold-type	FALSE	full	10000	23	english
+allenai/swag	train	startphrase	label	FALSE	regular	10000	23	english
+almanach/hc3_french_ood	train	text	label	FALSE	hc3_en_full	10000	23	english
+almanach/hc3_french_ood	train	answer	label	FALSE	hc3_en_qa	10000	23	english
+almanach/hc3_french_ood	train	text	label	FALSE	hc3_en_sentence	10000	23	english
+alsubari/Israel-palestine-war	train	title	publish_channel	FALSE	default	310	23	english
+AmazonScience/massive	train	annot_utt	scenario	FALSE	en-US	10000	23	english
+aps/super_glue	test	['sentence1', 'sentence2']	label	FALSE	axb	1104	23	english
+aps/super_glue	test	['premise', 'hypothesis']	label	FALSE	axg	356	23	english
+aps/super_glue	train	passage	label	FALSE	boolq	9427	23	english
+aps/super_glue	train	['premise', 'hypothesis']	label	FALSE	cb	250	23	english
+aps/super_glue	train	premise	label	FALSE	copa	400	23	english
+aps/super_glue	train	paragraph	label	FALSE	multirc	10000	23	english
+aps/super_glue	train	['premise', 'hypothesis']	label	FALSE	rte	2490	23	english
+aps/super_glue	train	['sentence1', 'sentence2']	label	FALSE	wic	5428	23	english
+aps/super_glue	train	text	label	FALSE	wsc	554	23	english
+aps/super_glue	train	text	label	FALSE	wsc.fixed	554	23	english
+Areeb123/drug_reviews	train	review	rating	TRUE	default	10000	23	english
+barilan/blog_authorship_corpus	train	text	gender	FALSE	blog_authorship_corpus	10000	23	english
+BDas/EnglishNLPDataset	train	text	label	FALSE	EnglishData	10000	23	english
+BEE-spoke-data/yahoo_answers_topics-long-text	train	text	topic	FALSE	default	3352	23	english
+BerMaker/test	train	context	title	FALSE	plain_text	10000	23	english
+bias-amplified-splits/anli	train.biased	['premise', 'hypothesis']	label	FALSE	minority_examples	10000	23	english
+bias-amplified-splits/anli	train.biased	['premise', 'hypothesis']	label	FALSE	partial_input	10000	23	english
+biglam/atypical_animacy	train	sentence	target	FALSE	default	594	23	english
+biglam/clmet_3_1	train	text	period	FALSE	plain	333	23	english
+biglam/lampeter_corpus	train	text	genre	FALSE	default	120	23	english
+biglam/old_bailey_proceedings	train	text	type	FALSE	default	2638	23	english
+biglam/on_the_books	train	section_text	jim_crow	FALSE	default	1785	23	english
+biu-nlp/alsqa	test	context	title	FALSE	alsqa	369	23	english
+bleugreen/typescript-instruct	train	content	type	FALSE	default	10000	23	english
+cardiffnlp/tweet_eval	train	text	label	FALSE	emoji	10000	23	english
+cardiffnlp/tweet_eval	train	text	label	FALSE	emotion	3257	23	english
+cardiffnlp/tweet_eval	train	text	label	FALSE	offensive	10000	23	english
+cardiffnlp/tweet_eval	train	text	label	FALSE	sentiment	10000	23	english
+cardiffnlp/tweet_eval	train	text	label	FALSE	stance_abortion	587	23	english
+cardiffnlp/tweet_eval	train	text	label	FALSE	stance_atheism	461	23	english
+cardiffnlp/tweet_eval	train	text	label	FALSE	stance_climate	355	23	english
+cardiffnlp/tweet_eval	train	text	label	FALSE	stance_hillary	620	23	english
+cardiffnlp/tweet_sentiment_multilingual	train	text	label	FALSE	english	1839	23	english
+cardiffnlp/tweet_topic_single	train_all	text	label	FALSE	tweet_topic_single	4374	23	english
+ccdv/arxiv-classification	train	text	label	FALSE	default	10000	23	english
+ccdv/arxiv-classification	train	text	label	FALSE	no_ref	10000	23	english
+ccdv/patent-classification	train	text	label	FALSE	abstract	10000	23	english
+ccdv/patent-classification	train	text	label	FALSE	patent	10000	23	english
+cgpotts/swda	train	text	damsl_act_tag	FALSE	default	10000	23	english
+ChanceFocus/en-fpb	train	text	answer	FALSE	default	3100	23	english
+chrisvoncsefalvay/vaers-outcomes	train	text	label	FALSE	default	10000	23	english
+ckandemir/bitcoin_tweets_sentiment_kaggle	train	text	Sentiment	FALSE	default	10000	23	english
+claritylab/utcd	train	text	aspect	FALSE	aspect-normalized-in-domain	10000	23	english
+claritylab/utcd	train	text	aspect	FALSE	aspect-normalized-out-of-domain	10000	23	english
+claritylab/utcd	train	text	aspect	FALSE	in-domain	10000	23	english
+claritylab/utcd	train	text	aspect	FALSE	out-of-domain	10000	23	english
+classla/FRENK-hate-en	train	text	label	FALSE	binary	8404	23	english
+classla/FRENK-hate-en	train	text	label	FALSE	multiclass	8404	23	english
+claudios/cubert_ETHPy150Open	train	function	label	FALSE	exception_datasets	10000	23	english
+claudios/cubert_ETHPy150Open	train	docstring	label	FALSE	function_docstring_datasets	10000	23	english
+claudios/cubert_ETHPy150Open	train	function	label	FALSE	swapped_operands_datasets	10000	23	english
+claudios/cubert_ETHPy150Open	train	function	label	FALSE	variable_misuse_datasets	10000	23	english
+claudios/cubert_ETHPy150Open	train	function	label	FALSE	wrong_binary_operator_datasets	10000	23	english
+climatebert/climate_commitments_actions	train	text	label	FALSE	default	1000	23	english
+climatebert/climate_detection	train	text	label	FALSE	default	1300	23	english
+climatebert/climate_sentiment	train	text	label	FALSE	default	1000	23	english
+climatebert/climate_specificity	train	text	label	FALSE	default	1000	23	english
+climatebert/environmental_claims	train	text	label	FALSE	default	2117	23	english
+climatebert/tcfd_recommendations	train	text	label	FALSE	default	1300	23	english
+clinc/clinc_oos	train	text	intent	FALSE	imbalanced	10000	23	english
+clinc/clinc_oos	train	text	intent	FALSE	plus	10000	23	english
+clinc/clinc_oos	train	text	intent	FALSE	small	7600	23	english
+cnachteg/duvel	train	sentence	label	FALSE	default	6553	23	english
+coastalcph/lex_glue	train	context	label	FALSE	case_hold	10000	23	english
+coastalcph/lex_glue	train	text	label	FALSE	ledgar	10000	23	english
+CogComp/trec	train	text	coarse_label	FALSE	default	5452	23	english
+community-datasets/gutenberg_time	train	tok_context	hour_reference	FALSE	gutenberg	10000	23	english
+community-datasets/has_part	train	arg2	score	TRUE	default	10000	23	english
+community-datasets/ohsumed	train	abstract	publication_type	FALSE	ohsumed	10000	23	english
+community-datasets/per_sent	train	DOCUMENT	TRUE_SENTIMENT	FALSE	default	3355	23	english
+community-datasets/yahoo_answers_topics	train	best_answer	topic	FALSE	yahoo_answers_topics	10000	23	english
+convai-challenge/conv_ai_3	train	topic_desc	initial_request	FALSE	conv_ai_3	9176	23	english
+cornell-movie-review-data/rotten_tomatoes	train	text	label	FALSE	default	8530	23	english
+curaihealth/medical_questions_pairs	train	question_2	label	FALSE	default	3048	23	english
+dair-ai/emotion	train	text	label	FALSE	split	10000	23	english
+dair-ai/emotion	train	text	label	FALSE	unsplit	10000	23	english
+davanstrien/test_imdb_embedd	train	text	label	FALSE	default	10000	23	english
+davanstrien/test_imdb_embedd2	train	text	label	FALSE	default	10000	23	english
+davanstrien/test1	train	text	label	FALSE	default	10000	23	english
+davebulaval/CSMD	train	original	label	TRUE	meaning	853	23	english
+davebulaval/CSMD	test	simplification	label	TRUE	meaning_holdout_unrelated	359	23	english
+davebulaval/CSMD	train	simplification	label	TRUE	meaning_with_data_augmentation	2560	23	english
+DBQ/Balenciaga.Product.prices.Hong.Kong	train	category3_code	category1_code	FALSE	default	2307	23	english
+DBQ/Balenciaga.Product.prices.Singapore	train	category3_code	category1_code	FALSE	default	2308	23	english
+DBQ/Balenciaga.Product.prices.South.Korea	train	category3_code	category1_code	FALSE	default	2038	23	english
+DBQ/Blickers.Product.prices.France	train	category3_code	category1_code	FALSE	default	7489	23	english
+DBQ/Blickers.Product.prices.Italy	train	category3_code	category1_code	FALSE	default	10000	23	english
+DBQ/Blickers.Product.prices.United.Kingdom	train	category3_code	category1_code	FALSE	default	10000	23	english
+DBQ/Bottega.Veneta.Product.prices.Australia	train	title	category1_code	FALSE	default	4461	23	english
+DBQ/Bottega.Veneta.Product.prices.Italy	train	Portachiavi Intreccio con gancio a goccia	N.A..1	FALSE	default	4394	23	english
+DBQ/Bottega.Veneta.Product.prices.South.Korea	train	title	category1_code	FALSE	default	4463	23	english
+DBQ/Bottega.Veneta.Product.prices.United.States	train	title	category2_code	FALSE	default	4469	23	english
+DBQ/Burberry.Product.prices.China	train	title	category1_code	FALSE	default	2014	23	english
+DBQ/Burberry.Product.prices.France	train	title	category1_code	FALSE	default	3298	23	english
+DBQ/Burberry.Product.prices.Italy	train	title	category1_code	FALSE	default	2691	23	english
+DBQ/Burberry.Product.prices.Japan	train	title	category1_code	FALSE	default	2950	23	english
+DBQ/Burberry.Product.prices.Singapore	train	title	category1_code	FALSE	default	2691	23	english
+DBQ/Burberry.Product.prices.United.Arab.Emirates	train	title	category1_code	FALSE	default	2554	23	english
+DBQ/Burberry.Product.prices.United.States	train	title	category1_code	FALSE	default	3038	23	english
+DBQ/Celine.Product.prices.Germany	train	title	category1_code	FALSE	default	655	23	english
+DBQ/Celine.Product.prices.United.Kingdom	train	title	category1_code	FALSE	default	658	23	english
+DBQ/Chanel.Product.prices.Germany	train	title	category1_code	FALSE	default	1428	23	english
+DBQ/Chanel.Product.prices.Italy	train	title	category1_code	FALSE	default	1426	23	english
+DBQ/Chanel.Product.prices.United.States	train	title	category1_code	FALSE	default	1452	23	english
+DBQ/Chloe.Product.prices.France	train	title	category2_code	FALSE	default	2459	23	english
+DBQ/Chloe.Product.prices.Hong.Kong	train	title	category2_code	FALSE	default	2431	23	english
+DBQ/Chloe.Product.prices.South.Korea	train	title	category2_code	FALSE	default	2439	23	english
+DBQ/Chloe.Product.prices.United.States	train	Hana mini bag	NEW ARRIVALS	FALSE	default	2569	23	english
+DBQ/Dior.Product.prices.Hong.Kong	train	title	category1_code	FALSE	default	4426	23	english
+DBQ/Gucci.Product.prices.Australia	train	title	category1_code	FALSE	default	2972	23	english
+DBQ/Gucci.Product.prices.Bulgaria	train	title	category1_code	FALSE	default	5170	23	english
+DBQ/Gucci.Product.prices.Canada	train	title	category1_code	FALSE	default	5185	23	english
+DBQ/Gucci.Product.prices.Germany	train	title	category1_code	FALSE	default	5418	23	english
+DBQ/Gucci.Product.prices.Hong.Kong	train	title	category1_code	FALSE	default	4398	23	english
+DBQ/Gucci.Product.prices.Hungary	train	title	category1_code	FALSE	default	4976	23	english
+DBQ/Gucci.Product.prices.Qatar	train	title	category1_code	FALSE	default	5067	23	english
+DBQ/Gucci.Product.prices.Romania	train	title	category1_code	FALSE	default	5169	23	english
+DBQ/Gucci.Product.prices.South.Korea	train	title	category1_code	FALSE	default	3796	23	english
+DBQ/Gucci.Product.prices.Sweden	train	title	category1_code	FALSE	default	4916	23	english
+DBQ/Loro.Piana.Product.prices.Canada	train	website_name	category1_code	FALSE	default	698	23	english
+DBQ/Loro.Piana.Product.prices.China	train	category2_code	category1_code	FALSE	default	817	23	english
+DBQ/Loro.Piana.Product.prices.France	train	website_name	category1_code	FALSE	default	1128	23	english
+DBQ/Loro.Piana.Product.prices.Germany	train	website_name	category1_code	FALSE	default	1133	23	english
+DBQ/Loro.Piana.Product.prices.Japan	train	website_name	category1_code	FALSE	default	685	23	english
+DBQ/Loro.Piana.Product.prices.United.States	train	website_name	category1_code	FALSE	default	1042	23	english
+DBQ/Louis.Vuitton.Product.prices.Australia	train	title	category1_code	FALSE	default	6525	23	english
+DBQ/Louis.Vuitton.Product.prices.Canada	train	title	category1_code	FALSE	default	8151	23	english
+DBQ/Louis.Vuitton.Product.prices.France	train	title	category1_code	FALSE	default	7806	23	english
+DBQ/Louis.Vuitton.Product.prices.Russia	train	title	category1_code	FALSE	default	6543	23	english
+DBQ/Louis.Vuitton.Product.prices.Singapore	train	title	category1_code	FALSE	default	6576	23	english
+DBQ/Matches.Fashion.Product.prices.France	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.Brazil	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.Croatia	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.Czech.Republic	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.Germany	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.Hong.Kong	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.Hungary	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.Kazakhstan	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.Mexico	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.Netherlands	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.Qatar	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.Romania	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.Russia	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.South.Africa	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.South.Korea	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.Sweden	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.Taiwan	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.United.Arab.Emirates	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Mr.Porter.Product.prices.United.States	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Net.a.Porter.Product.prices.Austria	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Net.a.Porter.Product.prices.Bulgaria	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Net.a.Porter.Product.prices.Canada	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Net.a.Porter.Product.prices.Hong.Kong	train	Portofino 20 suede sandals	SHOES	FALSE	default	10000	23	english
+DBQ/Net.a.Porter.Product.prices.India	train	Janna strapless duchesse cotton-blend satin mini dress	CLOTHING	FALSE	default	10000	23	english
+DBQ/Net.a.Porter.Product.prices.Italy	train	Lace-trimmed silk-satin midi dress	CLOTHING	FALSE	default	10000	23	english
+DBQ/Net.a.Porter.Product.prices.Japan	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Net.a.Porter.Product.prices.Macao	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Net.a.Porter.Product.prices.Portugal	train	Loulou Toy quilted leather shoulder bag	BAGS	FALSE	default	10000	23	english
+DBQ/Net.a.Porter.Product.prices.Russia	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Net.a.Porter.Product.prices.Singapore	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Net.a.Porter.Product.prices.South.Korea	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Net.a.Porter.Product.prices.Tunisia	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Net.a.Porter.Product.prices.United.Kingdom	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Net.a.Porter.Product.prices.United.States	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Ounass.Product.prices.Oman	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Ounass.Product.prices.Qatar	train	title	category1_code	FALSE	default	10000	23	english
+DBQ/Prada.Product.prices.Austria	train	title	brand	FALSE	default	2545	23	english
+DBQ/Prada.Product.prices.Germany	train	title	brand	FALSE	default	2588	23	english
+DBQ/Prada.Product.prices.Hong.Kong	train	title	brand	FALSE	default	1692	23	english
+DBQ/Prada.Product.prices.Italy	train	title	brand	FALSE	default	2533	23	english
+DBQ/Prada.Product.prices.Portugal	train	title	brand	FALSE	default	2548	23	english
+DBQ/Prada.Product.prices.Spain	train	title	brand	FALSE	default	2528	23	english
+DBQ/Prada.Product.prices.Sweden	train	title	brand	FALSE	default	2548	23	english
+DBQ/Prada.Product.prices.United.Kingdom	train	title	brand	FALSE	default	2180	23	english
+DBQ/Rue.La.La.Product.prices.United.States	train	title	category2_code	FALSE	default	7594	23	english
+dell-research-harvard/AmericanStories	1804	article	byline	FALSE	subset_years	103	23	english
+derenrich/wikidata-enwiki-categories-and-statements	train	text	relation	FALSE	default	10000	23	english
+Deysi/sentences-and-emotions	train	utterance	emotion	FALSE	default	2405	23	english
+Deysi/spam-detection-dataset	train	text	label	FALSE	default	8175	23	english
+DFKI-SLT/gids	train	sentence	relation	FALSE	gids	10000	23	english
+DFKI-SLT/kbp37	train	sentence	relation	FALSE	kbp37	10000	23	english
+DFKI-SLT/knowledge_net	train	documentText	source	FALSE	knet	3977	23	english
+DFKI-SLT/knowledge_net	train	passageText	subjectType	FALSE	knet_re	10000	23	english
+dravidianlangtech/hope_edi	train	text	label	FALSE	english	10000	23	english
+Efstathios/guardian_authorship	train	article	topic	FALSE	cross_genre_1	63	23	english
+Efstathios/guardian_authorship	train	article	topic	FALSE	cross_genre_2	63	23	english
+Efstathios/guardian_authorship	train	article	topic	FALSE	cross_genre_3	63	23	english
+Efstathios/guardian_authorship	train	article	topic	FALSE	cross_topic_10	117	23	english
+Efstathios/guardian_authorship	train	article	topic	FALSE	cross_topic_11	117	23	english
+Efstathios/guardian_authorship	train	article	topic	FALSE	cross_topic_12	117	23	english
+Efstathios/guardian_authorship	train	article	topic	FALSE	cross_topic_4	62	23	english
+Efstathios/guardian_authorship	train	article	topic	FALSE	cross_topic_5	62	23	english
+Efstathios/guardian_authorship	train	article	topic	FALSE	cross_topic_6	62	23	english
+Efstathios/guardian_authorship	train	article	topic	FALSE	cross_topic_7	90	23	english
+Efstathios/guardian_authorship	train	article	topic	FALSE	cross_topic_8	90	23	english
+eraser-benchmark/movie_rationales	train	review	label	FALSE	default	1600	23	english
+eusip/silicone	train	Utterance	Label	FALSE	dyda_da	10000	23	english
+eusip/silicone	train	Utterance	Label	FALSE	dyda_e	10000	23	english
+eusip/silicone	train	Utterance	Label	FALSE	iemocap	7213	23	english
+eusip/silicone	train	Utterance	Label	FALSE	maptask	10000	23	english
+eusip/silicone	train	Utterance	Label	FALSE	meld_e	9989	23	english
+eusip/silicone	train	Utterance	Label	FALSE	meld_s	9989	23	english
+eusip/silicone	train	Utterance	Label	FALSE	mrda	10000	23	english
+eusip/silicone	train	Utterance	Label	FALSE	sem	4264	23	english
+eusip/silicone	train	Utterance	Label	FALSE	swda	10000	23	english
+evaluate/glue-ci	train	sentence	label	FALSE	cola	8551	23	english
+evaluate/glue-ci	train	['premise', 'hypothesis']	label	FALSE	mnli	10000	23	english
+evaluate/glue-ci	validation	['premise', 'hypothesis']	label	FALSE	mnli_matched	9815	23	english
+evaluate/glue-ci	train	['sentence1', 'sentence2']	label	FALSE	mrpc	3668	23	english
+evaluate/glue-ci	train	sentence	label	FALSE	qnli	10000	23	english
+evaluate/glue-ci	train	['question1', 'question2']	label	FALSE	qqp	10000	23	english
+evaluate/glue-ci	train	['sentence1', 'sentence2']	label	FALSE	rte	2490	23	english
+evaluate/glue-ci	train	sentence	label	FALSE	sst2	10000	23	english
+evaluate/glue-ci	train	['sentence1', 'sentence2']	label	TRUE	stsb	5749	23	english
+evaluate/glue-ci	train	['sentence1', 'sentence2']	label	FALSE	wnli	635	23	english
+facebook/anli	train_r3	['premise', 'hypothesis']	label	FALSE	plain_text	10000	23	english
+facebook/asset	full	original	aspect	FALSE	ratings	4500	23	english
+facebook/imppres	connectives	['premise', 'hypothesis']	gold_label_log	FALSE	implicature_connectives	1200	23	english
+facebook/imppres	gradable_adjective	['premise', 'hypothesis']	gold_label_log	FALSE	implicature_gradable_adjective	1200	23	english
+facebook/imppres	gradable_verb	['premise', 'hypothesis']	gold_label_log	FALSE	implicature_gradable_verb	1200	23	english
+facebook/imppres	modals	['premise', 'hypothesis']	gold_label_log	FALSE	implicature_modals	1200	23	english
+facebook/imppres	numerals_10_100	['premise', 'hypothesis']	gold_label_log	FALSE	implicature_numerals_10_100	1200	23	english
+facebook/imppres	numerals_2_3	['premise', 'hypothesis']	gold_label_log	FALSE	implicature_numerals_2_3	1200	23	english
+facebook/imppres	quantifiers	['premise', 'hypothesis']	gold_label_log	FALSE	implicature_quantifiers	1200	23	english
+facebook/imppres	all_n_presupposition	['premise', 'hypothesis']	gold_label	FALSE	presupposition_all_n_presupposition	1900	23	english
+facebook/imppres	both_presupposition	['premise', 'hypothesis']	gold_label	FALSE	presupposition_both_presupposition	1900	23	english
+facebook/imppres	change_of_state	['premise', 'hypothesis']	gold_label	FALSE	presupposition_change_of_state	1900	23	english
+facebook/imppres	cleft_existence	['premise', 'hypothesis']	gold_label	FALSE	presupposition_cleft_existence	1900	23	english
+facebook/imppres	cleft_uniqueness	['premise', 'hypothesis']	gold_label	FALSE	presupposition_cleft_uniqueness	1900	23	english
+facebook/imppres	only_presupposition	['premise', 'hypothesis']	gold_label	FALSE	presupposition_only_presupposition	1900	23	english
+facebook/imppres	possessed_definites_existence	['premise', 'hypothesis']	gold_label	FALSE	presupposition_possessed_definites_existence	1900	23	english
+facebook/imppres	question_presupposition	['premise', 'hypothesis']	gold_label	FALSE	presupposition_question_presupposition	1900	23	english
+facebook/lama	train	masked_sentence	pred	FALSE	conceptnet	10000	23	english
+facebook/lama	train	evidences	pred	FALSE	google_re	6106	23	english
+facebook/md_gender_bias	train	text	binary_label	FALSE	convai2_inferred	10000	23	english
+facebook/md_gender_bias	train	text	gender	FALSE	funpedia	10000	23	english
+facebook/md_gender_bias	train	text	binary_label	FALSE	light_inferred	10000	23	english
+facebook/md_gender_bias	yob2008	name	assigned_gender	FALSE	name_genders	10000	23	english
+facebook/md_gender_bias	train	text	class_type	FALSE	new_data	2345	23	english
+facebook/md_gender_bias	train	text	binary_label	FALSE	opensubtitles_inferred	10000	23	english
+facebook/md_gender_bias	train	text	gender	FALSE	wizard	10000	23	english
+facebook/md_gender_bias	train	text	binary_label	FALSE	yelp_inferred	10000	23	english
+fancyzhx/ag_news	train	text	label	FALSE	default	10000	23	english
+fancyzhx/amazon_polarity	train	content	label	FALSE	amazon_polarity	10000	23	english
+fancyzhx/dbpedia_14	train	content	label	FALSE	dbpedia_14	10000	23	english
+fancyzhx/yelp_polarity	train	text	label	FALSE	plain_text	10000	23	english
+fever/fever	train	claim	label	FALSE	v1.0	10000	23	english
+fever/fever	validation	claim	label	FALSE	v2.0	2384	23	english
+Filippo/osdg_cd	train	text	label	FALSE	main_config	10000	23	english
+Genius1237/TyDiP	train	text	labels	FALSE	en	1927	23	english
+georgesung/OpenOrca_35k	train	question	system_prompt	FALSE	default	10000	23	english
+google-research-datasets/circa	train	context	goldstandard2	FALSE	default	10000	23	english
+google-research-datasets/coarse_discourse	train	title	majority_type	FALSE	default	10000	23	english
+google-research-datasets/go_emotions	train	text	created_utc	FALSE	raw	10000	23	english
+google-research-datasets/google_wellformed_query	train	content	rating	FALSE	default	10000	23	english
+google-research-datasets/paws	train	['sentence1', 'sentence2']	label	FALSE	labeled_final	10000	23	english
+google-research-datasets/paws	train	['sentence1', 'sentence2']	label	FALSE	labeled_swap	10000	23	english
+google-research-datasets/paws-x	train	['sentence1', 'sentence2']	label	FALSE	en	10000	23	english
+google-research-datasets/poem_sentiment	train	verse_text	label	FALSE	default	892	23	english
+google-research-datasets/schema_guided_dstc8	train	description	service_name	FALSE	schema	26	23	english
+google-research-datasets/time_dial	test	correct1	incorrect1_rule	FALSE	default	1446	23	english
+google/civil_comments	train	text	toxicity	TRUE	default	10000	23	english
+google/xtreme	train	['sentence1', 'sentence2']	label	FALSE	PAWS-X.en	10000	23	english
+grammarly/detexd-benchmark	test	text	label	FALSE	default	1023	23	english
+gsarti/magpie	train	sentence	usage	FALSE	magpie	10000	23	english
+iamollas/ethos	train	text	label	FALSE	binary	998	23	english
+iamollas/ethos	train	text	violence	FALSE	multilabel	433	23	english
+iastate/onestop_english	train	text	label	FALSE	default	567	23	english
+ihassan1/auditor-sentiment	train	sentence	label	TRUE	default	3877	23	english
+ImperialCollegeLondon/health_fact	train	main_text	label	FALSE	default	9832	23	english
+indonlp/NusaX-senti	train	text	label	FALSE	eng	500	23	english
+Isotonic/SlimOrca	train	question	system_prompt	FALSE	default	10000	23	english
+JanosAudran/financial-reports-sec	train	sentence	section	FALSE	large_lite	10000	23	english
+JanosAudran/financial-reports-sec	train	sentence	section	FALSE	small_full	10000	23	english
+JanosAudran/financial-reports-sec	train	sentence	section	FALSE	small_lite	10000	23	english
+Jasontth/climate_fever_plus	train	evidence	evidence_label	FALSE	default	6580	23	english
+jhu-cogsci/hans	train	['premise', 'hypothesis']	label	FALSE	plain_text	10000	23	english
+jlh-ibm/earnings_call	train	text	label	FALSE	transcript-sentiment	6851	23	english
+jlh-ibm/earnings_call	train	transcript	company	FALSE	transcripts	150	23	english
+jpcorb20/multidogo	train	slot-labels	intent	FALSE	default	10000	23	english
+kaist-ai/CoT-Collection	train	source	target	FALSE	en	10000	23	english
+kejian/codeparrot-train-more-filter-3.3b-cleaned	train	org_text	avg_score	TRUE	default	10000	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	AlarmClock	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	Baby	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	Bag	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	CableModem	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	Dumbbell	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	Flashlight	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	Gloves	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	GPS	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	Headphone	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	HomeTheaterSystem	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	Jewelry	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	Keyboard	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	Magazine_Subscriptions	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	Movies_TV	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	Projector	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	RiceCooker	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	Sandal	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	Vacuum	701	23	english
+kuroneko5943/amz20	train	sentence	label	FALSE	Video_Games	701	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Arts_Crafts_and_Sewing_5	6976	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Automotive_5	7020	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	CDs_and_Vinyl_5	6974	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Digital_Music_5	7002	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Electronics_5	7026	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Grocery_and_Gourmet_Food_5	6991	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Home_and_Kitchen_5	7016	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Industrial_and_Scientific_5	6932	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Kindle_Store_5	6990	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Luxury_Beauty_5	6954	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Movies_and_TV_5	6989	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Musical_Instruments_5	7043	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Office_Products_5	7025	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Patio_Lawn_and_Garden_5	7012	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Pet_Supplies_5	7033	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Prime_Pantry_5	7002	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Sports_and_Outdoors_5	6983	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Tools_and_Home_Improvement_5	6997	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Toys_and_Games_5	7008	23	english
+kuroneko5943/snap21	train	sentence	label	FALSE	Video_Games_5	6997	23	english
+launch/open_question_type	train	question	resolve_type	FALSE	default	3716	23	english
+legacy-datasets/banking77	train	text	label	FALSE	default	10000	23	english
+legacy-datasets/hate_offensive	train	tweet	label	FALSE	default	10000	23	english
+liaad/newspop	train	headline	topic	FALSE	default	10000	23	english
+librarian-bots/model_card_dataset_mentions	train	text	label	FALSE	default	297	23	english
+m-ric/amazon_product_reviews_datafiniti	train	reviews.text	brand	FALSE	default	6000	23	english
+ma2za/many_emotions	en	text	label	FALSE	raw	10000	23	english
+ma2za/many_emotions	train	text	label	FALSE	split	10000	23	english
+masakhane/masakhanews	train	text	label	FALSE	eng	3309	23	english
+matthewfranglen/aste-v2	train	text	sentiment	FALSE	2014-laptop-aste-v2	1450	23	english
+matthewfranglen/aste-v2	train	text	sentiment	FALSE	2014-restaurant-sem-eval	2335	23	english
+matthewfranglen/aste-v2	train	text	sentiment	FALSE	2015-restaurant-aste-v2	1013	23	english
+matthewfranglen/aste-v2	train	text	sentiment	FALSE	2015-restaurant-sem-eval	1013	23	english
+matthewfranglen/aste-v2	train	text	sentiment	FALSE	2016-restaurant-aste-v2	1394	23	english
+matthewfranglen/aste-v2	train	text	sentiment	FALSE	2016-restaurant-sem-eval	1394	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	boolean_expressions	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	causal_judgement	187	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	date_understanding	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	disambiguation_qa	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	dyck_languages	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	geometric_shapes	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	hyperbaton	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	logical_deduction_five_objects	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	logical_deduction_seven_objects	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	logical_deduction_three_objects	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	movie_recommendation	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	multistep_arithmetic_two	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	navigate	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	object_counting	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	penguins_in_a_table	146	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	reasoning_about_colored_objects	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	ruin_names	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	salient_translation_error_detection	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	snarks	178	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	sports_understanding	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	temporal_sequences	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	tracking_shuffled_objects_five_objects	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	tracking_shuffled_objects_seven_objects	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	web_of_lies	250	23	english
+maveriq/bigbenchhard	train	input	target	FALSE	word_sorting	250	23	english
+McGill-NLP/stereoset	validation	context	target	FALSE	intersentence	2123	23	english
+McGill-NLP/stereoset	validation	context	target	FALSE	intrasentence	2106	23	english
+metaeval/ethics	train	text	label	FALSE	commonsense	10000	23	english
+metaeval/ethics	train	text	label	FALSE	deontology	10000	23	english
+metaeval/ethics	train	text	label	FALSE	justice	10000	23	english
+metaeval/ethics	train	['sentence1', 'sentence2']	label	FALSE	virtue	10000	23	english
+MichiganNLP/TID-8	train	question	answer_label	FALSE	commitmentbank-ann	7816	23	english
+MichiganNLP/TID-8	train	question	answer_label	FALSE	commitmentbank-atr	7274	23	english
+MichiganNLP/TID-8	train	question	answer_label	FALSE	friends_qia-ann	10000	23	english
+MichiganNLP/TID-8	train	question	answer_label	FALSE	friends_qia-atr	10000	23	english
+MichiganNLP/TID-8	train	question	answer_label	FALSE	goemotions-ann	10000	23	english
+MichiganNLP/TID-8	train	question	answer_label	FALSE	hs_brexit-ann	4704	23	english
+MichiganNLP/TID-8	train	question	answer_label	FALSE	hs_brexit-atr	4480	23	english
+MichiganNLP/TID-8	train	question	answer_label	FALSE	humor-ann	10000	23	english
+MichiganNLP/TID-8	train	question	answer_label	FALSE	humor-atr	10000	23	english
+MichiganNLP/TID-8	train	question	answer_label	FALSE	md-agreement-atr	10000	23	english
+MichiganNLP/TID-8	train	question	answer_label	FALSE	pejorative-ann	1535	23	english
+MichiganNLP/TID-8	train	question	answer_label	FALSE	pejorative-atr	1112	23	english
+MichiganNLP/TID-8	train	question	answer_label	FALSE	sentiment-ann	10000	23	english
+MichiganNLP/TID-8	train	question	answer_label	FALSE	sentiment-atr	10000	23	english
+microsoft/bing_coronavirus_query_set	train	Query	IsImplicitIntent	FALSE	country_2020-09-01_2020-09-30	10000	23	english
+midas/metooma	train	TweetId	Text_Only_Informative	FALSE	default	7978	23	english
+MilaNLProc/honest	honest	template_masked	number	FALSE	en_binary	810	23	english
+MilaNLProc/honest	honest	template_masked	type	FALSE	en_queer_nonqueer	705	23	english
+MLNTeam-Unical/NFT-70M_transactions	train	tx_timestamp	asset_contract_type	FALSE	default	10000	23	english
+mohammadjavadpirhadi/fake-news-detection-dataset-english	train	text	label	FALSE	default	10000	23	english
+mwong/climatetext-claim-climate_evidence-related-evaluation	test	claim	evidence	FALSE	default	10000	23	english
+mwong/climatetext-claim-evidence-pair-related-evaluation	test	claim	evidence	FALSE	default	10000	23	english
+mwong/climatetext-claim-related-evaluation	test	claim	evidence	FALSE	default	10000	23	english
+mwong/climatetext-climate_evidence-claim-related-evaluation	test	claim	evidence	FALSE	default	10000	23	english
+mwong/climatetext-evidence-claim-pair-related-evaluation	test	claim	evidence	FALSE	default	10000	23	english
+neurae/dnd_style_intents	train	examples	label_names	FALSE	default	10000	23	english
+nguha/legalbench	train	text	answer	FALSE	abercrombie	5	23	english
+nguha/legalbench	train	text	answer	FALSE	citation_prediction_classification	2	23	english
+nguha/legalbench	train	text	answer	FALSE	citation_prediction_open	2	23	english
+nguha/legalbench	train	contract	answer	FALSE	consumer_contracts_qa	4	23	english
+nguha/legalbench	train	text	answer	FALSE	contract_nli_confidentiality_of_agreement	8	23	english
+nguha/legalbench	train	text	answer	FALSE	contract_nli_explicit_identification	8	23	english
+nguha/legalbench	train	text	answer	FALSE	contract_nli_inclusion_of_verbally_conveyed_information	8	23	english
+nguha/legalbench	train	text	answer	FALSE	contract_nli_limited_use	8	23	english
+nguha/legalbench	train	text	answer	FALSE	contract_nli_no_licensing	8	23	english
+nguha/legalbench	train	text	answer	FALSE	contract_nli_notice_on_compelled_disclosure	8	23	english
+nguha/legalbench	train	text	answer	FALSE	contract_nli_permissible_acquirement_of_similar_information	8	23	english
+nguha/legalbench	train	text	answer	FALSE	contract_nli_permissible_copy	8	23	english
+nguha/legalbench	train	text	answer	FALSE	contract_nli_permissible_development_of_similar_information	8	23	english
+nguha/legalbench	train	company_description	answer	FALSE	corporate_lobbying	10	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_affiliate_license-licensee	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_affiliate_license-licensor	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_anti-assignment	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_audit_rights	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_cap_on_liability	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_competitive_restriction_exception	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_covenant_not_to_sue	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_effective_date	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_exclusivity	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_expiration_date	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_insurance	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_ip_ownership_assignment	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_irrevocable_or_perpetual_license	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_joint_ip_ownership	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_license_grant	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_minimum_commitment	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_most_favored_nation	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_no-solicit_of_customers	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_no-solicit_of_employees	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_non-compete	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_non-disparagement	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_non-transferable_license	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_notice_period_to_terminate_renewal	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_post-termination_services	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_price_restrictions	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_renewal_term	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_revenue-profit_sharing	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_rofr-rofo-rofn	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_source_code_escrow	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_termination_for_convenience	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_third_party_beneficiary	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_uncapped_liability	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_unlimited-all-you-can-eat-license	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_volume_restriction	6	23	english
+nguha/legalbench	train	text	answer	FALSE	cuad_warranty_duration	6	23	english
+nguha/legalbench	train	text	answer	FALSE	definition_classification	8	23	english
+nguha/legalbench	train	text	answer	FALSE	definition_extraction	8	23	english
+nguha/legalbench	train	text	aic_is_met	FALSE	diversity_1	6	23	english
+nguha/legalbench	train	text	aic_is_met	FALSE	diversity_2	6	23	english
+nguha/legalbench	train	text	answer	FALSE	diversity_3	6	23	english
+nguha/legalbench	train	text	aic_is_met	FALSE	diversity_4	6	23	english
+nguha/legalbench	train	text	aic_is_met	FALSE	diversity_5	6	23	english
+nguha/legalbench	train	text	aic_is_met	FALSE	diversity_6	6	23	english
+nguha/legalbench	train	Paragraph	Citation	FALSE	function_of_decision_section	7	23	english
+nguha/legalbench	train	text	answer	FALSE	hearsay	5	23	english
+nguha/legalbench	train	claim	answer	FALSE	insurance_policy_interpretation	5	23	english
+nguha/legalbench	train	question	answer	FALSE	international_citizenship_questions	4	23	english
+nguha/legalbench	train	text	answer	FALSE	jcrew_blocker	6	23	english
+nguha/legalbench	train	text	answer	FALSE	learned_hands_benefits	6	23	english
+nguha/legalbench	train	text	answer	FALSE	learned_hands_business	6	23	english
+nguha/legalbench	train	text	answer	FALSE	learned_hands_consumer	6	23	english
+nguha/legalbench	train	text	answer	FALSE	learned_hands_courts	6	23	english
+nguha/legalbench	train	text	answer	FALSE	learned_hands_crime	6	23	english
+nguha/legalbench	train	text	answer	FALSE	learned_hands_divorce	6	23	english
+nguha/legalbench	train	text	answer	FALSE	learned_hands_domestic_violence	6	23	english
+nguha/legalbench	train	text	answer	FALSE	learned_hands_education	6	23	english
+nguha/legalbench	train	text	answer	FALSE	learned_hands_employment	6	23	english
+nguha/legalbench	train	text	answer	FALSE	learned_hands_estates	6	23	english
+nguha/legalbench	train	text	answer	FALSE	learned_hands_health	6	23	english
+nguha/legalbench	train	text	answer	FALSE	learned_hands_housing	6	23	english
+nguha/legalbench	train	text	answer	FALSE	learned_hands_immigration	6	23	english
+nguha/legalbench	train	text	answer	FALSE	legal_reasoning_causality	4	23	english
+nguha/legalbench	train	question	answer	FALSE	nys_judicial_ethics	8	23	english
+nguha/legalbench	train	text	answer	FALSE	opp115_data_retention	8	23	english
+nguha/legalbench	train	text	answer	FALSE	opp115_data_security	8	23	english
+nguha/legalbench	train	text	answer	FALSE	opp115_do_not_track	8	23	english
+nguha/legalbench	train	text	answer	FALSE	opp115_first_party_collection_use	8	23	english
+nguha/legalbench	train	text	answer	FALSE	opp115_international_and_specific_audiences	8	23	english
+nguha/legalbench	train	text	answer	FALSE	opp115_policy_change	8	23	english
+nguha/legalbench	train	text	answer	FALSE	opp115_third_party_sharing_collection	8	23	english
+nguha/legalbench	train	text	answer	FALSE	opp115_user_choice_control	8	23	english
+nguha/legalbench	train	question	Docket No.	FALSE	oral_argument_question_purpose	7	23	english
+nguha/legalbench	train	text	answer	FALSE	overruling	6	23	english
+nguha/legalbench	train	text	answer	FALSE	personal_jurisdiction	4	23	english
+nguha/legalbench	train	text	answer	FALSE	privacy_policy_entailment	8	23	english
+nguha/legalbench	train	text	answer	FALSE	privacy_policy_qa	8	23	english
+nguha/legalbench	train	text	answer	FALSE	proa	5	23	english
+nguha/legalbench	train	text	answer	FALSE	sara_entailment	4	23	english
+nguha/legalbench	train	text	question	FALSE	sara_numeric	4	23	english
+nguha/legalbench	train	text	answer	FALSE	ssla_company_defendants	3	23	english
+nguha/legalbench	train	text	answer	FALSE	ssla_individual_defendants	3	23	english
+nguha/legalbench	train	text	answer	FALSE	successor_liability	3	23	english
+nguha/legalbench	train	text	answer	FALSE	supply_chain_disclosure_best_practice_accountability	8	23	english
+nguha/legalbench	train	text	answer	FALSE	supply_chain_disclosure_best_practice_audits	8	23	english
+nguha/legalbench	train	text	answer	FALSE	supply_chain_disclosure_best_practice_certification	8	23	english
+nguha/legalbench	train	text	answer	FALSE	supply_chain_disclosure_best_practice_training	8	23	english
+nguha/legalbench	train	text	answer	FALSE	supply_chain_disclosure_best_practice_verification	8	23	english
+nguha/legalbench	train	text	answer	FALSE	supply_chain_disclosure_disclosed_accountability	8	23	english
+nguha/legalbench	train	text	answer	FALSE	supply_chain_disclosure_disclosed_certification	8	23	english
+nguha/legalbench	train	text	answer	FALSE	supply_chain_disclosure_disclosed_training	8	23	english
+nguha/legalbench	train	text	answer	FALSE	supply_chain_disclosure_disclosed_verification	8	23	english
+nguha/legalbench	train	text	answer	FALSE	telemarketing_sales_rule	4	23	english
+nguha/legalbench	train	text	answer	FALSE	textualism_tool_dictionaries	4	23	english
+nguha/legalbench	train	text	answer	FALSE	textualism_tool_plain	4	23	english
+nguha/legalbench	train	contract	answer	FALSE	ucc_v_common_law	6	23	english
+nguha/legalbench	train	text	answer	FALSE	unfair_tos	9	23	english
+nkazi/SciEntsBank	train	question	label	FALSE	default	4969	23	english
+nyu-mll/crows_pairs	test	sent_less	stereo_antistereo	FALSE	crows_pairs	1508	23	english
+nyu-mll/glue	train	sentence	label	FALSE	cola	8551	23	english
+nyu-mll/glue	train	['premise', 'hypothesis']	label	FALSE	mnli	10000	23	english
+nyu-mll/glue	validation	['premise', 'hypothesis']	label	FALSE	mnli_matched	9815	23	english
+nyu-mll/glue	train	['sentence1', 'sentence2']	label	FALSE	mrpc	3668	23	english
+nyu-mll/glue	train	sentence	label	FALSE	qnli	10000	23	english
+nyu-mll/glue	train	['question1', 'question2']	label	FALSE	qqp	10000	23	english
+nyu-mll/glue	train	['sentence1', 'sentence2']	label	FALSE	rte	2490	23	english
+nyu-mll/glue	train	sentence	label	FALSE	sst2	10000	23	english
+nyu-mll/glue	train	['sentence1', 'sentence2']	label	TRUE	stsb	5749	23	english
+nyu-mll/glue	train	['sentence1', 'sentence2']	label	FALSE	wnli	635	23	english
+nyu-mll/multi_nli	train	['premise', 'hypothesis']	label	FALSE	default	10000	23	english
+nyu-mll/multi_nli_mismatch	train	['premise', 'hypothesis']	label	FALSE	plain_text	10000	23	english
+Open-Orca/OpenOrca	train	question	system_prompt	FALSE	default	10000	23	english
+ought/raft	train	Sentence	Label	FALSE	ade_corpus_v2	50	23	english
+ought/raft	train	Query	Label	FALSE	banking_77	50	23	english
+ought/raft	train	Impact statement	Label	FALSE	neurips_impact_statement_risks	50	23	english
+ought/raft	train	Article	Label	FALSE	one_stop_english	50	23	english
+ought/raft	train	Abstract	Label	FALSE	systematic_review_inclusion	50	23	english
+ought/raft	train	Abstract Note	Label	FALSE	tai_safety_research	50	23	english
+ought/raft	train	Sentence	Label	FALSE	terms_of_service	50	23	english
+ought/raft	train	Tweet	Label	FALSE	tweet_eval_hate	50	23	english
+ought/raft	train	Tweet text	Label	FALSE	twitter_complaints	50	23	english
+OxAISH-AL-LLM/wiki_toxic	train	comment_text	label	FALSE	default	10000	23	english
+peixian/equity_evaluation_corpus	train	sentence	template	FALSE	first_domain	8640	23	english
+PhilipMay/stsb_multi_mt	train	['sentence1', 'sentence2']	similarity_score	TRUE	en	5749	23	english
+philippelaban/hlgd	train	headline_b	label	FALSE	default	10000	23	english
+philschmid/emotion	train	text	label	FALSE	split	10000	23	english
+philschmid/emotion	train	text	label	FALSE	unsplit	10000	23	english
+PiC/phrase_similarity	train	['sentence1', 'sentence2']	label	FALSE	PS-hard	7004	23	english
+pietrolesci/agnews	train	text	labels	FALSE	default	10000	23	english
+pietrolesci/dbpedia_14_indexed	train	content	labels	FALSE	default	10000	23	english
+pietrolesci/DBPedia_Classes_indexed	train	text	l1	FALSE	default	10000	23	english
+pietrolesci/pubmed-20k-rct	train	text	labels	FALSE	default	10000	23	english
+pietrolesci/wikitoxic	train	text	labels	FALSE	default	10000	23	english
+PyThaiNLP/prachathai67k	train	body_text	politics	FALSE	prachathai67k	10000	23	english
+qanastek/Biosses-BLUE	train	['sentence1', 'sentence2']	score	TRUE	biosses	64	23	english
+RamAnanth1/talkrl-podcast	train	transcript	title	FALSE	default	39	23	english
+rexarski/climate_fever_fixed	train	evidence	label	FALSE	default	4298	23	english
+RobZamp/sick	train	sentence_A	label	FALSE	default	4439	23	english
+sagnikrayc/snli-cf-kaushik	train	['premise', 'hypothesis']	label	FALSE	plain_text	8330	23	english
+saier/unarXive_imrad_clf	train	text	label	FALSE	default	10000	23	english
+se2p/code-readability-merged	train	code_snippet	score	TRUE	default	421	23	english
+sealuzh/app_reviews	train	review	package_name	FALSE	default	10000	23	english
+SemEvalWorkshop/hyperpartisan_news_detection	train	text	bias	FALSE	bypublisher	10000	23	english
+shahules786/prosocial_augmented	train	Assistant	safety_label	FALSE	default	10000	23	english
+sihaochen/propsegment	train	['premise', 'hypothesis']	label	FALSE	nli	10000	23	english
+sileod/discovery	train	['sentence1', 'sentence2']	label	FALSE	discovery	10000	23	english
+sileod/pragmeval	train	['sentence1', 'sentence2']	label	FALSE	emergent	2076	23	english
+sileod/pragmeval	train	sentence	label	FALSE	emobank-dominance	6392	23	english
+sileod/pragmeval	train	sentence	label	FALSE	emobank-valence	5150	23	english
+sileod/pragmeval	train	['sentence1', 'sentence2']	label	FALSE	gum	1700	23	english
+sileod/pragmeval	train	sentence	label	FALSE	mrda	10000	23	english
+sileod/pragmeval	train	['sentence1', 'sentence2']	label	FALSE	pdtb	10000	23	english
+sileod/pragmeval	train	['sentence1', 'sentence2']	label	FALSE	persuasiveness-claimtype	160	23	english
+sileod/pragmeval	train	['sentence1', 'sentence2']	label	FALSE	persuasiveness-eloquence	725	23	english
+sileod/pragmeval	train	['sentence1', 'sentence2']	label	FALSE	persuasiveness-premisetype	566	23	english
+sileod/pragmeval	train	['sentence1', 'sentence2']	label	FALSE	persuasiveness-relevance	725	23	english
+sileod/pragmeval	train	['sentence1', 'sentence2']	label	FALSE	persuasiveness-specificity	504	23	english
+sileod/pragmeval	train	['sentence1', 'sentence2']	label	FALSE	persuasiveness-strength	371	23	english
+sileod/pragmeval	train	['sentence1', 'sentence2']	label	FALSE	sarcasm	3754	23	english
+sileod/pragmeval	train	sentence	label	FALSE	squinky-formality	3622	23	english
+sileod/pragmeval	train	sentence	label	FALSE	squinky-informativeness	3719	23	english
+sileod/pragmeval	train	['sentence1', 'sentence2']	label	FALSE	stac	10000	23	english
+sileod/pragmeval	train	sentence	label	FALSE	switchboard	10000	23	english
+sileod/pragmeval	train	sentence	label	FALSE	verifiability	5712	23	english
+sileod/probability_words_nli	train	context	label	FALSE	reasoning_1hop	4000	23	english
+sileod/probability_words_nli	train	context	label	FALSE	reasoning_2hop	4000	23	english
+sileod/probability_words_nli	train	context	label	FALSE	usnli	10000	23	english
+SkAndMl/CPTDS-3	train	question	label	FALSE	default	3012	23	english
+SKT27182/Preprocessed_OpenOrca	train	question	system_prompt	FALSE	default	10000	23	english
+sonos-nlu-benchmark/snips_built_in_intents	train	text	label	FALSE	default	328	23	english
+stanfordnlp/imdb	train	text	label	FALSE	plain_text	10000	23	english
+stanfordnlp/snli	train	['premise', 'hypothesis']	label	FALSE	plain_text	10000	23	english
+stanfordnlp/sst	train	sentence	label	TRUE	default	8544	23	english
+stanfordnlp/sst	dictionary	phrase	label	TRUE	dictionary	10000	23	english
+stanfordnlp/sst2	train	sentence	label	FALSE	default	10000	23	english
+symanto/autextification2023	train	text	label	FALSE	attribution_en	10000	23	english
+symanto/autextification2023	train	text	label	FALSE	detection_en	10000	23	english
+tabilab/biosses	train	['sentence1', 'sentence2']	score	TRUE	default	100	23	english
+takala/financial_phrasebank	train	sentence	label	FALSE	sentences_50agree	4846	23	english
+takala/financial_phrasebank	train	sentence	label	FALSE	sentences_66agree	4217	23	english
+takala/financial_phrasebank	train	sentence	label	FALSE	sentences_75agree	3453	23	english
+tasksource/autotnli	train	premises	label	FALSE	default	10000	23	english
+tasksource/crowdflower	train	text	label	FALSE	airline-sentiment	10000	23	english
+tasksource/crowdflower	train	text	label	FALSE	corporate-messaging	3118	23	english
+tasksource/crowdflower	train	text	label	FALSE	economic-news	7606	23	english
+tasksource/crowdflower	train	text	label	FALSE	political-media-audience	4999	23	english
+tasksource/crowdflower	train	text	label	FALSE	political-media-bias	4999	23	english
+tasksource/crowdflower	train	text	label	FALSE	political-media-message	4999	23	english
+tasksource/crowdflower	train	text	label	FALSE	sentiment_nuclear_power	190	23	english
+tasksource/crowdflower	train	text	label	FALSE	tweet_global_warming	4223	23	english
+tasksource/defeasible-nli	train	Update	UpdateType	FALSE	atomic	10000	23	english
+tasksource/defeasible-nli	train	Premise	UpdateType	FALSE	snli	10000	23	english
+tasksource/defeasible-nli	train	Hypothesis	UpdateType	FALSE	social	10000	23	english
+tasksource/lingnli	train	['premise', 'hypothesis']	label	FALSE	default	10000	23	english
+tasksource/lonli	train	['premise', 'hypothesis']	label	FALSE	default	10000	23	english
+tasksource/mmlu	test	question	answer	FALSE	abstract_algebra	100	23	english
+tasksource/mmlu	test	question	answer	FALSE	anatomy	135	23	english
+tasksource/mmlu	test	question	answer	FALSE	business_ethics	100	23	english
+tasksource/mmlu	test	question	answer	FALSE	clinical_knowledge	265	23	english
+tasksource/mmlu	test	question	answer	FALSE	college_biology	144	23	english
+tasksource/mmlu	test	question	answer	FALSE	college_chemistry	100	23	english
+tasksource/mmlu	test	question	answer	FALSE	college_computer_science	100	23	english
+tasksource/mmlu	test	question	answer	FALSE	college_mathematics	100	23	english
+tasksource/mmlu	test	question	answer	FALSE	college_medicine	173	23	english
+tasksource/mmlu	test	question	answer	FALSE	college_physics	102	23	english
+tasksource/mmlu	test	question	answer	FALSE	computer_security	100	23	english
+tasksource/mmlu	test	question	answer	FALSE	conceptual_physics	235	23	english
+tasksource/mmlu	test	question	answer	FALSE	econometrics	114	23	english
+tasksource/mmlu	test	question	answer	FALSE	electrical_engineering	145	23	english
+tasksource/mmlu	test	question	answer	FALSE	elementary_mathematics	378	23	english
+tasksource/mmlu	test	question	answer	FALSE	formal_logic	126	23	english
+tasksource/mmlu	test	question	answer	FALSE	global_facts	100	23	english
+tasksource/mmlu	test	question	answer	FALSE	high_school_biology	310	23	english
+tasksource/mmlu	test	question	answer	FALSE	high_school_chemistry	203	23	english
+tasksource/mmlu	test	question	answer	FALSE	high_school_computer_science	100	23	english
+tasksource/mmlu	test	question	answer	FALSE	high_school_european_history	165	23	english
+tasksource/mmlu	test	question	answer	FALSE	high_school_geography	198	23	english
+tasksource/mmlu	test	question	answer	FALSE	high_school_government_and_politics	193	23	english
+tasksource/mmlu	test	question	answer	FALSE	high_school_macroeconomics	390	23	english
+tasksource/mmlu	test	question	answer	FALSE	high_school_microeconomics	238	23	english
+tasksource/mmlu	test	question	answer	FALSE	high_school_physics	151	23	english
+tasksource/mmlu	test	question	answer	FALSE	high_school_psychology	545	23	english
+tasksource/mmlu	test	question	answer	FALSE	high_school_statistics	216	23	english
+tasksource/mmlu	test	question	answer	FALSE	high_school_us_history	204	23	english
+tasksource/mmlu	test	question	answer	FALSE	high_school_world_history	237	23	english
+tasksource/mmlu	test	question	answer	FALSE	human_aging	223	23	english
+tasksource/mmlu	test	question	answer	FALSE	human_sexuality	131	23	english
+tasksource/mmlu	test	question	answer	FALSE	international_law	121	23	english
+tasksource/mmlu	test	question	answer	FALSE	jurisprudence	108	23	english
+tasksource/mmlu	test	question	answer	FALSE	logical_fallacies	163	23	english
+tasksource/mmlu	test	question	answer	FALSE	machine_learning	112	23	english
+tasksource/mmlu	test	question	answer	FALSE	management	103	23	english
+tasksource/mmlu	test	question	answer	FALSE	marketing	234	23	english
+tasksource/mmlu	test	question	answer	FALSE	medical_genetics	100	23	english
+tasksource/mmlu	test	question	answer	FALSE	miscellaneous	783	23	english
+tasksource/mmlu	test	question	answer	FALSE	moral_disputes	346	23	english
+tasksource/mmlu	test	question	answer	FALSE	moral_scenarios	895	23	english
+tasksource/mmlu	test	question	answer	FALSE	nutrition	306	23	english
+tasksource/mmlu	test	question	answer	FALSE	philosophy	311	23	english
+tasksource/mmlu	test	question	answer	FALSE	prehistory	324	23	english
+tasksource/mmlu	test	question	answer	FALSE	professional_accounting	282	23	english
+tasksource/mmlu	test	question	answer	FALSE	professional_law	1534	23	english
+tasksource/mmlu	test	question	answer	FALSE	professional_medicine	272	23	english
+tasksource/mmlu	test	question	answer	FALSE	professional_psychology	612	23	english
+tasksource/mmlu	test	question	answer	FALSE	public_relations	110	23	english
+tasksource/mmlu	test	question	answer	FALSE	security_studies	245	23	english
+tasksource/mmlu	test	question	answer	FALSE	sociology	201	23	english
+tasksource/mmlu	test	question	answer	FALSE	us_foreign_policy	100	23	english
+tasksource/mmlu	test	question	answer	FALSE	virology	166	23	english
+tasksource/mmlu	test	question	answer	FALSE	world_religions	171	23	english
+tasksource/naturallogic	train	sent2	original_label	FALSE	default	6390	23	english
+tasksource/PLANE-ood	train	seq	label	FALSE	default	10000	23	english
+tasksource/scone	train	sentence1_edited	gold_label_edited	FALSE	default	5010	23	english
+tasksource/zero-shot-label-nli	train	['premise', 'hypothesis']	labels	FALSE	default	10000	23	english
+tdavidson/hate_speech_offensive	train	tweet	class	FALSE	default	10000	23	english
+tdiggelm/climate_fever	test	claim	claim_label	FALSE	default	1535	23	english
+TheBritishLibrary/web_archive_classification	train	title	primary_category	FALSE	default	10000	23	english
+THUDM/LongBench	test	input	language	FALSE	lcc	500	23	english
+THUDM/LongBench	test	input	language	FALSE	lcc_e	300	23	english
+THUDM/LongBench	test	input	context	FALSE	narrativeqa	200	23	english
+THUDM/LongBench	test	input	context	FALSE	qmsum	200	23	english
+THUDM/LongBench	test	input	language	FALSE	repobench-p	500	23	english
+THUDM/LongBench	test	input	language	FALSE	repobench-p_e	300	23	english
+Tidrael/tsl_news	train	title	label	FALSE	plain_text	443	23	english
+TimKoornstra/financial-tweets-sentiment	train	tweet	sentiment	FALSE	default	10000	23	english
+tweets-hate-speech-detection/tweets_hate_speech_detection	train	tweet	label	FALSE	default	10000	23	english
+tyqiangz/multilingual-sentiments	train	text	label	FALSE	english	1839	23	english
+ucberkeley-dlab/measuring-hate-speech	train	text	annotator_trans	FALSE	default	10000	23	english
+ucirvine/sms_spam	train	sms	label	FALSE	plain_text	5574	23	english
+ucsbnlp/liar	train	statement	label	FALSE	default	10000	23	english
+ufukhaman/uspto_balanced_200k_ipc_classification	train	text	label	FALSE	default	10000	23	english
+vadis/sv-ident	train	sentence	is_variable	FALSE	default	3823	23	english
+vibhorag101/suicide_prediction_dataset_phr	train	text	label	FALSE	default	10000	23	english
+vietgpt/anli_r3_en	train	['premise', 'hypothesis']	label	FALSE	default	10000	23	english
+webis/Touche23-ValueEval	meta	Argument ID	WA	TRUE	ibm-meta	7368	23	english
+webis/Touche23-ValueEval	test	Premise	Stance	FALSE	nahjalbalagha	279	23	english
+webis/Touche23-ValueEval	test	Premise	Stance	FALSE	nahjalbalagha-level1	279	23	english
+webis/Touche23-ValueEval	meta	Premise English	Stance Farsi	FALSE	nahjalbalagha-meta	1326	23	english
+webis/Touche23-ValueEval	meta	Argument ID	URL	FALSE	nyt-meta	80	23	english
+webis/Touche23-ValueEval	validation	Premise	Stance	FALSE	zhihu	100	23	english
+webis/Touche23-ValueEval	validation	Premise	Stance	FALSE	zhihu-level1	100	23	english
+webis/Touche23-ValueEval	meta	Premise Chinese	Conclusion Chinese	FALSE	zhihu-meta	100	23	english
+wenhu/tab_fact	train	tab_fact	label	FALSE	tab_fact	10000	23	english
+westphal-jan/mnli_matched	train	['premise', 'hypothesis']	label	TRUE	default	10000	23	english
+winddude/finacial_pharsebank_66agree_split	train	sentence	label	FALSE	default	3795	23	english
+xingkunliuxtracta/nlu_evaluation_data	train	text	label	FALSE	default	10000	23	english
+yangwang825/reuters-21578	train	text	label	FALSE	default	5485	23	english
+yangwang825/tnews	train	text	label	FALSE	default	10000	23	english
+Yelp/yelp_review_full	train	text	label	FALSE	yelp_review_full	10000	23	english
+Zahra99/IEMOCAP_Text	session5	text	label	FALSE	default	1241	23	english
+zeio/auto-pale	train	text	champion	FALSE	annotated	10000	23	english
+zeio/auto-pale	train	text	champion	FALSE	vanilla	10000	23	english
+wmt/wmt20_mlqe_task2	train	pe	hter	TRUE	en-zh	7000	23	english, chinese
+Isotonic/pii-masking-200k	train	unmasked_text	language	FALSE	default	10000	23	english, french, german, Italian
+PierreColombo/miam	train	Utterance	Label	FALSE	dihana	10000	23	english, French, German, Italian, Spanish.
+PierreColombo/miam	train	Utterance	Label	FALSE	ilisten	1986	23	english, French, German, Italian, Spanish.
+PierreColombo/miam	train	Utterance	Label	FALSE	loria	8465	23	english, French, German, Italian, Spanish.
+PierreColombo/miam	train	Utterance	Label	FALSE	maptask	10000	23	english, French, German, Italian, Spanish.
+nlp-thedeep/humset	train	excerpt	lang	FALSE	1.0.0	10000	23	english, french, spanish
+nlp-thedeep/humset	train	excerpt	lang	FALSE	2.0.0	10000	23	english, french, spanish
+wmt/wmt20_mlqe_task2	train	pe	hter	TRUE	en-de	7000	23	english, german
+ajesujoba/twi_wordsim353	test	twi2	similarity	TRUE	default	274	23	english, Twi
+ajesujoba/yoruba_wordsim353	test	yoruba2	similarity	TRUE	default	353	23	english, Yoruba
+senti-lex/senti_lex	train	word	sentiment	FALSE	eo	2604	23	esperanto 
+senti-lex/senti_lex	train	word	sentiment	FALSE	fo	123	23	faroese
+AmazonScience/massive	train	annot_utt	scenario	FALSE	fa-IR	10000	23	farsi
+senti-lex/senti_lex	train	word	sentiment	FALSE	fi	3295	23	finnish
+almanach/hc3_french_ood	test	chatgpt_answer	label	FALSE	hc3_fr_chatgpt_qa	113	23	french
+almanach/hc3_french_ood	train	text	label	FALSE	hc3_fr_full	10000	23	french
+almanach/hc3_french_ood	train	answer	label	FALSE	hc3_fr_qa	10000	23	french
+almanach/hc3_french_ood	train	text	label	FALSE	hc3_fr_sentence	10000	23	french
+almanach/hc3_french_ood	test	answer	label	FALSE	qa_fr_binggpt	106	23	french
+AmazonScience/massive	train	annot_utt	scenario	FALSE	fr-FR	10000	23	french
+cardiffnlp/tweet_sentiment_multilingual	train	text	label	FALSE	french	1839	23	french
+cassandra-themis/QR-AN	train	text	label	FALSE	qran_answer	10000	23	french
+cassandra-themis/QR-AN	train	text	label	FALSE	qran_full	10000	23	french
+cassandra-themis/QR-AN	train	text	label	FALSE	qran_question	10000	23	french
+CATIE-AQ/allocine_fr_prompt_sentiment_analysis	train	inputs	targets	FALSE	default	10000	23	french
+CATIE-AQ/fever_fr_prompt_textual_entailment	train	inputs	targets	FALSE	default	10000	23	french
+CATIE-AQ/french_book_reviews_fr_prompt_sentiment_analysis	train	inputs	targets	FALSE	default	10000	23	french
+CATIE-AQ/french_book_reviews_fr_prompt_stars_classification	train	inputs	targets	TRUE	default	10000	23	french
+CATIE-AQ/ling_fr_prompt_textual_entailment	train	inputs	targets	FALSE	default	10000	23	french
+CATIE-AQ/mnli_fr_prompt_textual_entailment	train	inputs	targets	FALSE	default	10000	23	french
+CATIE-AQ/mtop_domain_intent_fr_prompt_intent_classification	train	inputs	targets	FALSE	default	10000	23	french
+CATIE-AQ/paws-x_fr_prompt_paraphrase_detection	train	inputs	targets	FALSE	default	10000	23	french
+CATIE-AQ/stsb_multi_mt_fr_prompt_sentence_similarity	train	inputs	targets	TRUE	default	10000	23	french
+CATIE-AQ/wanli_fr_prompt_textual_entailment	train	inputs	targets	FALSE	default	10000	23	french
+CATIE-AQ/xnli_fr_prompt_textual_entailment	train	inputs	targets	FALSE	default	10000	23	french
+Genius1237/TyDiP	test	text	labels	FALSE	fr	250	23	french
+GePaSud/TROPICAL	train	id_comment	general_polarity	FALSE	no_overlapping_subset	326	23	french
+GePaSud/TROPICAL	train	id_comment	general_polarity	FALSE	original_dataset	1114	23	french
+GePaSud/TROPICAL	train	id_comment	general_polarity	FALSE	overlapping_subset	787	23	french
+google/xtreme	train	['sentence1', 'sentence2']	label	FALSE	PAWS-X.fr	10000	23	french
+masakhane/masakhanews	train	text	label	FALSE	fra	1476	23	french
+MilaNLProc/honest	honest	template_masked	number	FALSE	fr_binary	810	23	french
+PhilipMay/stsb_multi_mt	train	['sentence1', 'sentence2']	similarity_score	TRUE	fr	5749	23	french
+reciTAL/mlsum	train	text	date	FALSE	fr	10000	23	french
+strombergnlp/x-stance	train	comment	label	FALSE	fr	10000	23	french
+tblard/allocine	train	review	label	FALSE	allocine	10000	23	french
+tyqiangz/multilingual-sentiments	train	text	label	FALSE	french	1839	23	french
+senti-lex/senti_lex	train	word	sentiment	FALSE	gd	345	23	gaelic
+senti-lex/senti_lex	train	word	sentiment	FALSE	gl	2714	23	galician
+senti-lex/senti_lex	train	word	sentiment	FALSE	ka	2202	23	georgian
+AmazonScience/massive	train	annot_utt	scenario	FALSE	ka-GE	10000	23	georgian
+AmazonScience/massive	train	annot_utt	scenario	FALSE	de-DE	10000	23	german
+cardiffnlp/tweet_sentiment_multilingual	train	text	label	FALSE	german	1839	23	german
+google-research-datasets/paws-x	train	['sentence1', 'sentence2']	label	FALSE	de	10000	23	german
+google/xtreme	train	['sentence1', 'sentence2']	label	FALSE	PAWS-X.de	10000	23	german
+joelniklaus/lextreme	train	input	label	FALSE	german_argument_mining	10000	23	german
+joelniklaus/lextreme	train	input	label	FALSE	online_terms_of_service_unfairness_levels	2074	23	german
+LennardZuendorf/openlegaldata-processed	two	content	type	FALSE	default	4954	23	german
+OFAI/omp	train	Body	Category	FALSE	posts_labeled	10000	23	german
+OFAI/omp	train	Body	Status	FALSE	posts_unlabeled	10000	23	german
+PhilipMay/stsb_multi_mt	train	['sentence1', 'sentence2']	similarity_score	TRUE	de	5749	23	german
+reciTAL/mlsum	train	text	date	FALSE	de	10000	23	german
+scherrmann/financial_phrasebank_75agree_german	train	sentence	label	FALSE	default	2763	23	german
+senti-lex/senti_lex	train	word	sentiment	FALSE	de	3974	23	german
+strombergnlp/x-stance	train	comment	label	FALSE	de	10000	23	german
+threite/Bundestag-v2	train	text	party	FALSE	default	10000	23	german
+tillschwoerer/tagesschau	train	text	label	FALSE	default	1200	23	german
+tyqiangz/multilingual-sentiments	train	text	label	FALSE	german	1839	23	german
+TheBritishLibrary/blbooksgenre	train	Title	Type of resource	FALSE	annotated_raw	4398	23	german, english, french, dutch
+TheBritishLibrary/blbooksgenre	train	Title	Type of resource	FALSE	raw	10000	23	german, english, french, dutch
+joelniklaus/lextreme	train	input	label	FALSE	swiss_criticality_prediction_bge_considerations	10000	23	german, french
+joelniklaus/lextreme	train	input	label	FALSE	swiss_criticality_prediction_bge_facts	10000	23	german, french
+joelniklaus/lextreme	train	input	label	FALSE	swiss_criticality_prediction_citation_facts	2523	23	german, french
+joelniklaus/lextreme	train	input	label	FALSE	swiss_judgment_prediction	10000	23	german, french
+joelniklaus/lextreme	train	input	label	FALSE	swiss_judgment_prediction_xl_considerations	10000	23	german, french
+joelniklaus/lextreme	train	input	label	FALSE	swiss_judgment_prediction_xl_facts	10000	23	german, french
+joelniklaus/lextreme	train	input	label	FALSE	swiss_law_area_prediction_considerations	10000	23	german, french
+joelniklaus/lextreme	train	input	label	FALSE	swiss_law_area_prediction_facts	10000	23	german, french
+joelniklaus/lextreme	train	input	label	FALSE	swiss_law_area_prediction_sub_area_considerations	10000	23	german, french
+joelniklaus/lextreme	train	input	label	FALSE	swiss_law_area_prediction_sub_area_facts	10000	23	german, french
+ZurichNLP/x_stance	train	comment	label	FALSE	default	10000	23	german, french, italian, english
+AI-team-UoA/greek_legal_code	train	text	label	FALSE	chapter	10000	23	greek
+AI-team-UoA/greek_legal_code	train	text	label	FALSE	subject	10000	23	greek
+AmazonScience/massive	train	annot_utt	scenario	FALSE	el-GR	10000	23	greek
+joelniklaus/lextreme	train	input	label	FALSE	greek_legal_code_chapter	10000	23	greek
+joelniklaus/lextreme	train	input	label	FALSE	greek_legal_code_subject	10000	23	greek
+joelniklaus/lextreme	train	input	label	FALSE	greek_legal_code_volume	10000	23	greek
+strombergnlp/offenseval_2020	train	text	subtask_a	FALSE	gr	8743	23	greek
+nala-cub/americas_nli	test	['premise', 'hypothesis']	label	FALSE	gn	750	23	gujarati
+ai4bharat/indic_glue	test	question	category	FALSE	csqa.gu	10000	23	gujarati
+ai4bharat/indic_glue	train	text	label	FALSE	inltkh.gu	5269	23	gujarati
+ai4bharat/indic_glue	train	['premise', 'hypothesis']	label	FALSE	wnli.gu	635	23	gujarati
+ai4bharat/indic_glue	train	sectionText	correctTitle	FALSE	wstp.gu	10000	23	gujarati
+Divyanshu/indicxnli	train	['premise', 'hypothesis']	label	FALSE	gu	10000	23	gujarati
+senti-lex/senti_lex	train	word	sentiment	FALSE	gu	2145	23	gujarati
+senti-lex/senti_lex	train	word	sentiment	FALSE	ht	472	23	haitian
+HausaNLP/NaijaSenti-Twitter	train	tweet	label	FALSE	hau	10000	23	hausa
+masakhane/masakhanews	train	text	label	FALSE	hau	2219	23	hausa
+shmuhammad/AfriSenti-twitter-sentiment	train	tweet	label	FALSE	hau	10000	23	hausa
+AmazonScience/massive	train	annot_utt	scenario	FALSE	he-IL	10000	23	hebrew
+omilab/hebrew_sentiment	train	text	label	FALSE	morph	10000	23	hebrew
+omilab/hebrew_sentiment	train	text	label	FALSE	token	10000	23	hebrew
+senti-lex/senti_lex	train	word	sentiment	FALSE	he	2533	23	hebrew
+ai4bharat/indic_glue	train	text	label	FALSE	bbca.hi	3467	23	hindi
+ai4bharat/indic_glue	test	question	category	FALSE	csqa.hi	10000	23	hindi
+ai4bharat/indic_glue	train	text	label	FALSE	iitp-mr.hi	2480	23	hindi
+ai4bharat/indic_glue	train	text	label	FALSE	iitp-pr.hi	4182	23	hindi
+ai4bharat/indic_glue	train	sentence	discourse_mode	FALSE	md.hi	7974	23	hindi
+ai4bharat/indic_glue	train	['premise', 'hypothesis']	label	FALSE	wnli.hi	635	23	hindi
+ai4bharat/indic_glue	train	sectionText	correctTitle	FALSE	wstp.hi	10000	23	hindi
+AmazonScience/massive	train	annot_utt	scenario	FALSE	hi-IN	10000	23	hindi
+cardiffnlp/tweet_sentiment_multilingual	train	text	label	FALSE	hindi	1839	23	hindi
+Divyanshu/indicxnli	train	['premise', 'hypothesis']	label	FALSE	hi	10000	23	hindi
+Genius1237/TyDiP	test	text	labels	FALSE	hi	250	23	hindi
+senti-lex/senti_lex	train	word	sentiment	FALSE	hi	3640	23	hindi
+tyqiangz/multilingual-sentiments	train	text	label	FALSE	hindi	1839	23	hindi
+AmazonScience/massive	train	annot_utt	scenario	FALSE	hu-HU	10000	23	hungarian
+Genius1237/TyDiP	test	text	labels	FALSE	hu	250	23	hungarian
+senti-lex/senti_lex	train	word	sentiment	FALSE	hu	3522	23	hungarian
+AmazonScience/massive	train	annot_utt	scenario	FALSE	is-IS	10000	23	icelandic
+senti-lex/senti_lex	train	word	sentiment	FALSE	is	1770	23	icelandic
+senti-lex/senti_lex	train	word	sentiment	FALSE	io	183	23	ido
+HausaNLP/NaijaSenti-Twitter	train	tweet	label	FALSE	ibo	10000	23	igbo
+masakhane/masakhanews	train	text	label	FALSE	ibo	1356	23	igbo
+shmuhammad/AfriSenti-twitter-sentiment	train	tweet	label	FALSE	ibo	10000	23	igbo 
+afaji/indonli	train	['premise', 'hypothesis']	label	FALSE	indonli	10000	23	indonesian
+AmazonScience/massive	train	annot_utt	scenario	FALSE	id-ID	10000	23	indonesian
+indonlp/NusaX-senti	train	text	label	FALSE	ind	500	23	indonesian
+jakartaresearch/google-play-review	train	text	label	FALSE	default	7028	23	indonesian
+jakartaresearch/indonews	train	text	label	FALSE	default	6127	23	indonesian
+nadhifikbarw/id_ohsuhmed	train	sentence1	label	FALSE	default	10000	23	indonesian
+tyqiangz/multilingual-sentiments	train	text	label	FALSE	indonesian	10000	23	indonesian
+senti-lex/senti_lex	train	word	sentiment	FALSE	ia	326	23	interlingua
+senti-lex/senti_lex	train	word	sentiment	FALSE	ga	1073	23	irish
+masakhane/masakhanews	train	text	label	FALSE	xho	1032	23	isiXhosa
+AmazonScience/massive	train	annot_utt	scenario	FALSE	it-IT	10000	23	italian
+biglam/cultural_heritage_metadata_accuracy	train	metadata_text	label	FALSE	default	10000	23	italian
+cardiffnlp/tweet_sentiment_multilingual	train	text	label	FALSE	italian	1839	23	italian
+MilaNLProc/honest	honest	template_masked	number	FALSE	it_binary	810	23	italian
+PhilipMay/stsb_multi_mt	train	['sentence1', 'sentence2']	similarity_score	TRUE	it	5749	23	italian
+senti-lex/senti_lex	train	word	sentiment	FALSE	it	4491	23	italian
+tyqiangz/multilingual-sentiments	train	text	label	FALSE	italian	1839	23	italian
+AmazonScience/massive	train	annot_utt	scenario	FALSE	ja-JP	10000	23	japanese
+community-datasets/covid_tweets_japanese	train	tweet_id	assessment_option_id	FALSE	default	10000	23	japanese
+google-research-datasets/paws-x	train	['sentence1', 'sentence2']	label	FALSE	ja	10000	23	japanese
+google/xtreme	train	['sentence1', 'sentence2']	label	FALSE	PAWS-X.ja	10000	23	japanese
+HooshvareLab/pn_summary	train	article	network	FALSE	1.0.0	10000	23	japanese
+hpprc/janli	train	['premise', 'hypothesis']	label	FALSE	base	10000	23	japanese
+hpprc/janli	train	sentence_A_Ja	entailment_label_Ja	FALSE	original	10000	23	japanese
+hpprc/jsick	train	['premise', 'hypothesis']	label	FALSE	base	4500	23	japanese
+hpprc/jsick	train	sentence_A_En	entailment_label_Ja	FALSE	original	4500	23	japanese
+hpprc/jsick	test	['premise', 'hypothesis']	label	FALSE	stress	900	23	japanese
+hpprc/jsick	test	pair_ID	entailment_label_Ja	FALSE	stress-original	900	23	japanese
+llm-book/JGLUE	train	question	label	FALSE	JCommonsenseQA	8939	23	japanese
+llm-book/JGLUE	train	['sentence1', 'sentence2']	label	FALSE	JNLI	10000	23	japanese
+llm-book/JGLUE	train	context	title	FALSE	JSQuAD	10000	23	japanese
+llm-book/JGLUE	train	['sentence1', 'sentence2']	label	TRUE	JSTS	10000	23	japanese
+llm-book/wrime-sentiment	train	sentence	label	FALSE	default	10000	23	japanese
+shunk031/JGLUE	train	sentence	label	FALSE	JCoLA	6919	23	japanese
+shunk031/JGLUE	train	question	label	FALSE	JCommonsenseQA	8939	23	japanese
+shunk031/JGLUE	train	['sentence1', 'sentence2']	label	FALSE	JNLI	10000	23	japanese
+shunk031/JGLUE	train	context	title	FALSE	JSQuAD	10000	23	japanese
+shunk031/JGLUE	train	['sentence1', 'sentence2']	label	TRUE	JSTS	10000	23	japanese
+shunk031/jsnli	train	['premise', 'hypothesis']	label	FALSE	with-filtering	10000	23	japanese
+shunk031/jsnli	train	['premise', 'hypothesis']	label	FALSE	without-filtering	10000	23	japanese
+tyqiangz/multilingual-sentiments	train	text	label	FALSE	japanese	10000	23	japanese
+yangwang825/marc-ja	train	text	label	FALSE	default	10000	23	japanese
+AmazonScience/massive	train	annot_utt	scenario	FALSE	jv-ID	10000	23	javanese
+indonlp/NusaX-senti	train	text	label	FALSE	jav	500	23	javanese
+AmazonScience/massive	train	annot_utt	scenario	FALSE	kn-IN	10000	23	kannada
+community-datasets/offenseval_dravidian	train	text	label	FALSE	kannada	6217	23	kannada
+Divyanshu/indicxnli	train	['premise', 'hypothesis']	label	FALSE	kn	10000	23	kannada
+senti-lex/senti_lex	train	word	sentiment	FALSE	kn	2173	23	kannada
+AdWeeb/kan_hope	train	text	label	FALSE	default	4940	23	kannada
+ai4bharat/indic_glue	test	question	category	FALSE	csqa.kn	10000	23	kannada
+ai4bharat/indic_glue	train	sectionText	correctTitle	FALSE	wstp.kn	10000	23	kannada
+senti-lex/senti_lex	train	word	sentiment	FALSE	km	956	23	khmer
+shmuhammad/AfriSenti-twitter-sentiment	train	tweet	label	FALSE	kin	3302	23	kinyarwanda
+andreniyongabo/kinnews_kirnews	train	content	label	FALSE	kinnews_cleaned	10000	23	kirundi, kinyarwanda
+andreniyongabo/kinnews_kirnews	train	content	label	FALSE	kinnews_raw	10000	23	kirundi, kinyarwanda
+andreniyongabo/kinnews_kirnews	train	content	label	FALSE	kirnews_cleaned	3689	23	kirundi, kinyarwanda
+andreniyongabo/kinnews_kirnews	train	content	label	FALSE	kirnews_raw	3689	23	kirundi, kinyarwanda
+masakhane/masakhanews	train	text	label	FALSE	swa	1658	23	kiswahili
+AmazonScience/massive	train	annot_utt	scenario	FALSE	ko-KR	10000	23	korean
+amphora/korfin-asc	train	SRC	SENTIMENT	FALSE	default	8818	23	korean
+e9t/nsmc	train	document	label	FALSE	default	10000	23	korean
+Genius1237/TyDiP	test	text	labels	FALSE	ko	250	23	korean
+google-research-datasets/paws-x	train	['sentence1', 'sentence2']	label	FALSE	ko	10000	23	korean
+google/xtreme	train	['sentence1', 'sentence2']	label	FALSE	PAWS-X.ko	10000	23	korean
+jason9693/APEACH	train	text	class	FALSE	default	7896	23	korean
+kakaobrain/kor_nli	train	['premise', 'hypothesis']	label	FALSE	multi_nli	10000	23	korean
+kakaobrain/kor_nli	train	['premise', 'hypothesis']	label	FALSE	snli	10000	23	korean
+kakaobrain/kor_nli	test	['premise', 'hypothesis']	label	FALSE	xnli	5010	23	korean
+kakaobrain/kor_nlu	train	['premise', 'hypothesis']	label	FALSE	nli	10000	23	korean
+KETI-AIR/kor_ag_news	train	text	label	FALSE	default	10000	23	korean
+KETI-AIR/kor_amazon_polarity	train	content	label	FALSE	default	10000	23	korean
+KETI-AIR/kor_anli	train_r3	['premise', 'hypothesis']	label	FALSE	default	10000	23	korean
+KETI-AIR/kor_snli	train	['premise', 'hypothesis']	label	FALSE	default	10000	23	korean
+klue/klue	train	['premise', 'hypothesis']	label	FALSE	nli	10000	23	korean
+klue/klue	train	['sentence1', 'sentence2']	source	FALSE	sts	10000	23	korean
+klue/klue	train	title	label	FALSE	ynat	10000	23	korean
+senti-lex/senti_lex	train	word	sentiment	FALSE	ko	2118	23	korean
+SpellOnYou/kor_sarcasm	train	tokens	label	FALSE	default	9000	23	korean
+wicho/kor_3i4k	train	text	label	FALSE	default	10000	23	korean
+wicho/kor_sae	train	intent_pair1	label	FALSE	default	10000	23	korean
+yangwang825/klue-ynat	train	text	label	FALSE	default	10000	23	korean
+senti-lex/senti_lex	train	word	sentiment	FALSE	ku	145	23	kurdish
+senti-lex/senti_lex	train	word	sentiment	FALSE	la	2033	23	latin
+AmazonScience/massive	train	annot_utt	scenario	FALSE	lv-LV	10000	23	latvian
+senti-lex/senti_lex	train	word	sentiment	FALSE	lv	1938	23	latvian
+senti-lex/senti_lex	train	word	sentiment	FALSE	lt	2190	23	lithuanian
+masakhane/masakhanews	train	text	label	FALSE	lug	771	23	luganda
+senti-lex/senti_lex	train	word	sentiment	FALSE	lb	224	23	luxembourgish
+senti-lex/senti_lex	train	word	sentiment	FALSE	mk	2965	23	macedonian
+indonlp/NusaX-senti	train	text	label	FALSE	mad	500	23	madurese
+AmazonScience/massive	train	annot_utt	scenario	FALSE	ms-MY	10000	23	malay
+tyqiangz/multilingual-sentiments	train	text	label	FALSE	malay	4687	23	malay
+ai4bharat/indic_glue	test	question	category	FALSE	csqa.ml	10000	23	malayalam
+ai4bharat/indic_glue	train	text	label	FALSE	inltkh.ml	5036	23	malayalam
+ai4bharat/indic_glue	train	sectionText	correctTitle	FALSE	wstp.ml	10000	23	malayalam
+Divyanshu/indicxnli	train	['premise', 'hypothesis']	label	FALSE	ml	10000	23	malayalam
+dravidianlangtech/hope_edi	train	text	label	FALSE	malayalam	8564	23	malayalam
+AmazonScience/massive	train	annot_utt	scenario	FALSE	ml-IN	10000	23	malayalam
+community-datasets/offenseval_dravidian	train	text	label	FALSE	malayalam	10000	23	malayalam
+senti-lex/senti_lex	train	word	sentiment	FALSE	mt	863	23	maltese
+ai4bharat/indic_glue	test	question	category	FALSE	csqa.mr	10000	23	marathi
+ai4bharat/indic_glue	train	text	label	FALSE	inltkh.mr	9672	23	marathi
+ai4bharat/indic_glue	train	['premise', 'hypothesis']	label	FALSE	wnli.mr	635	23	marathi
+ai4bharat/indic_glue	train	sectionText	correctTitle	FALSE	wstp.mr	10000	23	marathi
+Divyanshu/indicxnli	train	['premise', 'hypothesis']	label	FALSE	mr	10000	23	marathi
+senti-lex/senti_lex	train	word	sentiment	FALSE	mr	1825	23	marathi
+indonlp/NusaX-senti	train	text	label	FALSE	min	500	23	minangkabau
+AmazonScience/massive	train	annot_utt	scenario	FALSE	mn-MN	10000	23	mongolian
+nala-cub/americas_nli	test	['premise', 'hypothesis']	label	FALSE	nah	738	23	nahuatl
+indonlp/NusaX-senti	train	text	label	FALSE	nij	500	23	ngaju
+masakhane/masakhanews	train	text	label	FALSE	pcm	1060	23	nigerian
+HausaNLP/NaijaSenti-Twitter	train	tweet	label	FALSE	pcm	5121	23	nigerian
+shmuhammad/AfriSenti-twitter-sentiment	train	tweet	label	FALSE	pcm	5121	23	nigerian
+ejschwartz/oo-method-test	combined	Disassembly	Binary	FALSE	default	10000	23	none
+ejschwartz/oo-method-test-split	train	Disassembly	Type	FALSE	byfuncname	10000	23	none
+ejschwartz/oo-method-test-split	train	Disassembly	Type	FALSE	bylibrary	10000	23	none
+ejschwartz/oo-method-test-split	train	Disassembly	Type	FALSE	bylibrarydedup	7910	23	none
+ejschwartz/oo-method-test-split	train	Disassembly	Type	FALSE	bylibrarydedupall	1433	23	none
+ejschwartz/oo-method-test-split	train	Disassembly	Type	FALSE	byrow	10000	23	none
+ejschwartz/oo-method-test-split	combined	Disassembly	Type	FALSE	combined	10000	23	none
+jrahn/yolochess_deepblue	train	fen	result	FALSE	default	511	23	none
+jrahn/yolochess_lichess-elite_2211	train	fen	result	FALSE	default	10000	23	none
+Sangjeong/TestData2	train	localization	dx	FALSE	default	9577	23	none
+tasksource/mtop	train	logical_form	domain	FALSE	mtop	10000	23	none
+tasksource/multilingual-zero-shot-label-nli	train	['premise', 'hypothesis']	labels	FALSE	default	10000	23	none
+AmazonScience/massive	train	annot_utt	scenario	FALSE	nb-NO	10000	23	norwegian
+KBLab/overlim	train	passage	label	FALSE	boolq_nb	6285	23	norwegian
+KBLab/overlim	train	['premise', 'hypothesis']	label	FALSE	cb_nb	201	23	norwegian
+KBLab/overlim	train	premise	label	FALSE	copa_nb	321	23	norwegian
+KBLab/overlim	train	['premise', 'hypothesis']	label	FALSE	mnli_nb	10000	23	norwegian
+KBLab/overlim	train	text_a	label	FALSE	mrpc_nb	3261	23	norwegian
+KBLab/overlim	train	['premise', 'hypothesis']	label	FALSE	qnli_nb	10000	23	norwegian
+KBLab/overlim	train	text_b	label	FALSE	qqp_nb	10000	23	norwegian
+KBLab/overlim	train	['premise', 'hypothesis']	label	FALSE	rte_nb	2214	23	norwegian
+KBLab/overlim	train	text	label	FALSE	sst_nb	10000	23	norwegian
+KBLab/overlim	train	text_b	label	TRUE	stsb_nb	4312	23	norwegian
+KBLab/overlim	train	['premise', 'hypothesis']	label	FALSE	wnli_nb	565	23	norwegian
+ltg/norec	train	text	language	FALSE	default	10000	23	norwegian
+NbAiLab/norwegian_parliament	train	text	label	FALSE	default	3600	23	norwegian
+RuterNorway/OpenOrcaNo-15k	train	input	instruction	FALSE	default	10000	23	norwegian
+senti-lex/senti_lex	train	word	sentiment	FALSE	no	3089	23	norwegian
+tollefj/sts-concatenated-NOB	train	['sentence1', 'sentence2']	score	TRUE	default	2234	23	norwegian
+senti-lex/senti_lex	train	word	sentiment	FALSE	nn	1894	23	norwegian
+ai4bharat/indic_glue	test	question	category	FALSE	csqa.or	1975	23	oriya
+ai4bharat/indic_glue	train	sectionText	correctTitle	FALSE	wstp.or	4015	23	oriya
+Divyanshu/indicxnli	train	['premise', 'hypothesis']	label	FALSE	or	10000	23	oriya
+masakhane/masakhanews	train	text	label	FALSE	orm	1128	23	oromo
+nala-cub/americas_nli	test	['premise', 'hypothesis']	label	FALSE	oto	748	23	otomi
+ai4bharat/indic_glue	test	question	category	FALSE	csqa.pa	5667	23	panjabi
+ai4bharat/indic_glue	train	sectionText	correctTitle	FALSE	wstp.pa	8772	23	panjabi
+hezarai/sentiment-dksf	train	text	label	FALSE	default	10000	23	persian
+PNLPhub/FarsTail	train	['premise', 'hypothesis']	label	FALSE	FarsTail	7266	23	persian
+senti-lex/senti_lex	train	word	sentiment	FALSE	fa	2477	23	persian
+AmazonScience/massive	train	annot_utt	scenario	FALSE	pl-PL	10000	23	polish
+cartesinus/leyzer-fedcsis-translated	train	bio	domain	FALSE	all	10000	23	polish
+cartesinus/leyzer-fedcsis-translated	train	bio	domain	FALSE	pl-PL	10000	23	polish
+clarin-pl/polemo2	train	sentence	target	FALSE	in	5783	23	polish
+clarin-pl/polemo2-official	train	text	target	FALSE	all_sentence	10000	23	polish
+clarin-pl/polemo2-official	train	text	target	FALSE	all_text	6573	23	polish
+clarin-pl/polemo2-official	train	text	target	FALSE	hotels_sentence	10000	23	polish
+clarin-pl/polemo2-official	train	text	target	FALSE	hotels_text	3165	23	polish
+clarin-pl/polemo2-official	train	text	target	FALSE	medicine_sentence	10000	23	polish
+clarin-pl/polemo2-official	train	text	target	FALSE	medicine_text	2618	23	polish
+clarin-pl/polemo2-official	train	text	target	FALSE	products_sentence	5942	23	polish
+clarin-pl/polemo2-official	train	text	target	FALSE	products_text	387	23	polish
+clarin-pl/polemo2-official	train	text	target	FALSE	reviews_sentence	2025	23	polish
+clarin-pl/polemo2-official	train	text	target	FALSE	reviews_text	403	23	polish
+CLARIN-PL/wrbsc	train	['sentence1', 'sentence2']	relationship	FALSE	default	2827	23	polish
+djstrong/ppc	train	sentence_B	label	FALSE	default	5000	23	polish
+laugustyniak/abusive-clauses-pl	train	text	label	FALSE	abusive-clauses-pl	4284	23	polish
+legacy-datasets/allegro_reviews	train	text	rating	TRUE	default	9577	23	polish
+PhilipMay/stsb_multi_mt	train	['sentence1', 'sentence2']	similarity_score	TRUE	pl	5749	23	polish
+poleval/poleval2019_cyberbullying	train	text	label	FALSE	task01	10000	23	polish
+poleval/poleval2019_cyberbullying	train	text	label	FALSE	task02	10000	23	polish
+ptaszynski/cdt	train	sentence	target	FALSE	default	10000	23	polish
+sdadas/8tags	train	sentence	label	FALSE	default	10000	23	polish
+sdadas/ppc	train	sentence_B	label	FALSE	default	5000	23	polish
+senti-lex/senti_lex	train	word	sentiment	FALSE	pl	3533	23	polish
+dlb/plue	train	['premise', 'hypothesis']	label	FALSE	mnli	10000	23	portuguese
+dlb/plue	train	['premise', 'hypothesis']	label	FALSE	snli	10000	23	portuguese
+factckbr/factckbr	train	review	label	FALSE	default	1313	23	portuguese
+fake-news-UFG/FactChecksbr	train	review_text	is_fake	FALSE	central_de_fatos	10000	23	portuguese
+fake-news-UFG/FactChecksbr	train	review_id	is_fake	FALSE	fact_check_tweet_pt	656	23	portuguese
+fake-news-UFG/FactChecksbr	train	claim_text	is_fake	FALSE	fakebr	7200	23	portuguese
+fake-news-UFG/FactChecksbr	train	review_id	is_fake	FALSE	FakeNewsSet	598	23	portuguese
+fake-news-UFG/FactChecksbr	train	review_text	is_fake	FALSE	FakeRecogna	10000	23	portuguese
+fake-news-UFG/fakebr	train	text	label	FALSE	full_texts	7200	23	portuguese
+fake-news-UFG/fakebr	train	text	label	FALSE	size_normalized_texts	7200	23	portuguese
+fake-news-UFG/FakeNewsSet	train	title	label	FALSE	default	600	23	portuguese
+hate-speech-portuguese/hate_speech_portuguese	train	text	label	FALSE	default	5670	23	portuguese
+AmazonScience/massive	train	annot_utt	scenario	FALSE	pt-PT	10000	23	portuguese
+cardiffnlp/tweet_sentiment_multilingual	train	text	label	FALSE	portuguese	1839	23	portuguese
+JAugusto97/told-br	train	text	homophobia	FALSE	multilabel	10000	23	portuguese
+luist18/ptparl	train	text	wing	FALSE	full	5713	23	portuguese
+MilaNLProc/honest	honest	template_masked	number	FALSE	pt_binary	840	23	portuguese
+nilc-nlp/assin	train	['premise', 'hypothesis']	entailment_judgment	FALSE	ptbr	2500	23	portuguese
+nilc-nlp/assin	train	['premise', 'hypothesis']	entailment_judgment	FALSE	ptpt	2500	23	portuguese
+nilc-nlp/assin2	train	['premise', 'hypothesis']	entailment_judgment	FALSE	default	6500	23	portuguese
+PhilipMay/stsb_multi_mt	train	['sentence1', 'sentence2']	similarity_score	TRUE	pt	5749	23	portuguese
+senti-lex/senti_lex	train	word	sentiment	FALSE	pt	3953	23	portuguese
+shmuhammad/AfriSenti-twitter-sentiment	train	tweet	label	FALSE	por	3063	23	portuguese
+tyqiangz/multilingual-sentiments	train	text	label	FALSE	portuguese	1839	23	portuguese
+vpmoreira/offcombr	train	text	label	FALSE	offcombr-2	1250	23	portuguese
+vpmoreira/offcombr	train	text	label	FALSE	offcombr-3	1033	23	portuguese
+nala-cub/americas_nli	test	['premise', 'hypothesis']	label	FALSE	quy	750	23	quechua
+nala-cub/americas_nli	test	['premise', 'hypothesis']	label	FALSE	tar	750	23	raramuri
+AmazonScience/massive	train	annot_utt	scenario	FALSE	ro-RO	10000	23	romanian
+dumitrescustefan/ro_sent	train	sentence	label	FALSE	default	10000	23	romanian
+dumitrescustefan/ro_sts	train	['sentence1', 'sentence2']	score	TRUE	ro_sts	5749	23	romanian
+MilaNLProc/honest	honest	template_masked	number	FALSE	ro_binary	840	23	romanian
+senti-lex/senti_lex	train	word	sentiment	FALSE	ro	3329	23	romanian
+universityofbucharest/moroco	train	sample	category	FALSE	moroco	10000	23	romanian
+senti-lex/senti_lex	train	word	sentiment	FALSE	rm	116	23	romansh
+masakhane/masakhanews	train	text	label	FALSE	run	1117	23	rundi
+AmazonScience/massive	train	annot_utt	scenario	FALSE	ru-RU	10000	23	russian
+Aniemore/cedr-m7	train	text	source	FALSE	default	7528	23	russian
+cointegrated/nli-rus-translated-v2021	train	['premise', 'hypothesis']	label	FALSE	default	10000	23	russian
+d0rj/conv_ai_3_ru	train	topic_desc	initial_request	FALSE	default	9176	23	russian
+d0rj/OpenOrca-ru	train	question	system_prompt	FALSE	default	10000	23	russian
+d0rj/rudetoxifier_data	train	text	toxic	TRUE	default	10000	23	russian
+PhilipMay/stsb_multi_mt	train	['sentence1', 'sentence2']	similarity_score	TRUE	ru	5749	23	russian
+reciTAL/mlsum	train	text	topic	FALSE	ru	10000	23	russian
+RussianNLP/rucola	train	sentence	label	FALSE	default	7869	23	russian
+RussianNLP/russian_super_glue	train	passage	label	FALSE	danetqa	1749	23	russian
+RussianNLP/russian_super_glue	test	['sentence1', 'sentence2']	label	FALSE	lidirus	1104	23	russian
+RussianNLP/russian_super_glue	train	paragraph	label	FALSE	muserc	10000	23	russian
+RussianNLP/russian_super_glue	train	premise	label	FALSE	parus	400	23	russian
+RussianNLP/russian_super_glue	train	['premise', 'hypothesis']	label	FALSE	rcb	438	23	russian
+RussianNLP/russian_super_glue	train	['sentence1', 'sentence2']	label	FALSE	russe	10000	23	russian
+RussianNLP/russian_super_glue	train	text	label	FALSE	rwsd	606	23	russian
+RussianNLP/russian_super_glue	train	['premise', 'hypothesis']	label	FALSE	terra	2616	23	russian
+RussianNLP/tape	train	question	author	FALSE	chegeka.episodes	49	23	russian
+RussianNLP/tape	train	text	per_virtue	FALSE	per_ethics.episodes	58	23	russian
+RussianNLP/tape	train	text	per_virtue	FALSE	per_ethics.raw	259	23	russian
+RussianNLP/tape	train	question	answer	FALSE	ru_openbook.episodes	48	23	russian
+RussianNLP/tape	train	question	answer	FALSE	ru_openbook.raw	2339	23	russian
+RussianNLP/tape	train	question	school_grade	FALSE	ru_worldtree.episodes	47	23	russian
+RussianNLP/tape	train	question	school_grade	FALSE	ru_worldtree.raw	118	23	russian
+RussianNLP/tape	train	text	sit_virtue	FALSE	sit_ethics.episodes	59	23	russian
+RussianNLP/tape	train	text	sit_virtue	FALSE	sit_ethics.raw	254	23	russian
+RussianNLP/tape	train	text	label	FALSE	winograd.episodes	59	23	russian
+RussianNLP/tape	train	text	label	FALSE	winograd.raw	804	23	russian
+sagteam/author_profiling	train	text	gender	FALSE	main	9564	23	russian
+sagteam/cedr_v1	train	text	source	FALSE	enriched	7528	23	russian
+sagteam/cedr_v1	train	text	source	FALSE	main	7528	23	russian
+senti-lex/senti_lex	train	word	sentiment	FALSE	ru	2914	23	russian
+SIA86/TechnicalSupportCalls	train	text	label	FALSE	default	921	23	russian
+senti-lex/senti_lex	train	word	sentiment	FALSE	sr	2034	23	serbian
+nala-cub/americas_nli	test	['premise', 'hypothesis']	label	FALSE	shp	750	23	shipibo-konibo
+senti-lex/senti_lex	train	word	sentiment	FALSE	sk	2428	23	slovak
+AmazonScience/massive	train	annot_utt	scenario	FALSE	sl-SL	10000	23	slovanian
+cjvt/sentinews	train	content	sentiment	FALSE	document_level	10000	23	slovanian
+cjvt/sentinews	train	content	sentiment	FALSE	paragraph_level	10000	23	slovanian
+cjvt/sentinews	train	content	sentiment	FALSE	sentence_level	10000	23	slovanian
+cjvt/si_nli	train	['premise', 'hypothesis']	label	FALSE	public	4392	23	slovanian
+cjvt/sloie	train	sentence	expression	FALSE	default	10000	23	slovanian
+classla/FRENK-hate-sl	train	text	label	FALSE	binary	7189	23	slovanian
+classla/FRENK-hate-sl	train	text	label	FALSE	multiclass	7189	23	slovanian
+senti-lex/senti_lex	train	word	sentiment	FALSE	sl	2244	23	slovanian
+masakhane/masakhanews	train	text	label	FALSE	som	1021	23	somali
+AmazonScience/massive	train	annot_utt	scenario	FALSE	es-ES	10000	23	spanish
+cardiffnlp/tweet_sentiment_multilingual	train	text	label	FALSE	spanish	1839	23	spanish
+community-datasets/catalonia_independence	train	TWEET	LABEL	FALSE	spanish	6046	23	spanish
+Genius1237/TyDiP	test	text	labels	FALSE	es	250	23	spanish
+glombardo/misogynistic-statements-classification	train	text	label	FALSE	default	127	23	spanish
+google-research-datasets/paws-x	train	['sentence1', 'sentence2']	label	FALSE	es	10000	23	spanish
+google/xtreme	train	['sentence1', 'sentence2']	label	FALSE	PAWS-X.es	10000	23	spanish
+MilaNLProc/honest	honest	template_masked	number	FALSE	es_binary	810	23	spanish
+mrm8488/CHISTES_spanish_jokes	train	text	category	FALSE	default	2419	23	spanish
+mrm8488/sst2-es-mt	train	sentence	label	TRUE	default	10000	23	spanish
+PhilipMay/stsb_multi_mt	train	['sentence1', 'sentence2']	similarity_score	TRUE	es	5749	23	spanish
+piuba-bigdata/contextualized_hate_speech	train	text	HATEFUL	FALSE	default	10000	23	spanish
+PlanTL-GOB-ES/sts-es	train	['sentence1', 'sentence2']	label	TRUE	STS	1320	23	spanish
+senti-lex/senti_lex	train	word	sentiment	FALSE	es	4275	23	spanish
+somosnlp-hackathon-2023/DiagTrast	train	Sintoma	Padecimiento	FALSE	default	1333	23	spanish
+somosnlp-hackathon-2023/informes_discriminacion_gitana	train	text	sintetico	FALSE	default	1791	23	spanish
+symanto/autextification2023	train	text	label	FALSE	attribution_es	10000	23	spanish
+tyqiangz/multilingual-sentiments	train	text	label	FALSE	spanish	1839	23	spanish
+indonlp/NusaX-senti	train	text	label	FALSE	sun	500	23	sundanese
+AmazonScience/massive	train	annot_utt	scenario	FALSE	sw-KE	10000	23	swahili
+community-datasets/swahili_news	train	text	label	FALSE	swahili_news	10000	23	swahili
+senti-lex/senti_lex	train	word	sentiment	FALSE	sw	1314	23	swahili
+shmuhammad/AfriSenti-twitter-sentiment	train	tweet	label	FALSE	swa	1810	23	swahili
+AI-Sweden/SuperLim	train	original_sentence	approximate_level	FALSE	dalaj	3841	23	swedish
+AI-Sweden/SuperLim	test	a	relation	FALSE	sweana	10000	23	swedish
+AI-Sweden/SuperLim	test	['premise', 'hypothesis']	label	FALSE	swediag	1104	23	swedish
+AI-Sweden/SuperLim	test	sentence_2	similarity_score	FALSE	swepar	165	23	swedish
+AI-Sweden/SuperLim	test	word_1	relatedness	FALSE	swesim_relatedness	1360	23	swedish
+AI-Sweden/SuperLim	test	word_1	similarity	FALSE	swesim_similarity	1360	23	swedish
+AI-Sweden/SuperLim	test	sentence_1	same_sense	FALSE	swewic	1000	23	swedish
+AI-Sweden/SuperLim	test	passage	label	FALSE	swewsc	275	23	swedish
+AmazonScience/massive	train	annot_utt	scenario	FALSE	sv-SE	10000	23	swedish
+KBLab/overlim	train	passage	label	FALSE	boolq_sv	6285	23	swedish
+KBLab/overlim	train	['premise', 'hypothesis']	label	FALSE	cb_sv	201	23	swedish
+KBLab/overlim	train	premise	label	FALSE	copa_sv	321	23	swedish
+KBLab/overlim	train	['premise', 'hypothesis']	label	FALSE	mnli_sv	10000	23	swedish
+KBLab/overlim	train	text_a	label	FALSE	mrpc_sv	3261	23	swedish
+KBLab/overlim	train	text_b	label	FALSE	qqp_sv	10000	23	swedish
+KBLab/overlim	train	text	label	FALSE	sst_sv	10000	23	swedish
+KBLab/overlim	train	text_b	label	TRUE	stsb_sv	4312	23	swedish
+KBLab/overlim	train	['premise', 'hypothesis']	label	FALSE	wnli_sv	565	23	swedish
+sbx/superlim-2	train	text	label	TRUE	absabank-imm	3898	23	swedish
+sbx/superlim-2	train	sentence	label	FALSE	argumentation_sent	3450	23	swedish
+sbx/superlim-2	train	sentence	label	FALSE	dalaj-ged	10000	23	swedish
+sbx/superlim-2	train	pair1_element2	label	FALSE	sweana	2045	23	swedish
+sbx/superlim-2	test	['premise', 'hypothesis']	label	FALSE	swediagnostics	1104	23	swedish
+sbx/superlim-2	train	article	article_category	FALSE	swedn	10000	23	swedish
+sbx/superlim-2	train	['premise', 'hypothesis']	label	FALSE	swenli	10000	23	swedish
+sbx/superlim-2	train	sentence_2	label	TRUE	swepar	5715	23	swedish
+sbx/superlim-2	train	item	label	FALSE	swesat	83	23	swedish
+sbx/superlim-2	train	word_1	label	TRUE	swesim_relatedness	131	23	swedish
+sbx/superlim-2	train	word_1	label	TRUE	swesim_similarity	131	23	swedish
+sbx/superlim-2	test	['premise', 'hypothesis']	label	FALSE	swewinogender	624	23	swedish
+senti-lex/senti_lex	train	word	sentiment	FALSE	sv	3722	23	swedish
+timpal0l/stsb_mt_sv	train	['sentence1', 'sentence2']	score	TRUE	plain_text	5749	23	swedish
+timpal0l/swedish_reviews	train	text	label	FALSE	plain_text	10000	23	swedish
+AmazonScience/massive	train	annot_utt	scenario	FALSE	tl-PH	10000	23	tagalog
+jcblaise/fake_news_filipino	train	article	label	FALSE	default	3206	23	tagalog
+jcblaise/newsph_nli	train	['premise', 'hypothesis']	label	FALSE	default	10000	23	tagalog
+scaredmeow/shopee-reviews-tl-binary	train	text	label	FALSE	default	10000	23	tagalog
+scaredmeow/shopee-reviews-tl-stars	train	text	label	FALSE	default	10000	23	tagalog
+senti-lex/senti_lex	train	word	sentiment	FALSE	tl	1858	23	tagalog
+ai4bharat/indic_glue	test	question	category	FALSE	csqa.ta	10000	23	tamil
+ai4bharat/indic_glue	train	text	label	FALSE	inltkh.ta	5346	23	tamil
+ai4bharat/indic_glue	train	sectionText	correctTitle	FALSE	wstp.ta	10000	23	tamil
+AmazonScience/massive	train	annot_utt	scenario	FALSE	ta-IN	10000	23	tamil
+community-datasets/tamilmixsentiment	train	text	label	FALSE	default	10000	23	tamil
+Divyanshu/indicxnli	train	['premise', 'hypothesis']	label	FALSE	ta	10000	23	tamil
+dravidianlangtech/hope_edi	train	text	label	FALSE	tamil	10000	23	tamil
+Genius1237/TyDiP	test	text	labels	FALSE	ta	250	23	tamil
+senti-lex/senti_lex	train	word	sentiment	FALSE	ta	2057	23	tamil
+ai4bharat/indic_glue	train	text	label	FALSE	actsa-sc.te	4328	23	telegu
+ai4bharat/indic_glue	test	question	category	FALSE	csqa.te	10000	23	telegu
+ai4bharat/indic_glue	train	text	label	FALSE	inltkh.te	4328	23	telegu
+ai4bharat/indic_glue	train	sectionText	correctTitle	FALSE	wstp.te	10000	23	telegu
+AmazonScience/massive	train	annot_utt	scenario	FALSE	te-IN	10000	23	telegu
+Divyanshu/indicxnli	train	['premise', 'hypothesis']	label	FALSE	te	10000	23	telegu
+senti-lex/senti_lex	train	word	sentiment	FALSE	te	2523	23	telegu
+Noxturnix/blognone-20230430	train	content	author	FALSE	default	10000	23	thai
+pythainlp/wisesight_sentiment	train	texts	category	FALSE	wisesight_sentiment	10000	23	thai
+senti-lex/senti_lex	train	word	sentiment	FALSE	th	1279	23	thai
+tmu-nlp/thai_toxicity_tweet	train	tweet_text	is_toxic	FALSE	thai_toxicity_tweet	3300	23	thai
+masakhane/masakhanews	train	text	label	FALSE	tir	947	23	tigrinya
+indonlp/NusaX-senti	train	text	label	FALSE	bbc	500	23	toba batak
+fbougares/tsac	train	sentence	target	FALSE	default	10000	23	tunisian arabic
+akuysal/turkishSMS-ds	train	text	label	FALSE	default	765	23	turkish
+boun-tabi/nli_tr	train	['premise', 'hypothesis']	label	FALSE	multinli_tr	10000	23	turkish
+boun-tabi/nli_tr	train	['premise', 'hypothesis']	label	FALSE	snli_tr	10000	23	turkish
+coltekin/offenseval2020_tr	train	tweet	subtask_a	FALSE	offenseval2020-turkish	10000	23	turkish
+fthbrmnby/turkish_product_reviews	train	sentence	sentiment	FALSE	default	10000	23	turkish
+joelniklaus/lextreme	train	input	label	FALSE	turkish_constitutional_court_decisions_judgment	902	23	turkish
+reciTAL/mlsum	train	text	date	FALSE	tu	10000	23	turkish
+savasy/ttc4900	train	text	category	FALSE	ttc4900	4900	23	turkish
+senti-lex/senti_lex	train	word	sentiment	FALSE	tr	2500	23	turkish
+strombergnlp/offenseval_2020	train	text	subtask_a	FALSE	tr	10000	23	turkish
+senti-lex/senti_lex	train	word	sentiment	FALSE	tk	78	23	turkish
+shmuhammad/AfriSenti-twitter-sentiment	train	tweet	label	FALSE	twi	3481	23	twi
+senti-lex/senti_lex	train	word	sentiment	FALSE	uk	2827	23	ukrainian
+slava-medvedev/zelensky-speeches	train	full_text	lang	FALSE	default	2044	23	ukrainian, english
+AhmadMustafa/Urdu-Instruct-News-Category-Classification	train	inputs	targets	FALSE	default	10000	23	urdu
+AmazonScience/massive	train	annot_utt	scenario	FALSE	ur-PK	10000	23	urdu
+community-datasets/roman_urdu	train	sentence	sentiment	FALSE	default	10000	23	urdu
+community-datasets/roman_urdu_hate_speech	train	tweet	label	FALSE	Fine_Grained	7208	23	urdu
+mirfan899/imdb_urdu_reviews	train	sentence	sentiment	FALSE	default	10000	23	urdu
+senti-lex/senti_lex	train	word	sentiment	FALSE	ur	1347	23	urdu
+Divyanshu/indicxnli	train	['premise', 'hypothesis']	label	FALSE	pa	10000	23	punjabi
+murodbek/uz-text-classification	train	text	label	FALSE	default	10000	23	uzbek
+senti-lex/senti_lex	train	word	sentiment	FALSE	uz	111	23	uzbek
+AmazonScience/massive	train	annot_utt	scenario	FALSE	vi-VN	10000	23	vietnamese
+Genius1237/TyDiP	test	text	labels	FALSE	vi	250	23	vietnamese
+senti-lex/senti_lex	train	word	sentiment	FALSE	vi	1016	23	vietnamese
+uitnlp/vietnamese_students_feedback	train	sentence	sentiment	FALSE	default	10000	23	vietnamese
+senti-lex/senti_lex	train	word	sentiment	FALSE	vo	43	23	volapuk
+AmazonScience/massive	train	annot_utt	scenario	FALSE	cy-GB	10000	23	welsh
+senti-lex/senti_lex	train	word	sentiment	FALSE	cy	1647	23	welsh
+nala-cub/americas_nli	test	['premise', 'hypothesis']	label	FALSE	hch	750	23	wixarika
+shmuhammad/AfriSenti-twitter-sentiment	train	tweet	label	FALSE	tso	804	23	xithonga
+senti-lex/senti_lex	train	word	sentiment	FALSE	yi	395	23	yiddish
+HausaNLP/NaijaSenti-Twitter	train	tweet	label	FALSE	yor	8522	23	yoruba
+shmuhammad/AfriSenti-twitter-sentiment	train	tweet	label	FALSE	yor	8522	23	yoruba
+UdS-LSV/yoruba_bbc_topics	train	news_title	label	FALSE	default	1340	23	yoruba
+masakhane/masakhanews	train	text	label	FALSE	yor	1433	23	yoruba

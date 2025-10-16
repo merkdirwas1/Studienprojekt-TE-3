@@ -1,0 +1,1397 @@
+Task ID,Task Subset,Text Column,Label Column,Task Split,Num Examples,ESM Architecture,Score
+DBQ/Blickers.Product.prices.United.Kingdom,default,category3_code,category1_code,train,10000,linear,332.3220168487966
+DBQ/Blickers.Product.prices.Italy,default,category3_code,category1_code,train,10000,linear,312.83445323427947
+google-research-datasets/go_emotions,raw,text,created_utc,train,10000,linear,310.2296615062736
+seara/ru_go_emotions,raw,text,created_utc,train,10000,linear,310.17140142388007
+tabilab/biosses,default,"['sentence1', 'sentence2']",score,train,100,linear,303.30859594434327
+KBLab/overlim,cb_sv,"['premise', 'hypothesis']",label,train,201,linear,299.48726093163805
+KBLab/overlim,cb_nb,"['premise', 'hypothesis']",label,train,201,linear,295.22529414628076
+ade-benchmark-corpus/ade_corpus_v2,Ade_corpus_v2_classification,text,label,train,10000,linear,293.5675890300354
+sileod/pragmeval,persuasiveness-eloquence,"['sentence1', 'sentence2']",label,train,725,linear,293.48705554840683
+DBQ/Blickers.Product.prices.France,default,category3_code,category1_code,train,7489,linear,292.2343940879827
+cardiffnlp/tweet_eval,stance_climate,text,label,train,355,linear,290.95228225034555
+RussianNLP/russian_super_glue,rcb,"['premise', 'hypothesis']",label,train,438,linear,290.1501618413536
+ScandEval/swerec-mini,default,text,label,train,1024,linear,288.6633357188296
+kuroneko5943/weibo16,sex,sentence,label,train,414,linear,286.6865123547153
+ought/raft,terms_of_service,Sentence,Label,train,50,linear,284.6125378650827
+Efstathios/guardian_authorship,cross_topic_4,article,topic,train,62,linear,284.1756906372747
+Efstathios/guardian_authorship,cross_topic_5,article,topic,train,62,linear,284.1612147708274
+Efstathios/guardian_authorship,cross_topic_6,article,topic,train,62,linear,284.0266724439467
+DBQ/Loro.Piana.Product.prices.China,default,category2_code,category1_code,train,817,linear,283.0742487620901
+almanach/hc3_french_ood,qa_fr_binggpt,answer,label,test,106,linear,282.8086933514202
+Efstathios/guardian_authorship,cross_topic_7,article,topic,train,90,linear,282.3148800613932
+qanastek/Biosses-BLUE,biosses,"['sentence1', 'sentence2']",score,train,64,linear,282.1458757645888
+Efstathios/guardian_authorship,cross_topic_8,article,topic,train,90,linear,282.03295578104337
+PlanTL-GOB-ES/sts-es,STS,"['sentence1', 'sentence2']",label,train,1320,linear,281.73482195756594
+PhilipMay/stsb_multi_mt,nl,"['sentence1', 'sentence2']",similarity_score,train,5749,linear,280.74400550550234
+PhilipMay/stsb_multi_mt,de,"['sentence1', 'sentence2']",similarity_score,train,5749,linear,280.0983693834281
+PhilipMay/stsb_multi_mt,es,"['sentence1', 'sentence2']",similarity_score,train,5749,linear,279.2452138718222
+GePaSud/TROPICAL,original_dataset,id_comment,general_polarity,train,1114,linear,278.8342766195153
+Efstathios/guardian_authorship,cross_genre_3,article,topic,train,63,linear,278.48427859755503
+Efstathios/guardian_authorship,cross_genre_2,article,topic,train,63,linear,278.44714503712726
+Efstathios/guardian_authorship,cross_genre_1,article,topic,train,63,linear,278.26417190680155
+biglam/contentious_contexts,default,text,target,train,2720,linear,278.2401488915335
+matthewfranglen/aste-v2,2015-restaurant-aste-v2,text,sentiment,train,1013,linear,278.12339896814893
+fake-news-UFG/FakeNewsSet,default,title,label,train,600,linear,278.1171947208609
+PhilipMay/stsb_multi_mt,pt,"['sentence1', 'sentence2']",similarity_score,train,5749,linear,278.0446388765812
+Areeb123/drug_reviews,default,review,rating,train,10000,linear,277.9684211857974
+TheBritishLibrary/blbooksgenre,annotated_raw,Title,Type of resource,train,4398,linear,277.2287127365577
+dumitrescustefan/ro_sts,ro_sts,"['sentence1', 'sentence2']",score,train,5749,linear,277.1680472585947
+almanach/hc3_french_ood,hc3_en_full,text,label,train,10000,linear,277.10296344121684
+almanach/hc3_french_ood,hc3_en_qa,answer,label,train,10000,linear,276.999727389201
+mohammadjavadpirhadi/fake-news-detection-dataset-english,default,text,label,train,10000,linear,276.8637878515104
+matthewfranglen/aste-v2,2015-restaurant-sem-eval,text,sentiment,train,1013,linear,276.1794421153863
+KBLab/overlim,cb_da,"['premise', 'hypothesis']",label,train,201,linear,276.16067199547354
+ought/raft,neurips_impact_statement_risks,Impact statement,Label,train,50,linear,274.8521013472671
+RussianNLP/tape,sit_ethics.episodes,text,sit_virtue,train,59,linear,274.5455845903247
+claritylab/utcd,in-domain,text,aspect,train,10000,linear,274.31963242986546
+matthewfranglen/aste-v2,2014-laptop-aste-v2,text,sentiment,train,1450,linear,273.3860496789603
+claritylab/utcd,out-of-domain,text,aspect,train,10000,linear,272.3919563293131
+GePaSud/TROPICAL,overlapping_subset,id_comment,general_polarity,train,787,linear,271.4511219231877
+fthbrmnby/turkish_product_reviews,default,sentence,sentiment,train,10000,linear,271.42779778394015
+sileod/pragmeval,persuasiveness-claimtype,"['sentence1', 'sentence2']",label,train,160,linear,271.3720056848878
+masakhane/masakhanews,lug,text,label,train,771,linear,271.30374188332286
+slava-medvedev/zelensky-speeches,default,full_text,lang,train,2044,linear,271.2672613402156
+RussianNLP/tape,winograd.episodes,text,label,train,59,linear,271.0990575803279
+allenai/swag,full,startphrase,gold-type,train,10000,linear,270.57224486685493
+ltg/norec,default,text,language,train,10000,linear,270.5028975555801
+DBQ/Bottega.Veneta.Product.prices.Italy,default,Portachiavi Intreccio con gancio a goccia,N.A..1,train,4394,linear,270.26021155137477
+webis/Touche23-ValueEval,nahjalbalagha-meta,Premise English,Stance Farsi,meta,1326,linear,270.0255898874682
+SkAndMl/CPTDS-3,default,question,label,train,3012,linear,269.9139956464256
+bgglue/bgglue,ct21t1,tweet_text,labels,train,3000,linear,269.70284426712357
+cardiffnlp/tweet_eval,stance_atheism,text,label,train,461,linear,269.6909312674801
+climatebert/tcfd_recommendations,default,text,label,train,1300,linear,269.3879635179513
+classla/FRENK-hate-en,binary,text,label,train,8404,linear,269.35722466094205
+rexarski/climate_fever_fixed,default,evidence,label,train,4298,linear,269.19428248780684
+MilaNLProc/honest,fr_binary,template_masked,number,honest,810,linear,269.1436824475518
+sealuzh/app_reviews,default,review,package_name,train,10000,linear,268.3919678651643
+tollefj/sts-concatenated-NOB,default,"['sentence1', 'sentence2']",score,train,2234,linear,267.7030832484211
+ought/raft,systematic_review_inclusion,Abstract,Label,train,50,linear,267.5316052673825
+ought/raft,tai_safety_research,Abstract Note,Label,train,50,linear,267.5181069094342
+sbx/superlim-2,swewinogender,"['premise', 'hypothesis']",label,test,624,linear,266.9994758330533
+fake-news-UFG/FactChecksbr,FakeNewsSet,review_id,is_fake,train,598,linear,266.71245456434593
+tasksource/crowdflower,political-media-audience,text,label,train,4999,linear,266.48224682881806
+kuroneko5943/snap21,Industrial_and_Scientific_5,sentence,label,train,6932,linear,265.82174882816946
+hpprc/jsick,base,"['premise', 'hypothesis']",label,train,4500,linear,265.786170048277
+tasksource/zero-shot-label-nli,default,"['premise', 'hypothesis']",labels,train,10000,linear,265.2350325610618
+RussianNLP/tape,sit_ethics.raw,text,sit_virtue,train,254,linear,265.11078444914085
+matthewfranglen/aste-v2,2014-restaurant-sem-eval,text,sentiment,train,2335,linear,264.8431178471621
+DBQ/Bottega.Veneta.Product.prices.United.States,default,title,category2_code,train,4469,linear,264.5882494981011
+kuroneko5943/snap21,Digital_Music_5,sentence,label,train,7002,linear,264.5278257708345
+indonlp/NusaX-senti,bug,text,label,train,500,linear,264.40457697220995
+fake-news-UFG/FactChecksbr,FakeRecogna,review_text,is_fake,train,10000,linear,264.40290452366196
+webis/Touche23-ValueEval,nahjalbalagha,Premise,Stance,test,279,linear,264.24679964629917
+webis/Touche23-ValueEval,nahjalbalagha-level1,Premise,Stance,test,279,linear,264.1688633041736
+kuroneko5943/snap21,CDs_and_Vinyl_5,sentence,label,train,6974,linear,264.0964627070633
+TheBritishLibrary/blbooksgenre,raw,Title,Type of resource,train,10000,linear,263.85378347254857
+hpprc/jsick,stress,"['premise', 'hypothesis']",label,test,900,linear,263.79084656691543
+georgesung/OpenOrca_35k,default,question,system_prompt,train,10000,linear,263.2359596481362
+Isotonic/SlimOrca,default,question,system_prompt,train,10000,linear,263.0380052645523
+ohidaoui/darija-reviews,default,review,label,test,851,linear,262.9852088493682
+GePaSud/TROPICAL,no_overlapping_subset,id_comment,general_polarity,train,326,linear,262.81383894219266
+dravidianlangtech/hope_edi,english,text,label,train,10000,linear,262.7908642842548
+jpcorb20/multidogo,default,slot-labels,intent,train,10000,linear,262.5460369039181
+takala/financial_phrasebank,sentences_75agree,sentence,label,train,3453,linear,262.45677257515007
+tasksource/multilingual-zero-shot-label-nli,default,"['premise', 'hypothesis']",labels,train,10000,linear,262.1492162698322
+DBQ/Prada.Product.prices.Hong.Kong,default,title,brand,train,1692,linear,262.0782971962475
+allenai/art,anli,observation_2,label,train,10000,linear,261.952847280139
+vadis/sv-ident,default,sentence,is_variable,train,3823,linear,261.5002277749187
+climatebert/climate_specificity,default,text,label,train,1000,linear,261.3591791384787
+RuterNorway/OpenOrcaNo-15k,default,input,instruction,train,10000,linear,261.28342085019847
+aarnow/auditory-skills-test2,default,text,label,train,275,linear,261.06950029973297
+JAugusto97/told-br,multilabel,text,homophobia,train,10000,linear,260.9000178550022
+kuroneko5943/snap21,Office_Products_5,sentence,label,train,7025,linear,260.44390551805225
+Open-Orca/OpenOrca,default,question,system_prompt,train,10000,linear,260.30551548142535
+ai4bharat/indic_glue,wnli.gu,"['premise', 'hypothesis']",label,train,635,linear,260.30118816588225
+joelniklaus/lextreme,greek_legal_code_subject,input,label,train,10000,linear,260.282252440502
+metaeval/ethics,virtue,"['sentence1', 'sentence2']",label,train,10000,linear,260.2125233512502
+OFAI/omp,posts_unlabeled,Body,Status,train,10000,linear,260.19312030029647
+masakhane/masakhanews,amh,text,label,train,1311,linear,260.1859029593195
+AI-team-UoA/greek_legal_code,subject,text,label,train,10000,linear,260.13343287098587
+ai4bharat/indic_glue,wnli.mr,"['premise', 'hypothesis']",label,train,635,linear,260.09516000045323
+davebulaval/CSMD,meaning_with_data_augmentation,simplification,label,train,2560,linear,259.67655268248734
+evaluate/glue-ci,rte,"['sentence1', 'sentence2']",label,train,2490,linear,259.6756011344359
+community-datasets/covid_tweets_japanese,default,tweet_id,assessment_option_id,train,10000,linear,259.65682229842815
+nyu-mll/glue,rte,"['sentence1', 'sentence2']",label,train,2490,linear,259.58370957165334
+fake-news-UFG/FactChecksbr,central_de_fatos,review_text,is_fake,train,10000,linear,259.5344383679134
+DBQ/Bottega.Veneta.Product.prices.Australia,default,title,category1_code,train,4461,linear,259.4422586391578
+chrisvoncsefalvay/vaers-outcomes,default,text,label,train,10000,linear,259.18991897998575
+ai4bharat/indic_glue,wnli.hi,"['premise', 'hypothesis']",label,train,635,linear,258.63227851332545
+maveriq/bigbenchhard,movie_recommendation,input,target,train,250,linear,258.4922044300206
+SKT27182/Preprocessed_OpenOrca,default,question,system_prompt,train,10000,linear,258.47267974000033
+PhilipMay/stsb_multi_mt,pl,"['sentence1', 'sentence2']",similarity_score,train,5749,linear,258.4697602385389
+yys/OpenOrca-Chinese,default,question,system_prompt,train,10000,linear,258.24068896938866
+DBQ/Prada.Product.prices.Austria,default,title,brand,train,2545,linear,258.13161385181996
+joelniklaus/lextreme,brazilian_court_decisions_unanimity,input,label,train,1715,linear,257.85236532802315
+AmazonScience/massive,am-ET,annot_utt,scenario,train,10000,linear,257.7355904622894
+winddude/finacial_pharsebank_66agree_split,default,sentence,label,train,3795,linear,257.5033425811803
+poleval/poleval2019_cyberbullying,task02,text,label,train,10000,linear,257.4089800770471
+tasksource/crowdflower,economic-news,text,label,train,7606,linear,257.24345993009587
+kuroneko5943/snap21,Musical_Instruments_5,sentence,label,train,7043,linear,257.23142545098483
+ucirvine/sms_spam,plain_text,sms,label,train,5574,linear,257.1369554231967
+sileod/pragmeval,verifiability,sentence,label,train,5712,linear,257.12886514793644
+kuroneko5943/snap21,Tools_and_Home_Improvement_5,sentence,label,train,6997,linear,257.01963120855396
+RussianNLP/tape,ru_openbook.episodes,question,answer,train,48,linear,256.90458102453374
+indonlp/NusaX-senti,ace,text,label,train,500,linear,256.8917014105833
+eusip/silicone,dyda_e,Utterance,Label,train,10000,linear,256.84328341328234
+poleval/poleval2019_cyberbullying,task01,text,label,train,10000,linear,256.5823619864278
+ucberkeley-dlab/measuring-hate-speech,default,text,annotator_trans,train,10000,linear,256.568039069866
+ptaszynski/cdt,default,sentence,target,train,10000,linear,256.5371579559737
+aav-ds/Israel-HAMAS_war_news,default,text,provider,train,10000,linear,256.48582016613534
+kuroneko5943/weibo16,HM,sentence,label,train,832,linear,256.3838286285211
+lchakkei/OpenOrca-Traditional-Chinese,default,question,system_prompt,train,10000,linear,256.06050882707234
+reciTAL/mlsum,fr,text,date,train,10000,linear,256.030675128133
+fake-news-UFG/FactChecksbr,fact_check_tweet_pt,review_id,is_fake,train,656,linear,255.93777666989445
+MLNTeam-Unical/NFT-70M_transactions,default,tx_timestamp,asset_contract_type,train,10000,linear,255.6874672366523
+iabufarha/ar_sarcasm,default,tweet,sarcasm,train,8437,linear,255.67912356184962
+community-datasets/offenseval_dravidian,malayalam,text,label,train,10000,linear,255.36523619668696
+Noxturnix/blognone-20230430,default,content,author,train,10000,linear,255.14119140885785
+somosnlp-hackathon-2023/informes_discriminacion_gitana,default,text,sintetico,train,1791,linear,255.12758037505623
+d0rj/OpenOrca-ru,default,question,system_prompt,train,10000,linear,255.02659699566166
+takala/financial_phrasebank,sentences_66agree,sentence,label,train,4217,linear,255.0235368817343
+tweets-hate-speech-detection/tweets_hate_speech_detection,default,tweet,label,train,10000,linear,254.8493794841122
+ai4bharat/indic_glue,inltkh.te,text,label,train,4328,linear,254.6615172879734
+DBQ/Balenciaga.Product.prices.South.Korea,default,category3_code,category1_code,train,2038,linear,254.53991304168494
+kuroneko5943/snap21,Arts_Crafts_and_Sewing_5,sentence,label,train,6976,linear,254.51573221935627
+kuroneko5943/snap21,Automotive_5,sentence,label,train,7020,linear,254.4980382631709
+takala/financial_phrasebank,sentences_50agree,sentence,label,train,4846,linear,254.41696683947714
+LennardZuendorf/openlegaldata-processed,default,content,type,two,4954,linear,254.35948903551787
+DBQ/Celine.Product.prices.Germany,default,title,category1_code,train,655,linear,254.3038026972699
+sbx/superlim-2,swesim_similarity,word_1,label,train,131,linear,254.26631953953466
+community-datasets/ohsumed,ohsumed,abstract,publication_type,train,10000,linear,254.23096554331363
+fake-news-UFG/FactChecksbr,fakebr,claim_text,is_fake,train,7200,linear,254.14144602319925
+conceptnet5/conceptnet5,omcs_sentences_more,sentence,lang,train,10000,linear,254.11722314816848
+climatebert/climate_commitments_actions,default,text,label,train,1000,linear,253.68150177645887
+davebulaval/CSMD,meaning,original,label,train,853,linear,253.40797120034006
+joelniklaus/lextreme,swiss_criticality_prediction_bge_facts,input,label,train,10000,linear,253.20479145521364
+joelniklaus/lextreme,swiss_criticality_prediction_bge_considerations,input,label,train,10000,linear,253.13923806145073
+tasksource/mmlu,human_aging,question,answer,test,223,linear,252.90129203726218
+sileod/pragmeval,squinky-informativeness,sentence,label,train,3719,linear,252.87907150458614
+Sangjeong/TestData2,default,localization,dx,train,9577,linear,252.7399253961295
+claritylab/utcd,aspect-normalized-out-of-domain,text,aspect,train,10000,linear,252.65215019071093
+nkazi/SciEntsBank,default,question,label,train,4969,linear,252.61463884442935
+ihassan1/auditor-sentiment,default,sentence,label,train,3877,linear,252.59171127910517
+AI-Sweden/SuperLim,swepar,sentence_2,similarity_score,test,165,linear,252.4549246528499
+scherrmann/financial_phrasebank_75agree_german,default,sentence,label,train,2763,linear,252.3540199209977
+vpmoreira/offcombr,offcombr-3,text,label,train,1033,linear,252.2343966034682
+indonlp/NusaX-senti,nij,text,label,train,500,linear,252.05883374096587
+CATIE-AQ/french_book_reviews_fr_prompt_sentiment_analysis,default,inputs,targets,train,10000,linear,251.95291568304353
+rubrix/wildfire_tweets,default,text,label,train,104,linear,251.90858372984772
+kuroneko5943/snap21,Toys_and_Games_5,sentence,label,train,7008,linear,251.86720000250943
+strombergnlp/offenseval_2020,gr,text,subtask_a,train,8743,linear,251.62297057902848
+indonlp/NusaX-senti,mad,text,label,train,500,linear,251.5468102605165
+RussianNLP/tape,ru_worldtree.episodes,question,school_grade,train,47,linear,251.4144856274934
+ai4bharat/indic_glue,wnli.en,"['premise', 'hypothesis']",label,train,635,linear,251.26664461112512
+kuroneko5943/snap21,Prime_Pantry_5,sentence,label,train,7002,linear,251.19419339783695
+evaluate/glue-ci,cola,sentence,label,train,8551,linear,251.16958636652396
+nyu-mll/glue,cola,sentence,label,train,8551,linear,251.09698721938372
+strombergnlp/offenseval_2020,tr,text,subtask_a,train,10000,linear,250.99236469700065
+sileod/pragmeval,squinky-formality,sentence,label,train,3622,linear,250.97553973935672
+classla/FRENK-hate-en,multiclass,text,label,train,8404,linear,250.97545404835586
+erhwenkuo/openorca-chinese-zhtw,default,question,system_prompt,train,10000,linear,250.87484711520204
+somosnlp-hackathon-2023/DiagTrast,default,Sintoma,Padecimiento,train,1333,linear,250.80950298535453
+HausaNLP/NaijaSenti-Twitter,pcm,tweet,label,train,5121,linear,250.66998949200925
+shmuhammad/AfriSenti-twitter-sentiment,pcm,tweet,label,train,5121,linear,250.42278604521397
+cardiffnlp/tweet_sentiment_multilingual,italian,text,label,train,1839,linear,250.40105916511058
+eusip/silicone,mrda,Utterance,Label,train,10000,linear,250.3495166041111
+tasksource/mmlu,college_computer_science,question,answer,test,100,linear,249.82548694388282
+indonlp/NusaX-senti,bbc,text,label,train,500,linear,249.800131916723
+kuroneko5943/jd21,MacBook,sentence,label,train,3160,linear,249.74880752695617
+iamollas/ethos,multilabel,text,violence,train,433,linear,249.57872752309135
+iastate/onestop_english,default,text,label,train,567,linear,249.34930481976886
+cartesinus/leyzer-fedcsis-translated,pl-PL,bio,domain,train,10000,linear,249.3414854724617
+legacy-datasets/hate_offensive,default,tweet,label,train,10000,linear,249.30421967905164
+nguha/legalbench,cuad_non-compete,text,answer,train,6,linear,249.2562630931495
+ai4bharat/indic_glue,md.hi,sentence,discourse_mode,train,7974,linear,249.23081194823095
+tdavidson/hate_speech_offensive,default,tweet,class,train,10000,linear,249.11415723845664
+cartesinus/leyzer-fedcsis-translated,all,bio,domain,train,10000,linear,249.1014978277744
+DBQ/Bottega.Veneta.Product.prices.South.Korea,default,title,category1_code,train,4463,linear,248.8854656008898
+coltekin/offenseval2020_tr,offenseval2020-turkish,tweet,subtask_a,train,10000,linear,248.69175027031446
+nguha/legalbench,corporate_lobbying,company_description,answer,train,10,linear,248.43977338972923
+MichiganNLP/TID-8,hs_brexit-atr,question,answer_label,train,4480,linear,248.34162840665445
+DBQ/Balenciaga.Product.prices.Singapore,default,category3_code,category1_code,train,2308,linear,248.32261943364796
+allenai/social_bias_frames,default,post,annotatorGender,train,10000,linear,248.27225572859368
+TheBritishLibrary/web_archive_classification,default,title,primary_category,train,10000,linear,247.88569037684545
+PhilipMay/stsb_multi_mt,fr,"['sentence1', 'sentence2']",similarity_score,train,5749,linear,247.8125571403735
+MilaNLProc/honest,pt_binary,template_masked,number,honest,840,linear,247.74848595802473
+SIA86/TechnicalSupportCalls,default,text,label,train,921,linear,247.5928515284789
+maveriq/bigbenchhard,causal_judgement,input,target,train,187,linear,247.49193576273979
+factckbr/factckbr,default,review,label,train,1313,linear,247.3693824703291
+Genius1237/TyDiP,hi,text,labels,test,250,linear,247.24932002101542
+wicho/kor_3i4k,default,text,label,train,10000,linear,246.98635970324906
+threite/Bundestag-v2,default,text,party,train,10000,linear,246.8827322232633
+kuroneko5943/snap21,Sports_and_Outdoors_5,sentence,label,train,6983,linear,246.813375205944
+shmuhammad/AfriSenti-twitter-sentiment,tso,tweet,label,train,804,linear,246.695673040937
+clarin-pl/polemo2-official,all_text,text,target,train,6573,linear,246.2566723304612
+ai4bharat/indic_glue,inltkh.mr,text,label,train,9672,linear,246.15998902885715
+conceptnet5/conceptnet5,omcs_sentences_free,sentence,lang,train,10000,linear,246.1368339790709
+facebook/imppres,implicature_gradable_adjective,"['premise', 'hypothesis']",gold_label_log,gradable_adjective,1200,linear,246.12014543876933
+joelniklaus/lextreme,online_terms_of_service_unfairness_levels,input,label,train,2074,linear,246.00652451475798
+pietrolesci/agnews,default,text,labels,train,10000,linear,245.8799750402656
+fancyzhx/ag_news,default,text,label,train,10000,linear,245.87691061819783
+microsoft/bing_coronavirus_query_set,country_2020-09-01_2020-09-30,Query,IsImplicitIntent,train,10000,linear,245.6897597112997
+nguha/legalbench,diversity_1,text,aic_is_met,train,6,linear,245.65521295327883
+AI-Sweden/SuperLim,swesim_similarity,word_1,similarity,test,1360,linear,245.63736820391614
+RussianNLP/tape,ru_worldtree.raw,question,school_grade,train,118,linear,245.6268550646597
+ChanceFocus/en-fpb,default,text,answer,train,3100,linear,245.62221761967473
+nilc-nlp/assin2,default,"['premise', 'hypothesis']",entailment_judgment,train,6500,linear,245.52487054757796
+nguha/legalbench,cuad_exclusivity,text,answer,train,6,linear,245.4889493857863
+vpmoreira/offcombr,offcombr-2,text,label,train,1250,linear,245.25447926928564
+senti-lex/senti_lex,zh,word,sentiment,train,1879,linear,245.2070624551643
+kuroneko5943/snap21,Pet_Supplies_5,sentence,label,train,7033,linear,245.1997144132378
+almanach/hc3_french_ood,hc3_fr_full,text,label,train,10000,linear,245.18352062006522
+clarin-pl/polemo2-official,products_text,text,target,train,387,linear,245.08157414906665
+maveriq/bigbenchhard,object_counting,input,target,train,250,linear,245.01843438313728
+asoria/draft-list-column,main,text,source,train,7528,linear,244.93933089077183
+sagteam/cedr_v1,enriched,text,source,train,7528,linear,244.93605590871073
+Aniemore/cedr-m7,default,text,source,train,7528,linear,244.91055592421236
+Efstathios/guardian_authorship,cross_topic_10,article,topic,train,117,linear,244.89453166029793
+jcblaise/fake_news_filipino,default,article,label,train,3206,linear,244.8900741101843
+sagteam/cedr_v1,main,text,source,train,7528,linear,244.88944904846633
+asoria/draft-list-column,enriched,text,source,train,7528,linear,244.85984981186698
+indonlp/NusaX-senti,sun,text,label,train,500,linear,244.81515451982787
+Efstathios/guardian_authorship,cross_topic_12,article,topic,train,117,linear,244.73330526485157
+OxAISH-AL-LLM/wiki_toxic,default,comment_text,label,train,10000,linear,244.71201904036758
+biglam/on_the_books,default,section_text,jim_crow,train,1785,linear,244.4814597452874
+Efstathios/guardian_authorship,cross_topic_11,article,topic,train,117,linear,244.42906436836512
+sbx/superlim-2,swediagnostics,"['premise', 'hypothesis']",label,test,1104,linear,244.392036332164
+DBQ/Balenciaga.Product.prices.Hong.Kong,default,category3_code,category1_code,train,2307,linear,244.350173972294
+sileod/pragmeval,pdtb,"['sentence1', 'sentence2']",label,train,10000,linear,244.03635530042447
+SachinPatel248/mqnli,default,sentence,label,train,10000,linear,243.9765408936388
+vibhorag101/suicide_prediction_dataset_phr,default,text,label,train,10000,linear,243.92822630392888
+climatebert/environmental_claims,default,text,label,train,2117,linear,243.73115990186204
+nyu-mll/crows_pairs,crows_pairs,sent_less,stereo_antistereo,test,1508,linear,243.70094675831
+kmi-linguistics/ilist,default,text,language_id,train,10000,linear,243.62603087901675
+cjvt/sloie,default,sentence,expression,train,10000,linear,243.52529195086566
+classla/FRENK-hate-sl,multiclass,text,label,train,7189,linear,243.37190374662958
+kuroneko5943/snap21,Luxury_Beauty_5,sentence,label,train,6954,linear,243.22914371862177
+hpprc/jsick,stress-original,pair_ID,entailment_label_Ja,test,900,linear,243.12893978464174
+evaluate/glue-ci,stsb,"['sentence1', 'sentence2']",label,train,5749,linear,242.86022815407824
+indonlp/NusaX-senti,ban,text,label,train,500,linear,242.82568556396745
+nyu-mll/glue,stsb,"['sentence1', 'sentence2']",label,train,5749,linear,242.72823040585615
+PhilipMay/stsb_multi_mt,en,"['sentence1', 'sentence2']",similarity_score,train,5749,linear,242.591176122427
+DBQ/Prada.Product.prices.Italy,default,title,brand,train,2533,linear,242.55342497942706
+PhilipMay/stsb_multi_mt,ru,"['sentence1', 'sentence2']",similarity_score,train,5749,linear,242.48243586210816
+CATIE-AQ/french_book_reviews_fr_prompt_stars_classification,default,inputs,targets,train,10000,linear,242.2051501950782
+PierreColombo/miam,loria,Utterance,Label,train,8465,linear,242.06755745042506
+andreniyongabo/kinnews_kirnews,kirnews_cleaned,content,label,train,3689,linear,242.03866038859164
+ajesujoba/yoruba_wordsim353,default,yoruba2,similarity,test,353,linear,241.99091557762898
+facebook/md_gender_bias,funpedia,text,gender,train,10000,linear,241.98746539462857
+bgglue/bgglue,cinexio,Comment,label,train,8155,linear,241.6532929125496
+indonlp/NusaX-senti,bjn,text,label,train,500,linear,241.47900171632955
+datacommonsorg/datacommons_factcheck,fctchk_politifact_wapo,claim_text,reviewer_name,train,5632,linear,241.43996127782825
+evaluate/glue-ci,qnli,sentence,label,train,10000,linear,241.32478996010315
+kuroneko5943/snap21,Video_Games_5,sentence,label,train,6997,linear,241.26239415471085
+indonlp/NusaX-senti,jav,text,label,train,500,linear,241.2461744983007
+nyu-mll/glue,qnli,sentence,label,train,10000,linear,241.16843511311333
+RussianNLP/rucola,default,sentence,label,train,7869,linear,241.07005394221633
+kuroneko5943/snap21,Kindle_Store_5,sentence,label,train,6990,linear,241.06837181860647
+ai4bharat/indic_glue,csqa.or,question,category,test,1975,linear,241.02860826470908
+eusip/silicone,swda,Utterance,Label,train,10000,linear,240.9642867427118
+kuroneko5943/snap21,Electronics_5,sentence,label,train,7026,linear,240.89040653708923
+Genius1237/TyDiP,ko,text,labels,test,250,linear,240.52870380564357
+kuroneko5943/snap21,Grocery_and_Gourmet_Food_5,sentence,label,train,6991,linear,240.44241980766455
+kuroneko5943/snap21,Patio_Lawn_and_Garden_5,sentence,label,train,7012,linear,240.37645521783696
+DFKI-SLT/knowledge_net,knet,documentText,source,train,3977,linear,240.36061277288889
+clarin-pl/polemo2-official,hotels_text,text,target,train,3165,linear,240.21401343910597
+sileod/discovery,discovery,"['sentence1', 'sentence2']",label,train,10000,linear,240.1967951094718
+AI-Sweden/SuperLim,dalaj,original_sentence,approximate_level,train,3841,linear,240.06832429996888
+senti-lex/senti_lex,sw,word,sentiment,train,1314,linear,239.9128233473991
+strombergnlp/offenseval_2020,ar,text,subtask_a,train,7839,linear,239.88889581042486
+kuroneko5943/amz20,HomeTheaterSystem,sentence,label,train,701,linear,239.77286819586922
+sileod/pragmeval,persuasiveness-premisetype,"['sentence1', 'sentence2']",label,train,566,linear,239.77107858336979
+sihaochen/propsegment,nli,"['premise', 'hypothesis']",label,train,10000,linear,239.71664159110688
+tasksource/mmlu,public_relations,question,answer,test,110,linear,239.69178771592175
+cardiffnlp/tweet_eval,offensive,text,label,train,10000,linear,239.56646710310616
+eusip/silicone,meld_e,Utterance,Label,train,9989,linear,239.50729401875935
+kuroneko5943/snap21,Home_and_Kitchen_5,sentence,label,train,7016,linear,239.4734690907814
+tasksource/mmlu,high_school_statistics,question,answer,test,216,linear,239.3525805686557
+ejschwartz/oo-method-test-split,byrow,Disassembly,Type,train,10000,linear,239.1137943759274
+maveriq/bigbenchhard,ruin_names,input,target,train,250,linear,239.04563004754826
+bleugreen/typescript-instruct,default,content,type,train,10000,linear,239.02823919574246
+tasksource/mmlu,security_studies,question,answer,test,245,linear,238.8988279643259
+fake-news-UFG/fakebr,size_normalized_texts,text,label,train,7200,linear,238.800085590399
+Deysi/sentences-and-emotions,default,utterance,emotion,train,2405,linear,238.71200243574245
+UMCU/PubMedCausal_Dutch_translated_with_MariaNMT,default,input,output,train,2368,linear,238.33058634391185
+DBQ/Celine.Product.prices.United.Kingdom,default,title,category1_code,train,658,linear,238.29803341818723
+ai4bharat/indic_glue,inltkh.ta,text,label,train,5346,linear,238.2421198122595
+rjhuang/my_wb_preferences,default,content,response,train,417,linear,238.23463549650637
+KBLab/overlim,stsb_nb,text_b,label,train,4312,linear,238.22683349895658
+se2p/code-readability-merged,default,code_snippet,score,train,421,linear,238.01758565682303
+DBQ/Louis.Vuitton.Product.prices.Russia,default,title,category1_code,train,6543,linear,237.82377862655048
+maveriq/bigbenchhard,dyck_languages,input,target,train,250,linear,237.7136009209756
+timpal0l/stsb_mt_sv,plain_text,"['sentence1', 'sentence2']",score,train,5749,linear,237.64158091741922
+fever/fever,v2.0,claim,label,validation,2384,linear,237.5734478994512
+kuroneko5943/amz20,Projector,sentence,label,train,701,linear,237.52662675456946
+wicho/kor_sae,default,intent_pair1,label,train,10000,linear,237.50420622081188
+cgpotts/swda,default,text,damsl_act_tag,train,10000,linear,237.4314851715747
+dell-research-harvard/AmericanStories,subset_years,article,byline,1804,103,linear,237.35339754313446
+ejschwartz/oo-method-test,default,Disassembly,Binary,combined,10000,linear,237.25602615444416
+t0mmy/livedoor_news_corpus,default,text,label,train,7367,linear,237.1693316551806
+tyqiangz/multilingual-sentiments,german,text,label,train,1839,linear,237.1320514051802
+eusip/silicone,meld_s,Utterance,Label,train,9989,linear,237.10282854772856
+PhilipMay/stsb_multi_mt,it,"['sentence1', 'sentence2']",similarity_score,train,5749,linear,237.10108504758887
+tasksource/mmlu,high_school_physics,question,answer,test,151,linear,236.9438740705802
+aps/super_glue,wic,"['sentence1', 'sentence2']",label,train,5428,linear,236.93148804787697
+biglam/cultural_heritage_metadata_accuracy,default,metadata_text,label,train,10000,linear,236.83496236790944
+shmuhammad/AfriSenti-twitter-sentiment,swa,tweet,label,train,1810,linear,236.7418053621567
+nilc-nlp/assin,ptbr,"['premise', 'hypothesis']",entailment_judgment,train,2500,linear,236.70293056139653
+KBLab/overlim,qqp_da,text_b,label,train,10000,linear,236.65875128651697
+nilc-nlp/assin,ptpt,"['premise', 'hypothesis']",entailment_judgment,train,2500,linear,236.50446492158164
+eusip/silicone,iemocap,Utterance,Label,train,7213,linear,236.491473955098
+sileod/pragmeval,persuasiveness-strength,"['sentence1', 'sentence2']",label,train,371,linear,236.42351001772346
+jakartaresearch/google-play-review,default,text,label,train,7028,linear,236.38511574273576
+reciTAL/mlsum,de,text,date,train,10000,linear,236.2970386949357
+sbx/superlim-2,absabank-imm,text,label,train,3898,linear,236.2492864882712
+HausaNLP/NaijaSenti-Twitter,hau,tweet,label,train,10000,linear,236.04583840856822
+MichiganNLP/TID-8,hs_brexit-ann,question,answer_label,train,4704,linear,236.01584577989365
+shmuhammad/AfriSenti-twitter-sentiment,hau,tweet,label,train,10000,linear,235.947888184667
+indonlp/NusaX-senti,min,text,label,train,500,linear,235.92818591150706
+joelniklaus/lextreme,swiss_judgment_prediction,input,label,train,10000,linear,235.84652182631567
+DFKI-SLT/knowledge_net,knet_re,passageText,subjectType,train,10000,linear,235.8318209073991
+google-research-datasets/circa,default,context,goldstandard2,train,10000,linear,235.65601791620975
+ai4bharat/indic_glue,csqa.as,question,category,test,2942,linear,235.64053908222425
+aps/super_glue,rte,"['premise', 'hypothesis']",label,train,2490,linear,235.31458374158436
+DBQ/Prada.Product.prices.Spain,default,title,brand,train,2528,linear,235.2431454589627
+tyqiangz/multilingual-sentiments,malay,text,label,train,4687,linear,235.1605699535753
+nguha/legalbench,supply_chain_disclosure_disclosed_certification,text,answer,train,8,linear,234.92368453814376
+kuroneko5943/amz20,Sandal,sentence,label,train,701,linear,234.84614835374157
+matthewfranglen/aste-v2,2016-restaurant-aste-v2,text,sentiment,train,1394,linear,234.80945393428271
+tyqiangz/multilingual-sentiments,italian,text,label,train,1839,linear,234.77277072636173
+cardiffnlp/tweet_sentiment_multilingual,german,text,label,train,1839,linear,234.56801270073572
+clue/clue,iflytek,sentence,label,train,10000,linear,234.53834752814123
+DDSC/twitter-sent,default,text,label,train,1007,linear,234.52994039206078
+kuroneko5943/snap21,Movies_and_TV_5,sentence,label,train,6989,linear,234.52875346615724
+nguha/legalbench,legal_reasoning_causality,text,answer,train,4,linear,234.49074436304818
+ai4bharat/indic_glue,iitp-mr.hi,text,label,train,2480,linear,234.46306669446102
+hpprc/jsick,original,sentence_A_En,entailment_label_Ja,train,4500,linear,234.35734140347796
+kuroneko5943/jd21,iPhone,sentence,label,train,3729,linear,234.28858354378906
+philippelaban/hlgd,default,headline_b,label,train,10000,linear,234.19080735312843
+dravidianlangtech/hope_edi,malayalam,text,label,train,8564,linear,234.18228505387998
+facebook/imppres,implicature_quantifiers,"['premise', 'hypothesis']",gold_label_log,quantifiers,1200,linear,234.17770392195592
+ma2za/many_emotions,raw,text,label,en,10000,linear,234.16383504477247
+tasksource/crowdflower,political-media-message,text,label,train,4999,linear,234.07321698887705
+community-datasets/tamilmixsentiment,default,text,label,train,10000,linear,234.03114743928825
+ScandEval/scala-da,default,text,label,train,1024,linear,233.97051203557962
+clarin-pl/polemo2-official,reviews_text,text,target,train,403,linear,233.8402565630361
+tyqiangz/multilingual-sentiments,french,text,label,train,1839,linear,233.78382608257738
+MilaNLProc/honest,en_queer_nonqueer,template_masked,type,honest,705,linear,233.77522404326825
+yangwang825/marc-ja,default,text,label,train,10000,linear,233.65093243945273
+eusip/silicone,sem,Utterance,Label,train,4264,linear,233.5191446334017
+kuroneko5943/amz20,Movies_TV,sentence,label,train,701,linear,233.4956093389734
+sbx/superlim-2,swesim_relatedness,word_1,label,train,131,linear,233.3765901300103
+facebook/imppres,implicature_gradable_verb,"['premise', 'hypothesis']",gold_label_log,gradable_verb,1200,linear,233.3305972240637
+fake-news-UFG/fakebr,full_texts,text,label,train,7200,linear,233.23035386612096
+community-datasets/offenseval_dravidian,kannada,text,label,train,6217,linear,233.15708226797034
+sdadas/ppc,default,sentence_B,label,train,5000,linear,233.14060250355874
+ajesujoba/twi_wordsim353,default,twi2,similarity,test,274,linear,233.04640376346305
+matthewfranglen/aste-v2,2016-restaurant-sem-eval,text,sentiment,train,1394,linear,232.97304817380757
+nguha/legalbench,diversity_3,text,answer,train,6,linear,232.97036618429084
+djstrong/ppc,default,sentence_B,label,train,5000,linear,232.838244883411
+ejschwartz/oo-method-test-split,combined,Disassembly,Type,combined,10000,linear,232.80181937036025
+nguha/legalbench,privacy_policy_entailment,text,answer,train,8,linear,232.7355452379487
+community-datasets/journalists_questions,plain_text,tweet_id,label,train,10000,linear,232.59361082889052
+DBQ/Net.a.Porter.Product.prices.Japan,default,title,category1_code,train,10000,linear,232.54987289117844
+masakhane/masakhanews,swa,text,label,train,1658,linear,232.53405353511303
+DBQ/Prada.Product.prices.Portugal,default,title,brand,train,2548,linear,232.4953869032229
+piuba-bigdata/contextualized_hate_speech,default,text,HATEFUL,train,10000,linear,232.46878536369434
+jlh-ibm/earnings_call,transcripts,transcript,company,train,150,linear,232.4199558283202
+sileod/pragmeval,mrda,sentence,label,train,10000,linear,232.38423136484306
+fancyzhx/yelp_polarity,plain_text,text,label,train,10000,linear,232.07862986196284
+ai4bharat/indic_glue,inltkh.ml,text,label,train,5036,linear,232.00496966037744
+joelniklaus/lextreme,turkish_constitutional_court_decisions_judgment,input,label,train,902,linear,231.94502436277682
+ai4bharat/indic_glue,csqa.gu,question,category,test,10000,linear,231.54544675912325
+ought/raft,tweet_eval_hate,Tweet,Label,train,50,linear,231.47165186640532
+omilab/hebrew_sentiment,morph,text,label,train,10000,linear,231.44680689376656
+senti-lex/senti_lex,ht,word,sentiment,train,472,linear,231.43767496293628
+KBLab/overlim,stsb_sv,text_b,label,train,4312,linear,231.39297384866956
+maveriq/bigbenchhard,geometric_shapes,input,target,train,250,linear,231.372066711488
+facebook/md_gender_bias,opensubtitles_inferred,text,binary_label,train,10000,linear,231.17575709063715
+derenrich/wikidata-enwiki-categories-and-statements,default,text,relation,train,10000,linear,231.08813875209904
+ai4bharat/indic_glue,csqa.mr,question,category,test,10000,linear,230.76978070264096
+jrahn/yolochess_deepblue,default,fen,result,train,511,linear,230.76357416197965
+classla/FRENK-hate-hr,binary,text,label,train,7964,linear,230.7055232726122
+facebook/md_gender_bias,yelp_inferred,text,binary_label,train,10000,linear,230.6093397531254
+DBQ/Loro.Piana.Product.prices.United.States,default,website_name,category1_code,train,1042,linear,230.59997579281023
+sbx/superlim-2,swepar,sentence_2,label,train,5715,linear,230.48657174118003
+masakhane/masakhanews,sna,text,label,train,1288,linear,230.1824738077754
+Divyanshu/indicxnli,or,"['premise', 'hypothesis']",label,train,10000,linear,230.16499628816055
+tasksource/mmlu,college_medicine,question,answer,test,173,linear,230.14528420840836
+AiresPucrs/stanford-encyclopedia-philosophy,default,text,metadata,train,10000,linear,230.0057765496329
+mwong/climatetext-climate_evidence-claim-related-evaluation,default,claim,evidence,test,10000,linear,230.00349218092992
+mwong/climatetext-evidence-claim-pair-related-evaluation,default,claim,evidence,test,10000,linear,229.99510405215108
+mwong/climatetext-claim-related-evaluation,default,claim,evidence,test,10000,linear,229.97262938568431
+KBLab/overlim,rte_da,"['premise', 'hypothesis']",label,train,2214,linear,229.9655603287243
+ought/raft,ade_corpus_v2,Sentence,Label,train,50,linear,229.94625165971374
+mwong/climatetext-claim-climate_evidence-related-evaluation,default,claim,evidence,test,10000,linear,229.8534465098587
+ScandEval/scala-nn,default,text,label,train,1024,linear,229.83556712615598
+mwong/climatetext-claim-evidence-pair-related-evaluation,default,claim,evidence,test,10000,linear,229.76557352896222
+DBQ/Louis.Vuitton.Product.prices.France,default,title,category1_code,train,7806,linear,229.6573830658954
+DDSC/europarl,default,text,label,train,669,linear,229.5463776387173
+laugustyniak/abusive-clauses-pl,abusive-clauses-pl,text,label,train,4284,linear,229.52257665741047
+webis/Touche23-ValueEval,zhihu-meta,Premise Chinese,Conclusion Chinese,meta,100,linear,229.2293541802012
+ai4bharat/indic_glue,csqa.te,question,category,test,10000,linear,229.13384420507174
+senti-lex/senti_lex,ar,word,sentiment,train,2794,linear,229.1127758254746
+DBQ/Net.a.Porter.Product.prices.India,default,Janna strapless duchesse cotton-blend satin mini dress,CLOTHING,train,10000,linear,229.0211265728507
+joelniklaus/lextreme,swiss_law_area_prediction_sub_area_considerations,input,label,train,10000,linear,229.00674903258664
+DBQ/Loro.Piana.Product.prices.Japan,default,website_name,category1_code,train,685,linear,228.8347034654468
+MichiganNLP/TID-8,pejorative-atr,question,answer_label,train,1112,linear,228.826639347023
+tasksource/mmlu,virology,question,answer,test,166,linear,228.6867496375192
+AmazonScience/massive,zh-TW,annot_utt,scenario,train,10000,linear,228.67548917441238
+senti-lex/senti_lex,th,word,sentiment,train,1279,linear,228.51705003672987
+almanach/hc3_french_ood,hc3_fr_chatgpt_qa,chatgpt_answer,label,test,113,linear,228.44764873536434
+ought/raft,banking_77,Query,Label,train,50,linear,228.2874124212585
+sileod/pragmeval,switchboard,sentence,label,train,10000,linear,228.0977606475617
+AmazonScience/massive,zh-CN,annot_utt,scenario,train,10000,linear,228.0473711279883
+ScandEval/angry-tweets-mini,default,text,label,train,1024,linear,227.81912547694213
+DBQ/Louis.Vuitton.Product.prices.Canada,default,title,category1_code,train,8151,linear,227.56875885403258
+shahules786/prosocial_augmented,default,Assistant,safety_label,train,10000,linear,227.3044045864703
+KBLab/overlim,qqp_nb,text_b,label,train,10000,linear,227.13701259040113
+KBLab/overlim,stsb_da,text_b,label,train,4312,linear,227.09692572593832
+tasksource/mtop,mtop,logical_form,domain,train,10000,linear,227.07127152082643
+librarian-bots/model_card_dataset_mentions,default,text,label,train,297,linear,227.06141792820316
+DBQ/Loro.Piana.Product.prices.Germany,default,website_name,category1_code,train,1133,linear,226.9764716372904
+KBLab/overlim,qnli_da,"['premise', 'hypothesis']",label,train,10000,linear,226.94212639785235
+m-ric/amazon_product_reviews_datafiniti,default,reviews.text,brand,train,6000,linear,226.93800320073913
+kuroneko5943/amz20,CableModem,sentence,label,train,701,linear,226.80028898995744
+cardiffnlp/tweet_eval,stance_abortion,text,label,train,587,linear,226.7122169622943
+maveriq/bigbenchhard,disambiguation_qa,input,target,train,250,linear,226.45852828932385
+AI-Sweden/SuperLim,swesim_relatedness,word_1,relatedness,test,1360,linear,226.4095707294692
+sileod/pragmeval,sarcasm,"['sentence1', 'sentence2']",label,train,3754,linear,226.28676141463015
+aps/super_glue,cb,"['premise', 'hypothesis']",label,train,250,linear,226.09298079831345
+DBQ/Net.a.Porter.Product.prices.Italy,default,Lace-trimmed silk-satin midi dress,CLOTHING,train,10000,linear,226.03922750165995
+kuroneko5943/amz20,RiceCooker,sentence,label,train,701,linear,225.8717770929519
+DBQ/Prada.Product.prices.Sweden,default,title,brand,train,2548,linear,225.79455279942314
+clarin-pl/polemo2,in,sentence,target,train,5783,linear,225.72418358732
+DBQ/Dior.Product.prices.Hong.Kong,default,title,category1_code,train,4426,linear,225.47874280938365
+Divyanshu/indicxnli,as,"['premise', 'hypothesis']",label,train,10000,linear,225.20235701287635
+classla/FRENK-hate-sl,binary,text,label,train,7189,linear,225.11740731943587
+SemEvalWorkshop/emo,emo2019,text,label,train,10000,linear,225.05638051708252
+clarin-pl/polemo2-official,medicine_text,text,target,train,2618,linear,224.99424108240993
+kuroneko5943/stock11,manufacture,sentence,label,train,10000,linear,224.95109587480437
+strombergnlp/nordic_langid,50k,sentence,language,train,10000,linear,224.91479930453212
+DBQ/Loro.Piana.Product.prices.Canada,default,website_name,category1_code,train,698,linear,224.87470626782292
+shmuhammad/AfriSenti-twitter-sentiment,twi,tweet,label,train,3481,linear,224.82155019145944
+ScandEval/norec-mini,default,text,label,train,1024,linear,224.80347898331604
+nguha/legalbench,insurance_policy_interpretation,claim,answer,train,5,linear,224.7352019785272
+bgglue/bgglue,fakenews,content,label,train,1990,linear,224.59304888211767
+luist18/ptparl,full,text,wing,train,5713,linear,224.1377482506167
+ScandEval/scala-sv,default,text,label,train,1024,linear,224.12348545153975
+DBQ/Net.a.Porter.Product.prices.South.Korea,default,title,category1_code,train,10000,linear,224.09167053688404
+cnachteg/duvel,default,sentence,label,train,6553,linear,224.06512413604895
+tasksource/mmlu,global_facts,question,answer,test,100,linear,224.04970956186128
+sagteam/author_profiling,main,text,gender,train,9564,linear,223.9843823297117
+DBQ/Ounass.Product.prices.Oman,default,title,category1_code,train,10000,linear,223.8200753480952
+nguha/legalbench,diversity_2,text,aic_is_met,train,6,linear,223.66024835176296
+ai4bharat/indic_glue,actsa-sc.te,text,label,train,4328,linear,223.60844650193349
+launch/open_question_type,default,question,resolve_type,train,3716,linear,223.3382169234506
+ai4bharat/indic_glue,bbca.hi,text,label,train,3467,linear,223.2373071267446
+nguha/legalbench,supply_chain_disclosure_best_practice_certification,text,answer,train,8,linear,223.2131571542512
+RussianNLP/tape,per_ethics.raw,text,per_virtue,train,259,linear,223.1978424529035
+saier/unarXive_imrad_clf,default,text,label,train,10000,linear,223.19335360232438
+kuroneko5943/amz20,Jewelry,sentence,label,train,701,linear,223.10882427135175
+kuroneko5943/amz20,Headphone,sentence,label,train,701,linear,223.04065048264687
+evaluate/glue-ci,mrpc,"['sentence1', 'sentence2']",label,train,3668,linear,222.85136120799706
+nyu-mll/glue,mrpc,"['sentence1', 'sentence2']",label,train,3668,linear,222.77309573056021
+alsubari/Israel-palestine-war,default,title,publish_channel,train,310,linear,222.73229887678247
+pietrolesci/wikitoxic,default,text,labels,train,10000,linear,222.64323213704319
+DBQ/Loro.Piana.Product.prices.France,default,website_name,category1_code,train,1128,linear,222.63183726419223
+liaad/newspop,default,headline,topic,train,10000,linear,222.4921103275659
+nala-cub/americas_nli,tar,"['premise', 'hypothesis']",label,test,750,linear,222.4593219264155
+kuroneko5943/amz20,Keyboard,sentence,label,train,701,linear,222.40786894569516
+RussianNLP/tape,chegeka.episodes,question,author,train,49,linear,222.18948727107818
+RobZamp/sick,default,sentence_A,label,train,4439,linear,222.18013463808785
+tasksource/mmlu,conceptual_physics,question,answer,test,235,linear,222.17383628451267
+kuroneko5943/amz20,Flashlight,sentence,label,train,701,linear,222.143823103165
+strombergnlp/polstance,PolStance,quote,label,train,900,linear,222.13207941071843
+pythainlp/wisesight_sentiment,wisesight_sentiment,texts,category,train,10000,linear,222.06723057497862
+DBQ/Chanel.Product.prices.United.States,default,title,category1_code,train,1452,linear,222.01322316049527
+MuhammadHelmy/nafsy,default,content,prob,train,1884,linear,222.0102893935754
+sileod/pragmeval,stac,"['sentence1', 'sentence2']",label,train,10000,linear,221.98258297246133
+classla/FRENK-hate-hr,multiclass,text,label,train,7964,linear,221.93806993223447
+cardiffnlp/tweet_eval,stance_hillary,text,label,train,620,linear,221.81654880298936
+tasksource/mmlu,formal_logic,question,answer,test,126,linear,221.77635613539775
+DBQ/Ounass.Product.prices.Qatar,default,title,category1_code,train,10000,linear,221.76154943676102
+tyqiangz/multilingual-sentiments,chinese,text,label,train,10000,linear,221.69285407520766
+ai4bharat/indic_glue,csqa.bn,question,category,test,10000,linear,221.64687252842475
+strombergnlp/nordic_langid,10k,sentence,language,train,10000,linear,221.53297715648768
+DBQ/Net.a.Porter.Product.prices.Hong.Kong,default,Portofino 20 suede sandals,SHOES,train,10000,linear,221.5153072941608
+DBQ/Louis.Vuitton.Product.prices.Australia,default,title,category1_code,train,6525,linear,221.51441841116997
+senti-lex/senti_lex,vo,word,sentiment,train,43,linear,221.49633677951877
+senti-lex/senti_lex,is,word,sentiment,train,1770,linear,221.31985609033143
+DBQ/Net.a.Porter.Product.prices.Macao,default,title,category1_code,train,10000,linear,221.29750084242744
+DBQ/Burberry.Product.prices.Japan,default,title,category1_code,train,2950,linear,221.26285354909868
+biglam/atypical_animacy,default,sentence,target,train,594,linear,221.2432817283803
+joelniklaus/lextreme,swiss_criticality_prediction_citation_facts,input,label,train,2523,linear,221.00828428309524
+fancyzhx/amazon_polarity,amazon_polarity,content,label,train,10000,linear,221.00691602742307
+maveriq/bigbenchhard,reasoning_about_colored_objects,input,target,train,250,linear,220.77267901674904
+PierreColombo/miam,dihana,Utterance,Label,train,10000,linear,220.74676169999935
+ai4bharat/indic_glue,csqa.pa,question,category,test,5667,linear,220.66852102255103
+Genius1237/TyDiP,es,text,labels,test,250,linear,220.61642107470288
+tasksource/mmlu,high_school_microeconomics,question,answer,test,238,linear,220.605405016343
+tdiggelm/climate_fever,default,claim,claim_label,test,1535,linear,220.5150323824239
+AmazonScience/massive,pl-PL,annot_utt,scenario,train,10000,linear,220.41635055057577
+tasksource/mmlu,us_foreign_policy,question,answer,test,100,linear,220.38377967274118
+ScandEval/absabank-imm-mini,default,text,label,train,1024,linear,220.3407510965288
+tyqiangz/multilingual-sentiments,arabic,text,label,train,1839,linear,220.12569995675594
+nguha/legalbench,cuad_joint_ip_ownership,text,answer,train,6,linear,219.98953666370244
+eusip/silicone,dyda_da,Utterance,Label,train,10000,linear,219.88758125250263
+nguha/legalbench,cuad_license_grant,text,answer,train,6,linear,219.86483699808142
+AmazonScience/massive,fa-IR,annot_utt,scenario,train,10000,linear,219.76527555241273
+DBQ/Prada.Product.prices.Germany,default,title,brand,train,2588,linear,219.61598351758718
+DDSC/lcc,default,text,label,train,349,linear,219.5042607352447
+Genius1237/TyDiP,ta,text,labels,test,250,linear,219.43763701695298
+dravidianlangtech/hope_edi,tamil,text,label,train,10000,linear,219.37014831636355
+sbx/superlim-2,dalaj-ged,sentence,label,train,10000,linear,219.2959828906533
+klue/klue,ynat,title,label,train,10000,linear,219.21554138177024
+THUDM/LongBench,narrativeqa,input,context,test,200,linear,219.2062291161483
+PhilipMay/stsb_multi_mt,zh,"['sentence1', 'sentence2']",similarity_score,train,5749,linear,219.1694319295288
+ai4bharat/indic_glue,csqa.kn,question,category,test,10000,linear,219.0594677263445
+senti-lex/senti_lex,ur,word,sentiment,train,1347,linear,219.04773624340118
+DBQ/Net.a.Porter.Product.prices.Russia,default,title,category1_code,train,10000,linear,219.04098794041994
+nguha/legalbench,ssla_company_defendants,text,answer,train,3,linear,219.0139806007976
+DBQ/Net.a.Porter.Product.prices.Singapore,default,title,category1_code,train,10000,linear,218.9404171637203
+ai4bharat/indic_glue,csqa.ta,question,category,test,10000,linear,218.90049845370322
+Genius1237/TyDiP,hu,text,labels,test,250,linear,218.89166412922134
+joelniklaus/lextreme,greek_legal_code_chapter,input,label,train,10000,linear,218.86501047935218
+ai4bharat/indic_glue,csqa.ml,question,category,test,10000,linear,218.85515541461444
+AI-team-UoA/greek_legal_code,chapter,text,label,train,10000,linear,218.7494905446485
+facebook/imppres,presupposition_both_presupposition,"['premise', 'hypothesis']",gold_label,both_presupposition,1900,linear,218.66623850334958
+RussianNLP/tape,winograd.raw,text,label,train,804,linear,218.63995764142493
+yangwang825/klue-ynat,default,text,label,train,10000,linear,218.59330564544223
+kuroneko5943/amz20,Video_Games,sentence,label,train,701,linear,218.54566603500317
+DBQ/Chanel.Product.prices.Italy,default,title,category1_code,train,1426,linear,218.53238508974943
+Divyanshu/indicxnli,ml,"['premise', 'hypothesis']",label,train,10000,linear,218.51673246518376
+senti-lex/senti_lex,ku,word,sentiment,train,145,linear,218.3303319624485
+MichiganNLP/TID-8,friends_qia-ann,question,answer_label,train,10000,linear,218.14875269892462
+nadhifikbarw/id_ohsuhmed,default,sentence1,label,train,10000,linear,218.1309352561026
+masakhane/masakhanews,xho,text,label,train,1032,linear,217.96593911008938
+kuroneko5943/amz20,GPS,sentence,label,train,701,linear,217.94554165992594
+nguha/legalbench,diversity_4,text,aic_is_met,train,6,linear,217.87817025302144
+Isotonic/pii-masking-200k,default,unmasked_text,language,train,10000,linear,217.82673930488158
+DBQ/Matches.Fashion.Product.prices.France,default,title,category1_code,train,10000,linear,217.8110349409049
+hadyelsahar/ar_res_reviews,default,text,polarity,train,8364,linear,217.77288582410984
+nguha/legalbench,sara_entailment,text,answer,train,4,linear,217.7152762735568
+masakhane/masakhanews,tir,text,label,train,947,linear,217.62310893478974
+biglam/lampeter_corpus,default,text,genre,train,120,linear,217.61127507652836
+zeio/auto-pale,annotated,text,champion,train,10000,linear,217.60588099099095
+corona-tweet/dutch_social,dutch_social,text_translation,label,train,10000,linear,217.60398198495318
+AI-Sweden/SuperLim,swediag,"['premise', 'hypothesis']",label,test,1104,linear,217.50205995161656
+clarin-pl/polemo2-official,reviews_sentence,text,target,train,2025,linear,217.49931278339534
+nguha/legalbench,contract_nli_confidentiality_of_agreement,text,answer,train,8,linear,217.49876518099637
+AhmadMustafa/Urdu-Instruct-News-Category-Classification,default,inputs,targets,train,10000,linear,217.39885209915337
+senti-lex/senti_lex,sq,word,sentiment,train,2076,linear,217.3896067939346
+Jasontth/climate_fever_plus,default,evidence,evidence_label,train,6580,linear,217.20512960404392
+PierreColombo/miam,maptask,Utterance,Label,train,10000,linear,217.19235053973068
+JanosAudran/financial-reports-sec,small_full,sentence,section,train,10000,linear,217.17489695212754
+AmazonScience/massive,it-IT,annot_utt,scenario,train,10000,linear,217.16404468236746
+tasksource/mmlu,anatomy,question,answer,test,135,linear,217.1092168037841
+JanosAudran/financial-reports-sec,small_lite,sentence,section,train,10000,linear,217.082547100799
+ai4bharat/indic_glue,csqa.hi,question,category,test,10000,linear,216.9360456360222
+pietrolesci/dbpedia_14_indexed,default,content,labels,train,10000,linear,216.82343198295035
+RussianNLP/tape,per_ethics.episodes,text,per_virtue,train,58,linear,216.73991111047124
+nguha/legalbench,contract_nli_explicit_identification,text,answer,train,8,linear,216.70051424385048
+biglam/clmet_3_1,plain,text,period,train,333,linear,216.61786653493493
+AmazonScience/massive,id-ID,annot_utt,scenario,train,10000,linear,216.46534467950204
+Genius1237/TyDiP,fr,text,labels,test,250,linear,216.31105464856748
+iamollas/ethos,binary,text,label,train,998,linear,216.30686926451972
+UdS-LSV/yoruba_bbc_topics,default,news_title,label,train,1340,linear,216.25657612848931
+HooshvareLab/pn_summary,1.0.0,article,network,train,10000,linear,216.2557422602041
+cardiffnlp/tweet_sentiment_multilingual,hindi,text,label,train,1839,linear,216.18582907105815
+AI-Secure/adv_glue,adv_mnli,"['premise', 'hypothesis']",label,validation,121,linear,216.16409052659696
+google-research-datasets/poem_sentiment,default,verse_text,label,train,892,linear,216.151566582172
+tasksource/mmlu,machine_learning,question,answer,test,112,linear,216.12782292924754
+pietrolesci/pubmed-20k-rct,default,text,labels,train,10000,linear,215.93039128614424
+Divyanshu/indicxnli,ta,"['premise', 'hypothesis']",label,train,10000,linear,215.8535041127712
+senti-lex/senti_lex,gd,word,sentiment,train,345,linear,215.84784647177236
+kuroneko5943/amz20,Gloves,sentence,label,train,701,linear,215.70020724021288
+Divyanshu/indicxnli,hi,"['premise', 'hypothesis']",label,train,10000,linear,215.57413900142836
+DBQ/Gucci.Product.prices.South.Korea,default,title,category1_code,train,3796,linear,215.39343409984838
+tasksource/crowdflower,corporate-messaging,text,label,train,3118,linear,215.35160190599956
+clue/clue,cmnli,"['sentence1', 'sentence2']",label,train,10000,linear,215.30981324780782
+AmazonScience/massive,sv-SE,annot_utt,scenario,train,10000,linear,215.26371494447835
+ought/raft,twitter_complaints,Tweet text,Label,train,50,linear,215.16552302948287
+DBQ/Net.a.Porter.Product.prices.Canada,default,title,category1_code,train,10000,linear,215.07624618773323
+KBLab/overlim,qqp_sv,text_b,label,train,10000,linear,215.04546091544833
+clue/clue,ocnli,"['sentence1', 'sentence2']",label,train,10000,linear,214.99962051553587
+nala-cub/americas_nli,all_languages,"['premise', 'hypothesis']",label,test,7486,linear,214.98199104747573
+midas/metooma,default,TweetId,Text_Only_Informative,train,7978,linear,214.9305396518306
+DBQ/Mr.Porter.Product.prices.Kazakhstan,default,title,category1_code,train,10000,linear,214.8806595613595
+community-datasets/gutenberg_time,gutenberg,tok_context,hour_reference,train,10000,linear,214.80356773566854
+ImperialCollegeLondon/health_fact,default,main_text,label,train,9832,linear,214.8032425686784
+MichiganNLP/TID-8,friends_qia-atr,question,answer_label,train,10000,linear,214.61372588454867
+Zahra99/IEMOCAP_Text,default,text,label,session5,1241,linear,214.59996961891724
+tasksource/crowdflower,sentiment_nuclear_power,text,label,train,190,linear,214.565383425356
+google-research-datasets/paws,labeled_swap,"['sentence1', 'sentence2']",label,train,10000,linear,214.5653369414335
+us-lsi/muchocine,default,review_body,star_rating,train,3872,linear,214.51591448697204
+tasksource/mmlu,electrical_engineering,question,answer,test,145,linear,214.4804717796294
+andreniyongabo/kinnews_kirnews,kinnews_cleaned,content,label,train,10000,linear,214.40374453194624
+pietrolesci/DBPedia_Classes_indexed,default,text,l1,train,10000,linear,214.38020083329394
+kuroneko5943/amz20,Vacuum,sentence,label,train,701,linear,214.25415172660962
+nguha/legalbench,citation_prediction_open,text,answer,train,2,linear,214.24489648381416
+AdWeeb/kan_hope,default,text,label,train,4940,linear,214.2167839990899
+boun-tabi/nli_tr,snli_tr,"['premise', 'hypothesis']",label,train,10000,linear,214.12474855293578
+kuroneko5943/amz20,Baby,sentence,label,train,701,linear,213.94159228356773
+tasksource/mmlu,high_school_us_history,question,answer,test,204,linear,213.80132687650905
+kuroneko5943/amz20,Magazine_Subscriptions,sentence,label,train,701,linear,213.65496241851474
+uitnlp/vietnamese_students_feedback,default,sentence,sentiment,train,10000,linear,213.59983572628062
+climatebert/climate_detection,default,text,label,train,1300,linear,213.58329268759553
+DBQ/Mr.Porter.Product.prices.United.States,default,title,category1_code,train,10000,linear,213.39304639107183
+DBQ/Prada.Product.prices.United.Kingdom,default,title,brand,train,2180,linear,213.16175632362962
+yangwang825/tnews,default,text,label,train,10000,linear,213.14766198077308
+facebook/md_gender_bias,new_data,text,class_type,train,2345,linear,213.05839126197768
+clue/clue,tnews,sentence,label,train,10000,linear,212.97247700851912
+ai4bharat/indic_glue,wstp.hi,sectionText,correctTitle,train,10000,linear,212.7948485434863
+DBQ/Net.a.Porter.Product.prices.United.States,default,title,category1_code,train,10000,linear,212.7592446814121
+symanto/autextification2023,attribution_en,text,label,train,10000,linear,212.6941898590029
+nguha/legalbench,successor_liability,text,answer,train,3,linear,212.60987720885933
+eusip/silicone,maptask,Utterance,Label,train,10000,linear,212.5498883508825
+DBQ/Mr.Porter.Product.prices.Brazil,default,title,category1_code,train,10000,linear,212.49387411726983
+DDSC/angry-tweets,default,text,label,train,2411,linear,212.4753657161132
+gsarti/magpie,magpie,sentence,usage,train,10000,linear,212.43180995478878
+Genius1237/TyDiP,en,text,labels,train,1927,linear,212.42771628285186
+community-datasets/swahili_news,swahili_news,text,label,train,10000,linear,212.29040481108942
+RussianNLP/russian_super_glue,lidirus,"['sentence1', 'sentence2']",label,test,1104,linear,212.20158987972678
+shunk031/JGLUE,JSTS,"['sentence1', 'sentence2']",label,train,10000,linear,212.1659607736937
+DBQ/Burberry.Product.prices.Singapore,default,title,category1_code,train,2691,linear,212.15596689387183
+llm-book/JGLUE,JSTS,"['sentence1', 'sentence2']",label,train,10000,linear,212.12417055142953
+AI-Secure/adv_glue,adv_mnli_mismatched,"['premise', 'hypothesis']",label,validation,162,linear,211.9621440732532
+AmazonScience/massive,ro-RO,annot_utt,scenario,train,10000,linear,211.94945003184858
+DBQ/Mr.Porter.Product.prices.Russia,default,title,category1_code,train,10000,linear,211.90498964001435
+akuysal/turkishSMS-ds,default,text,label,train,765,linear,211.70522285522208
+tasksource/mmlu,business_ethics,question,answer,test,100,linear,211.6725580257886
+maveriq/bigbenchhard,word_sorting,input,target,train,250,linear,211.6392832121835
+JanosAudran/financial-reports-sec,large_lite,sentence,section,train,10000,linear,211.60133281962217
+DBQ/Louis.Vuitton.Product.prices.Singapore,default,title,category1_code,train,6576,linear,211.44325942270282
+nguha/legalbench,supply_chain_disclosure_disclosed_accountability,text,answer,train,8,linear,211.4127494653602
+DBQ/Mr.Porter.Product.prices.Romania,default,title,category1_code,train,10000,linear,211.3890893660209
+facebook/imppres,presupposition_change_of_state,"['premise', 'hypothesis']",gold_label,change_of_state,1900,linear,211.33060816108963
+cjvt/si_nli,public,"['premise', 'hypothesis']",label,train,4392,linear,211.32483653645403
+tasksource/mmlu,world_religions,question,answer,test,171,linear,211.24185520257294
+AI-Sweden/SuperLim,swewsc,passage,label,test,275,linear,211.16396406743954
+AmazonScience/massive,cy-GB,annot_utt,scenario,train,10000,linear,211.15461507695113
+tasksource/crowdflower,political-media-bias,text,label,train,4999,linear,211.13957792636472
+DBQ/Mr.Porter.Product.prices.Sweden,default,title,category1_code,train,10000,linear,211.12412893041363
+AmazonScience/massive,jv-ID,annot_utt,scenario,train,10000,linear,211.0599605137596
+AI-Sweden/SuperLim,sweana,a,relation,test,10000,linear,211.04007034952954
+alexandrainst/ddisco,default,text,domain,train,801,linear,210.97684841853422
+shmuhammad/AfriSenti-twitter-sentiment,arq,tweet,label,train,1651,linear,210.9501122400523
+kuroneko5943/amz20,Bag,sentence,label,train,701,linear,210.82437469190847
+AmazonScience/massive,ka-GE,annot_utt,scenario,train,10000,linear,210.80998238890157
+AmazonScience/massive,ms-MY,annot_utt,scenario,train,10000,linear,210.80861130818863
+KBLab/overlim,boolq_nb,passage,label,train,6285,linear,210.74339606768228
+tasksource/mmlu,professional_medicine,question,answer,test,272,linear,210.6384609805557
+nguha/legalbench,learned_hands_estates,text,answer,train,6,linear,210.4796897617632
+hate-speech-portuguese/hate_speech_portuguese,default,text,label,train,5670,linear,210.47514628786547
+shunk031/JGLUE,JCoLA,sentence,label,train,6919,linear,210.46649913181568
+dlb/plue,snli,"['premise', 'hypothesis']",label,train,10000,linear,210.14995943247015
+clue/clue,cluewsc2020,text,label,train,1244,linear,210.12919637454672
+DBQ/Mr.Porter.Product.prices.Qatar,default,title,category1_code,train,10000,linear,210.0908070010439
+PNLPhub/FarsTail,FarsTail,"['premise', 'hypothesis']",label,train,7266,linear,210.02634360465245
+nguha/legalbench,unfair_tos,text,answer,train,9,linear,209.91864268426158
+shmuhammad/AfriSenti-twitter-sentiment,amh,tweet,label,train,5984,linear,209.84657689276452
+klue/klue,sts,"['sentence1', 'sentence2']",source,train,10000,linear,209.785075923568
+tasksource/mmlu,high_school_geography,question,answer,test,198,linear,209.77829090609507
+DBQ/Mr.Porter.Product.prices.Hong.Kong,default,title,category1_code,train,10000,linear,209.7705545340345
+peixian/equity_evaluation_corpus,first_domain,sentence,template,train,8640,linear,209.76738790205235
+DBQ/Mr.Porter.Product.prices.South.Africa,default,title,category1_code,train,10000,linear,209.75428507352763
+facebook/imppres,presupposition_possessed_definites_existence,"['premise', 'hypothesis']",gold_label,possessed_definites_existence,1900,linear,209.7164001568408
+maveriq/bigbenchhard,snarks,input,target,train,178,linear,209.6964217572666
+DBQ/Mr.Porter.Product.prices.Mexico,default,title,category1_code,train,10000,linear,209.55324004849254
+KBLab/overlim,mrpc_nb,text_a,label,train,3261,linear,209.5499585224569
+AmazonScience/massive,bn-BD,annot_utt,scenario,train,10000,linear,209.51982655554116
+nguha/legalbench,learned_hands_employment,text,answer,train,6,linear,209.50889503341114
+sileod/pragmeval,persuasiveness-specificity,"['sentence1', 'sentence2']",label,train,504,linear,209.48137506670616
+sdadas/8tags,default,sentence,label,train,10000,linear,209.41825483843968
+aps/super_glue,multirc,paragraph,label,train,10000,linear,209.40590022540317
+mohamedadaly/labr,plain_text,text,label,train,10000,linear,209.38660578321952
+DBQ/Mr.Porter.Product.prices.Hungary,default,title,category1_code,train,10000,linear,209.34854224792687
+DBQ/Mr.Porter.Product.prices.United.Arab.Emirates,default,title,category1_code,train,10000,linear,209.33440861695368
+nala-cub/americas_nli,gn,"['premise', 'hypothesis']",label,test,750,linear,209.27750008537782
+DBQ/Gucci.Product.prices.Hungary,default,title,category1_code,train,4976,linear,209.2587368308409
+ccdv/patent-classification,patent,text,label,train,10000,linear,209.1992966705132
+cardiffnlp/tweet_eval,emoji,text,label,train,10000,linear,209.1195464653224
+tasksource/mmlu,college_physics,question,answer,test,102,linear,209.05415909588055
+strombergnlp/danfever,DanFever,evidence_extract,label,train,6407,linear,209.00051986459044
+shmuhammad/AfriSenti-twitter-sentiment,yor,tweet,label,train,8522,linear,208.94608699143794
+jrahn/yolochess_lichess-elite_2211,default,fen,result,train,10000,linear,208.8699122560214
+aps/super_glue,axb,"['sentence1', 'sentence2']",label,test,1104,linear,208.86509845097467
+llm-book/JGLUE,JNLI,"['sentence1', 'sentence2']",label,train,10000,linear,208.80500916330595
+nala-cub/americas_nli,aym,"['premise', 'hypothesis']",label,test,750,linear,208.796125471416
+TimKoornstra/financial-tweets-sentiment,default,tweet,sentiment,train,10000,linear,208.7323427835472
+tasksource/mmlu,clinical_knowledge,question,answer,test,265,linear,208.56854154434743
+HausaNLP/NaijaSenti-Twitter,yor,tweet,label,train,8522,linear,208.55412859074767
+shunk031/JGLUE,JNLI,"['sentence1', 'sentence2']",label,train,10000,linear,208.52031984952515
+grammarly/detexd-benchmark,default,text,label,test,1023,linear,208.39364200971374
+claudios/cubert_ETHPy150Open,exception_datasets,function,label,train,10000,linear,208.3771370685854
+Genius1237/TyDiP,vi,text,labels,test,250,linear,208.28546108699862
+facebook/imppres,implicature_connectives,"['premise', 'hypothesis']",gold_label_log,connectives,1200,linear,208.27574752164105
+community-datasets/roman_urdu,default,sentence,sentiment,train,10000,linear,208.27566162453545
+clue/clue,afqmc,"['sentence1', 'sentence2']",label,train,10000,linear,208.1836869612676
+ai4bharat/indic_glue,wstp.as,sectionText,correctTitle,train,5000,linear,208.1660724478691
+wenhu/tab_fact,tab_fact,table_text,label,train,10000,linear,208.11672414851103
+KBLab/overlim,qnli_nb,"['premise', 'hypothesis']",label,train,10000,linear,208.10184405969187
+facebook/imppres,presupposition_question_presupposition,"['premise', 'hypothesis']",gold_label,question_presupposition,1900,linear,208.04756608688103
+DBQ/Mr.Porter.Product.prices.Taiwan,default,title,category1_code,train,10000,linear,207.96190617025815
+senti-lex/senti_lex,io,word,sentiment,train,183,linear,207.83065549914994
+nala-cub/americas_nli,shp,"['premise', 'hypothesis']",label,test,750,linear,207.75070989440934
+kuroneko5943/stock11,Real_estate,sentence,label,train,6707,linear,207.66308452104488
+community-datasets/catalonia_independence,spanish,TWEET,LABEL,train,6046,linear,207.65247115346222
+google/xtreme,PAWS-X.ja,"['sentence1', 'sentence2']",label,train,10000,linear,207.61380009750405
+AI-Sweden/SuperLim,swewic,sentence_1,same_sense,test,1000,linear,207.35340952220935
+kaist-ai/CoT-Collection,en,source,target,train,10000,linear,207.33461605599504
+yangwang825/reuters-21578,default,text,label,train,5485,linear,207.26790288265605
+community-datasets/danish_political_comments,default,sentence,target,train,9008,linear,207.22643490437287
+cardiffnlp/tweet_sentiment_multilingual,portuguese,text,label,train,1839,linear,207.20651206321736
+DBQ/Mr.Porter.Product.prices.South.Korea,default,title,category1_code,train,10000,linear,207.14304627322375
+AmazonScience/massive,sq-AL,annot_utt,scenario,train,10000,linear,207.0992926805249
+nguha/legalbench,supply_chain_disclosure_best_practice_accountability,text,answer,train,8,linear,207.05477039518485
+DBQ/Mr.Porter.Product.prices.Netherlands,default,title,category1_code,train,10000,linear,207.02080067957428
+KETI-AIR/kor_anli,default,"['premise', 'hypothesis']",label,train_r3,10000,linear,207.01874265959918
+google/xtreme,PAWS-X.zh,"['sentence1', 'sentence2']",label,train,10000,linear,206.99222899920682
+KBLab/overlim,copa_da,premise,label,train,321,linear,206.98512810099606
+masakhane/masakhanews,pcm,text,label,train,1060,linear,206.9702309624522
+coastalcph/lex_glue,case_hold,context,label,train,10000,linear,206.91894571099132
+DBQ/Burberry.Product.prices.Italy,default,title,category1_code,train,2691,linear,206.8719945614675
+google-research-datasets/paws-x,zh,"['sentence1', 'sentence2']",label,train,10000,linear,206.86902314982922
+ayehninnkhine/myanmar_news,default,text,category,train,8116,linear,206.8322928446116
+tasksource/mmlu,high_school_macroeconomics,question,answer,test,390,linear,206.75780225014051
+AmazonScience/massive,lv-LV,annot_utt,scenario,train,10000,linear,206.71048548385573
+DBQ/Rue.La.La.Product.prices.United.States,default,title,category2_code,train,7594,linear,206.70910703830683
+sileod/pragmeval,gum,"['sentence1', 'sentence2']",label,train,1700,linear,206.6990126169334
+tasksource/mmlu,college_mathematics,question,answer,test,100,linear,206.6775454204877
+DBQ/Chloe.Product.prices.South.Korea,default,title,category2_code,train,2439,linear,206.47198643404545
+kuroneko5943/stock11,energy,sentence,label,train,6166,linear,206.43944902478444
+senti-lex/senti_lex,fa,word,sentiment,train,2477,linear,206.35086809118238
+tyqiangz/multilingual-sentiments,portuguese,text,label,train,1839,linear,206.34122838354696
+MilaNLProc/honest,it_binary,template_masked,number,honest,810,linear,206.30060814581873
+nguha/legalbench,contract_nli_limited_use,text,answer,train,8,linear,206.22479518823081
+DBQ/Net.a.Porter.Product.prices.United.Kingdom,default,title,category1_code,train,10000,linear,206.18901197886697
+cardiffnlp/tweet_eval,emotion,text,label,train,3257,linear,206.17008335455938
+nguha/legalbench,diversity_5,text,aic_is_met,train,6,linear,206.16348833575304
+cardiffnlp/tweet_sentiment_multilingual,arabic,text,label,train,1839,linear,206.15982859893592
+DBQ/Gucci.Product.prices.Qatar,default,title,category1_code,train,5067,linear,206.15001589585006
+DBQ/Net.a.Porter.Product.prices.Portugal,default,Loulou Toy quilted leather shoulder bag,BAGS,train,10000,linear,206.1157245957806
+SpellOnYou/kor_sarcasm,default,tokens,label,train,9000,linear,206.0874161124454
+ZurichNLP/x_stance,default,comment,label,train,10000,linear,205.97411673670217
+AmazonScience/massive,fr-FR,annot_utt,scenario,train,10000,linear,205.95928676987904
+reciTAL/mlsum,tu,text,date,train,10000,linear,205.9417976843635
+PyThaiNLP/prachathai67k,prachathai67k,body_text,politics,train,10000,linear,205.92264369566888
+AmazonScience/massive,hu-HU,annot_utt,scenario,train,10000,linear,205.90171019477913
+jhu-cogsci/hans,plain_text,"['premise', 'hypothesis']",label,train,10000,linear,205.89365575750247
+AmazonScience/massive,ml-IN,annot_utt,scenario,train,10000,linear,205.71145931345535
+AmazonScience/massive,hi-IN,annot_utt,scenario,train,10000,linear,205.62776592484653
+tasksource/crowdflower,tweet_global_warming,text,label,train,4223,linear,205.61193124891722
+allenai/swag,regular,startphrase,label,train,10000,linear,205.5261507385559
+Divyanshu/indicxnli,bn,"['premise', 'hypothesis']",label,train,10000,linear,205.46916718063142
+clinc/clinc_oos,imbalanced,text,intent,train,10000,linear,205.43632137465218
+DBQ/Net.a.Porter.Product.prices.Tunisia,default,title,category1_code,train,10000,linear,205.374944978717
+google-research-datasets/google_wellformed_query,default,content,rating,train,10000,linear,205.35572407864026
+nala-cub/americas_nli,quy,"['premise', 'hypothesis']",label,test,750,linear,205.3035926780592
+shmuhammad/AfriSenti-twitter-sentiment,kin,tweet,label,train,3302,linear,205.28310078772483
+tasksource/mmlu,computer_security,question,answer,test,100,linear,205.0389255575498
+tasksource/mmlu,econometrics,question,answer,test,114,linear,204.98560485136076
+MichiganNLP/TID-8,humor-ann,question,answer_label,train,10000,linear,204.88134813670501
+PierreColombo/miam,ilisten,Utterance,Label,train,1986,linear,204.77777679135397
+sonos-nlu-benchmark/snips_built_in_intents,default,text,label,train,328,linear,204.738428833265
+nguha/legalbench,privacy_policy_qa,text,answer,train,8,linear,204.72248078658342
+CATIE-AQ/mtop_domain_intent_fr_prompt_intent_classification,default,inputs,targets,train,10000,linear,204.71311407605356
+omilab/hebrew_sentiment,token,text,label,train,10000,linear,204.67175206735953
+almanach/hc3_french_ood,hc3_fr_sentence,text,label,train,10000,linear,204.58782855352496
+facebook/imppres,presupposition_cleft_uniqueness,"['premise', 'hypothesis']",gold_label,cleft_uniqueness,1900,linear,204.55664931528997
+tasksource/mmlu,sociology,question,answer,test,201,linear,204.47596318085024
+MichiganNLP/TID-8,md-agreement-atr,question,answer_label,train,10000,linear,204.39743273826423
+Divyanshu/indicxnli,gu,"['premise', 'hypothesis']",label,train,10000,linear,204.3592554162625
+AmazonScience/massive,ru-RU,annot_utt,scenario,train,10000,linear,204.33891007640864
+clinc/clinc_oos,small,text,intent,train,7600,linear,204.3126765876083
+KBLab/overlim,copa_nb,premise,label,train,321,linear,204.26467080236554
+MichiganNLP/TID-8,humor-atr,question,answer_label,train,10000,linear,204.24517559818378
+AmazonScience/massive,af-ZA,annot_utt,scenario,train,10000,linear,204.2260481635456
+tasksource/mmlu,high_school_government_and_politics,question,answer,test,193,linear,204.21479813743355
+KBLab/overlim,boolq_sv,passage,label,train,6285,linear,204.1849187588589
+nguha/legalbench,cuad_revenue-profit_sharing,text,answer,train,6,linear,204.13569945671213
+NbAiLab/norwegian_parliament,default,text,label,train,3600,linear,204.09427749439453
+nala-cub/americas_nli,cni,"['premise', 'hypothesis']",label,test,750,linear,204.08715711457597
+DBQ/Mr.Porter.Product.prices.Germany,default,title,category1_code,train,10000,linear,204.0781123985155
+AmazonScience/massive,sl-SL,annot_utt,scenario,train,10000,linear,204.06560438823942
+ai4bharat/indic_glue,wstp.kn,sectionText,correctTitle,train,10000,linear,204.03361906864183
+jlh-ibm/earnings_call,transcript-sentiment,text,label,train,6851,linear,203.98813357856756
+metaeval/ethics,deontology,text,label,train,10000,linear,203.94555243581308
+senti-lex/senti_lex,he,word,sentiment,train,2533,linear,203.8570331708152
+ScandEval/scala-fo,default,text,label,train,1024,linear,203.84442821485206
+AmazonScience/massive,pt-PT,annot_utt,scenario,train,10000,linear,203.82404904331875
+KBLab/overlim,mrpc_sv,text_a,label,train,3261,linear,203.66064438865902
+tasksource/mmlu,college_biology,question,answer,test,144,linear,203.64877444537595
+maveriq/bigbenchhard,penguins_in_a_table,input,target,train,146,linear,203.6057584308963
+strombergnlp/nlpcc-stance,task_a,text,target,train,2986,linear,203.59456205205942
+DBQ/Mr.Porter.Product.prices.Croatia,default,title,category1_code,train,10000,linear,203.58005949167065
+AmazonScience/massive,sw-KE,annot_utt,scenario,train,10000,linear,203.49172601237433
+AmazonScience/massive,nb-NO,annot_utt,scenario,train,10000,linear,203.47650902123462
+tasksource/mmlu,high_school_computer_science,question,answer,test,100,linear,203.46518848033992
+nala-cub/americas_nli,bzd,"['premise', 'hypothesis']",label,test,750,linear,203.42014596068438
+DBQ/Net.a.Porter.Product.prices.Austria,default,title,category1_code,train,10000,linear,203.33816822475683
+reciTAL/mlsum,ru,text,topic,train,10000,linear,203.21541425318384
+senti-lex/senti_lex,az,word,sentiment,train,1979,linear,203.1525903378142
+tasksource/mmlu,management,question,answer,test,103,linear,203.14116135528064
+sileod/pragmeval,emergent,"['sentence1', 'sentence2']",label,train,2076,linear,203.07274115229202
+nguha/legalbench,hearsay,text,answer,train,5,linear,203.04937262440387
+afaji/indonli,indonli,"['premise', 'hypothesis']",label,train,10000,linear,202.98881077475357
+tasksource/mmlu,high_school_world_history,question,answer,test,237,linear,202.97506290317256
+kakaobrain/kor_nli,snli,"['premise', 'hypothesis']",label,train,10000,linear,202.92419998900215
+CATIE-AQ/wanli_fr_prompt_textual_entailment,default,inputs,targets,train,10000,linear,202.79335022932048
+akhtet/myanmar-xnli,default,sentence1_en,label,train,10000,linear,202.78764757202845
+nguha/legalbench,sara_numeric,text,question,train,4,linear,202.7220170784948
+tasksource/mmlu,miscellaneous,question,answer,test,783,linear,202.62476017293045
+AmazonScience/massive,vi-VN,annot_utt,scenario,train,10000,linear,202.42762986213557
+cardiffnlp/tweet_sentiment_multilingual,french,text,label,train,1839,linear,202.41633992056632
+jason9693/APEACH,default,text,class,train,7896,linear,202.38394450414827
+senti-lex/senti_lex,tk,word,sentiment,train,78,linear,202.3684006265766
+MichiganNLP/TID-8,pejorative-ann,question,answer_label,train,1535,linear,202.33960230879111
+Tidrael/tsl_news,plain_text,title,label,train,443,linear,202.27117964637546
+tasksource/mmlu,elementary_mathematics,question,answer,test,378,linear,202.23550701033713
+maveriq/bigbenchhard,boolean_expressions,input,target,train,250,linear,202.15889880985367
+cointegrated/nli-rus-translated-v2021,default,"['premise', 'hypothesis']",label,train,10000,linear,202.13925173960985
+nguha/legalbench,ssla_individual_defendants,text,answer,train,3,linear,202.1207183828521
+AmazonScience/massive,he-IL,annot_utt,scenario,train,10000,linear,202.11591357588298
+google-research-datasets/paws-x,ja,"['sentence1', 'sentence2']",label,train,10000,linear,202.04136676597938
+claudios/cubert_ETHPy150Open,function_docstring_datasets,docstring,label,train,10000,linear,202.00789831630692
+sagnikrayc/snli-cf-kaushik,plain_text,"['premise', 'hypothesis']",label,train,8330,linear,202.00297991353912
+MichiganNLP/TID-8,sentiment-atr,question,answer_label,train,10000,linear,201.9737465166719
+senti-lex/senti_lex,mr,word,sentiment,train,1825,linear,201.8963229147554
+nguha/legalbench,cuad_warranty_duration,text,answer,train,6,linear,201.81084530824123
+aps/super_glue,wsc.fixed,text,label,train,554,linear,201.68288068643017
+tyqiangz/multilingual-sentiments,spanish,text,label,train,1839,linear,201.6414100176404
+maveriq/bigbenchhard,sports_understanding,input,target,train,250,linear,201.62638606529856
+ccdv/arxiv-classification,no_ref,text,label,train,10000,linear,201.61665549672608
+aps/super_glue,wsc,text,label,train,554,linear,201.6011943688759
+tasksource/mmlu,moral_disputes,question,answer,test,346,linear,201.5117002974393
+tyqiangz/multilingual-sentiments,japanese,text,label,train,10000,linear,201.4866272066821
+komari6/ajgt_twitter_ar,plain_text,text,label,train,1800,linear,201.3981068956193
+ai4bharat/indic_glue,iitp-pr.hi,text,label,train,4182,linear,201.26854649030895
+tasksource/mmlu,jurisprudence,question,answer,test,108,linear,201.242851615953
+tasksource/mmlu,professional_psychology,question,answer,test,612,linear,201.18796700079386
+nguha/legalbench,consumer_contracts_qa,contract,answer,train,4,linear,201.16768160007177
+clarin-pl/polemo2-official,hotels_sentence,text,target,train,10000,linear,201.10136749317178
+maveriq/bigbenchhard,logical_deduction_three_objects,input,target,train,250,linear,201.07962880903824
+d0rj/conv_ai_3_ru,default,topic_desc,initial_request,train,9176,linear,200.97624335789186
+nguha/legalbench,cuad_expiration_date,text,answer,train,6,linear,200.96684719164801
+kuroneko5943/stock11,finance,sentence,label,train,6869,linear,200.96366252263516
+tasksource/mmlu,philosophy,question,answer,test,311,linear,200.88958105687522
+nanaaaa/emotion_chinese_english,default,sentence,label,train,416,linear,200.7200068664136
+DBQ/Burberry.Product.prices.United.States,default,title,category1_code,train,3038,linear,200.6007913612748
+cardiffnlp/tweet_sentiment_multilingual,english,text,label,train,1839,linear,200.5901280304604
+nguha/legalbench,opp115_third_party_sharing_collection,text,answer,train,8,linear,200.519977139692
+tasksource/mmlu,abstract_algebra,question,answer,test,100,linear,200.51541111133895
+Divyanshu/indicxnli,pa,"['premise', 'hypothesis']",label,train,10000,linear,200.4833945417215
+nguha/legalbench,learned_hands_domestic_violence,text,answer,train,6,linear,200.39741705276975
+joelniklaus/lextreme,swiss_judgment_prediction_xl_considerations,input,label,train,10000,linear,200.38400128768984
+AmazonScience/massive,en-US,annot_utt,scenario,train,10000,linear,200.35453271855934
+joelniklaus/lextreme,brazilian_court_decisions_judgment,input,label,train,3234,linear,200.3164835278235
+kuroneko5943/stock11,communication,sentence,label,train,10000,linear,200.28190269099636
+nguha/legalbench,contract_nli_notice_on_compelled_disclosure,text,answer,train,8,linear,200.22839158708422
+AmazonScience/massive,es-ES,annot_utt,scenario,train,10000,linear,200.1770884620624
+community-datasets/roman_urdu_hate_speech,Fine_Grained,tweet,label,train,7208,linear,200.16445384963603
+DBQ/Gucci.Product.prices.Sweden,default,title,category1_code,train,4916,linear,200.15559219695288
+AmazonScience/massive,ko-KR,annot_utt,scenario,train,10000,linear,200.1072631051985
+DBQ/Chanel.Product.prices.Germany,default,title,category1_code,train,1428,linear,200.10281061125679
+ccdv/arxiv-classification,default,text,label,train,10000,linear,200.06054531514292
+tasksource/mmlu,high_school_european_history,question,answer,test,165,linear,199.9022725448084
+kuroneko5943/amz20,AlarmClock,sentence,label,train,701,linear,199.83309073209014
+cornell-movie-review-data/rotten_tomatoes,default,text,label,train,8530,linear,199.743202113074
+DBQ/Chloe.Product.prices.France,default,title,category2_code,train,2459,linear,199.7360022556379
+Genius1237/TyDiP,af,text,labels,test,250,linear,199.72840297974602
+senti-lex/senti_lex,vi,word,sentiment,train,1016,linear,199.70031093448378
+csebuetnlp/xnli_bn,xnli_bn,"['sentence1', 'sentence2']",label,train,10000,linear,199.67447982653118
+kuroneko5943/amz20,Dumbbell,sentence,label,train,701,linear,199.65782616328835
+ScandEval/scala-is,default,text,label,train,1024,linear,199.64460964584129
+ought/raft,one_stop_english,Article,Label,train,50,linear,199.55517856924163
+ai4bharat/indic_glue,wstp.or,sectionText,correctTitle,train,4015,linear,199.53731204304862
+indonlp/NusaX-senti,ind,text,label,train,500,linear,199.51500932422942
+KETI-AIR/kor_snli,default,"['premise', 'hypothesis']",label,train,10000,linear,199.47740163234658
+ejschwartz/oo-method-test-split,bylibrarydedup,Disassembly,Type,train,7910,linear,199.45436278703707
+nguha/legalbench,opp115_policy_change,text,answer,train,8,linear,199.44171669357914
+TimKoornstra/synthetic-financial-tweets-sentiment,default,tweet,sentiment,train,10000,linear,199.42517121211426
+senti-lex/senti_lex,rm,word,sentiment,train,116,linear,199.3901707200423
+facebook/imppres,implicature_numerals_10_100,"['premise', 'hypothesis']",gold_label_log,numerals_10_100,1200,linear,199.3433012639765
+senti-lex/senti_lex,uz,word,sentiment,train,111,linear,199.3162084014805
+joelniklaus/lextreme,german_argument_mining,input,label,train,10000,linear,199.15619462436018
+tasksource/mmlu,college_chemistry,question,answer,test,100,linear,199.13576382076047
+kuroneko5943/stock11,airline,sentence,label,train,10000,linear,199.1196083018095
+nguha/legalbench,cuad_post-termination_services,text,answer,train,6,linear,199.10497331510126
+AmazonScience/massive,ja-JP,annot_utt,scenario,train,10000,linear,199.0595757677371
+AmazonScience/massive,nl-NL,annot_utt,scenario,train,10000,linear,199.045098598028
+senti-lex/senti_lex,mt,word,sentiment,train,863,linear,198.98182592369864
+nguha/legalbench,learned_hands_health,text,answer,train,6,linear,198.9545597696166
+AmazonScience/massive,ur-PK,annot_utt,scenario,train,10000,linear,198.90127006100062
+sileod/pragmeval,emobank-dominance,sentence,label,train,6392,linear,198.86672617349245
+AmazonScience/massive,da-DK,annot_utt,scenario,train,10000,linear,198.85872769853341
+tasksource/mmlu,prehistory,question,answer,test,324,linear,198.79390361142765
+DBQ/Mr.Porter.Product.prices.Czech.Republic,default,title,category1_code,train,10000,linear,198.7732075200879
+senti-lex/senti_lex,tr,word,sentiment,train,2500,linear,198.7631870873689
+facebook/imppres,implicature_modals,"['premise', 'hypothesis']",gold_label_log,modals,1200,linear,198.76221449433154
+DBQ/Gucci.Product.prices.Bulgaria,default,title,category1_code,train,5170,linear,198.74150427996355
+facebook/imppres,implicature_numerals_2_3,"['premise', 'hypothesis']",gold_label_log,numerals_2_3,1200,linear,198.72900438712173
+google-research-datasets/time_dial,default,correct1,incorrect1_rule,test,1446,linear,198.72503799661476
+MichiganNLP/TID-8,commitmentbank-atr,question,answer_label,train,7274,linear,198.7050280326074
+tasksource/mmlu,marketing,question,answer,test,234,linear,198.65694218538772
+DBQ/Net.a.Porter.Product.prices.Bulgaria,default,title,category1_code,train,10000,linear,198.63777190465544
+tasksource/mmlu,professional_accounting,question,answer,test,282,linear,198.60979725193138
+nguha/legalbench,learned_hands_education,text,answer,train,6,linear,198.60356192293057
+bgglue/bgglue,examsbg,id,answerKey,train,1512,linear,198.5734173374437
+google-research-datasets/coarse_discourse,default,title,majority_type,train,10000,linear,198.5566221139989
+tasksource/mmlu,medical_genetics,question,answer,test,100,linear,198.54401545236988
+RussianNLP/tape,ru_openbook.raw,question,answer,train,2339,linear,198.447571084511
+MilaNLProc/honest,ro_binary,template_masked,number,honest,840,linear,198.38249757982942
+DBQ/Gucci.Product.prices.Australia,default,title,category1_code,train,2972,linear,198.31386154963076
+senti-lex/senti_lex,cy,word,sentiment,train,1647,linear,198.2692502972365
+classla/copa_hr,copa_hr,premise,label,train,400,linear,198.26721872643793
+DBQ/Chloe.Product.prices.Hong.Kong,default,title,category2_code,train,2431,linear,198.24025243165488
+zeio/auto-pale,vanilla,text,champion,train,10000,linear,198.17158512062076
+tasksource/mmlu,logical_fallacies,question,answer,test,163,linear,198.13596959537438
+ai4bharat/indic_glue,wstp.te,sectionText,correctTitle,train,10000,linear,198.08136392078598
+ai4bharat/indic_glue,wstp.ta,sectionText,correctTitle,train,10000,linear,198.00743968656312
+senti-lex/senti_lex,ga,word,sentiment,train,1073,linear,197.97373330658485
+facebook/lama,google_re,evidences,pred,train,6106,linear,197.81637335416139
+nguha/legalbench,learned_hands_immigration,text,answer,train,6,linear,197.77746806349302
+DBQ/Gucci.Product.prices.Hong.Kong,default,title,category1_code,train,4398,linear,197.72447962243865
+KBLab/overlim,rte_nb,"['premise', 'hypothesis']",label,train,2214,linear,197.69448929235372
+ai4bharat/indic_glue,wstp.bn,sectionText,correctTitle,train,10000,linear,197.68775403400196
+nguha/legalbench,cuad_anti-assignment,text,answer,train,6,linear,197.59061764155248
+Yelp/yelp_review_full,yelp_review_full,text,label,train,10000,linear,197.40114638377412
+shmuhammad/AfriSenti-twitter-sentiment,por,tweet,label,train,3063,linear,197.36988710088963
+metaeval/ethics,justice,text,label,train,10000,linear,197.28136228737557
+AmazonScience/massive,all_1.1,annot_utt,scenario,train,10000,linear,197.22008020894006
+webis/Touche23-ValueEval,zhihu-level1,Premise,Stance,validation,100,linear,197.1714064873782
+strombergnlp/x-stance,fr,comment,label,train,10000,linear,197.1416354722934
+kakaobrain/kor_nli,xnli,"['premise', 'hypothesis']",label,test,5010,linear,197.0801252600205
+google-research-datasets/paws-x,ko,"['sentence1', 'sentence2']",label,train,10000,linear,196.97412173178154
+AmazonScience/massive,my-MM,annot_utt,scenario,train,10000,linear,196.94953661728206
+senti-lex/senti_lex,lb,word,sentiment,train,224,linear,196.91701432527202
+clinc/clinc_oos,plus,text,intent,train,10000,linear,196.89304090819508
+DBQ/Gucci.Product.prices.Romania,default,title,category1_code,train,5169,linear,196.85600381660504
+nguha/legalbench,nys_judicial_ethics,question,answer,train,8,linear,196.78527519958007
+webis/Touche23-ValueEval,zhihu,Premise,Stance,validation,100,linear,196.7520033395657
+masakhane/masakhanews,orm,text,label,train,1128,linear,196.69558130138483
+nguha/legalbench,contract_nli_permissible_development_of_similar_information,text,answer,train,8,linear,196.6137041906943
+ucsbnlp/liar,default,statement,label,train,10000,linear,196.56558081088178
+murodbek/uz-text-classification,default,text,label,train,10000,linear,196.5440342517601
+DBQ/Chloe.Product.prices.United.States,default,Hana mini bag,NEW ARRIVALS,train,2569,linear,196.5095015541708
+e9t/nsmc,default,document,label,train,10000,linear,196.46688765899557
+nguha/legalbench,opp115_user_choice_control,text,answer,train,8,linear,196.44466200695044
+community-datasets/yahoo_answers_topics,yahoo_answers_topics,best_answer,topic,train,10000,linear,196.41445938318685
+indonlp/NusaX-senti,eng,text,label,train,500,linear,196.4048267655659
+tasksource/crowdflower,airline-sentiment,text,label,train,10000,linear,196.27611080374675
+AmazonScience/massive,tl-PH,annot_utt,scenario,train,10000,linear,196.17075523398233
+mrm8488/CHISTES_spanish_jokes,default,text,category,train,2419,linear,196.15271203356747
+MichiganNLP/TID-8,goemotions-ann,question,answer_label,train,10000,linear,196.0878509394881
+ma2za/many_emotions,split,text,label,train,10000,linear,196.0381191353079
+allenai/scifact_entailment,default,title,verdict,train,919,linear,195.98763951372712
+KBLab/overlim,wnli_sv,"['premise', 'hypothesis']",label,train,565,linear,195.98370590468463
+cardiffnlp/tweet_topic_single,tweet_topic_single,text,label,train_all,4374,linear,195.9131079110739
+philschmid/emotion,unsplit,text,label,train,10000,linear,195.87984675018478
+xingkunliuxtracta/nlu_evaluation_data,default,text,label,train,10000,linear,195.856179330636
+wmt/wmt20_mlqe_task2,en-zh,pe,hter,train,7000,linear,195.83498603350108
+RussianNLP/russian_super_glue,parus,premise,label,train,400,linear,195.8057803715291
+AmazonScience/massive,all,annot_utt,scenario,train,10000,linear,195.79102805936407
+dair-ai/emotion,unsplit,text,label,train,10000,linear,195.73057329280766
+nguha/legalbench,definition_extraction,text,answer,train,8,linear,195.67183381276806
+nguha/legalbench,cuad_insurance,text,answer,train,6,linear,195.66202261881216
+Divyanshu/indicxnli,kn,"['premise', 'hypothesis']",label,train,10000,linear,195.64831527847662
+nguha/legalbench,contract_nli_inclusion_of_verbally_conveyed_information,text,answer,train,8,linear,195.56725654418358
+senti-lex/senti_lex,an,word,sentiment,train,97,linear,195.5159627473646
+SemEvalWorkshop/sem_eval_2014_task_1,default,"['premise', 'hypothesis']",entailment_judgment,train,4500,linear,195.48656497822105
+sileod/probability_words_nli,usnli,context,label,train,10000,linear,195.43636318809445
+nguha/legalbench,diversity_6,text,aic_is_met,train,6,linear,195.42999140956434
+andreniyongabo/kinnews_kirnews,kinnews_raw,content,label,train,10000,linear,195.4220991781116
+senti-lex/senti_lex,ia,word,sentiment,train,326,linear,195.4072909164945
+KBLab/overlim,wnli_da,"['premise', 'hypothesis']",label,train,565,linear,195.37514320143498
+ai4bharat/indic_glue,inltkh.gu,text,label,train,5269,linear,195.37181252221671
+senti-lex/senti_lex,fo,word,sentiment,train,123,linear,195.301430884819
+DBQ/Burberry.Product.prices.United.Arab.Emirates,default,title,category1_code,train,2554,linear,195.2653668480619
+nguha/legalbench,citation_prediction_classification,text,answer,train,2,linear,195.25728748459667
+nala-cub/americas_nli,oto,"['premise', 'hypothesis']",label,test,748,linear,195.2010656775476
+nala-cub/americas_nli,nah,"['premise', 'hypothesis']",label,test,738,linear,195.19836959313972
+nguha/legalbench,overruling,text,answer,train,6,linear,195.1045051379443
+tasksource/defeasible-nli,social,Hypothesis,UpdateType,train,10000,linear,195.07001887042443
+masakhane/masakhanews,som,text,label,train,1021,linear,195.06400371340607
+laurievb/open-lid-dataset,default,text,language,train,10000,linear,194.9217605707634
+nyu-mll/glue,wnli,"['sentence1', 'sentence2']",label,train,635,linear,194.87157914157888
+fever/fever,v1.0,claim,label,train,10000,linear,194.82373644856006
+clarin-pl/polemo2-official,all_sentence,text,target,train,10000,linear,194.820867501659
+nguha/legalbench,opp115_do_not_track,text,answer,train,8,linear,194.81387206525835
+tasksource/mmlu,human_sexuality,question,answer,test,131,linear,194.76490976582357
+senti-lex/senti_lex,tl,word,sentiment,train,1858,linear,194.75505859489394
+AmazonScience/massive,ca-ES,annot_utt,scenario,train,10000,linear,194.7469226994604
+evaluate/glue-ci,wnli,"['sentence1', 'sentence2']",label,train,635,linear,194.73200916624393
+nguha/legalbench,cuad_cap_on_liability,text,answer,train,6,linear,194.72279099836766
+senti-lex/senti_lex,yi,word,sentiment,train,395,linear,194.71585662969068
+KBLab/overlim,wnli_nb,"['premise', 'hypothesis']",label,train,565,linear,194.65290816267452
+bias-amplified-splits/anli,minority_examples,"['premise', 'hypothesis']",label,train.biased,10000,linear,194.53022589276867
+THUDM/LongBench,qmsum,input,context,test,200,linear,194.52774495577341
+senti-lex/senti_lex,ko,word,sentiment,train,2118,linear,194.4353158064452
+sbx/superlim-2,sweana,pair1_element2,label,train,2045,linear,194.39149949433556
+llm-book/JGLUE,JCommonsenseQA,question,label,train,8939,linear,194.37279863913653
+maveriq/bigbenchhard,tracking_shuffled_objects_seven_objects,input,target,train,250,linear,194.3363936938901
+senti-lex/senti_lex,br,word,sentiment,train,184,linear,194.26203590423654
+evaluate/glue-ci,qqp,"['question1', 'question2']",label,train,10000,linear,194.21633661873324
+shunk031/JGLUE,JCommonsenseQA,question,label,train,8939,linear,194.18327187999253
+barilan/blog_authorship_corpus,blog_authorship_corpus,text,gender,train,10000,linear,194.07625340559147
+curaihealth/medical_questions_pairs,default,question_2,label,train,3048,linear,194.07371316077752
+legacy-datasets/hate_speech_filipino,default,text,label,train,10000,linear,194.04051281926462
+OFAI/omp,posts_labeled,Body,Category,train,10000,linear,193.8444794466294
+nyu-mll/glue,qqp,"['question1', 'question2']",label,train,10000,linear,193.82570308216106
+senti-lex/senti_lex,ta,word,sentiment,train,2057,linear,193.80862137604282
+shunk031/JGLUE,JSQuAD,context,title,train,10000,linear,193.7059683933233
+kakaobrain/kor_nli,multi_nli,"['premise', 'hypothesis']",label,train,10000,linear,193.66779174633263
+RussianNLP/russian_super_glue,muserc,paragraph,label,train,10000,linear,193.64099741600398
+nguha/legalbench,cuad_non-disparagement,text,answer,train,6,linear,193.5481044278073
+aps/super_glue,boolq,passage,label,train,9427,linear,193.49116870275688
+ai4bharat/indic_glue,wstp.pa,sectionText,correctTitle,train,8772,linear,193.47638121902705
+DBQ/Burberry.Product.prices.France,default,title,category1_code,train,3298,linear,193.4748114216215
+nguha/legalbench,oral_argument_question_purpose,question,Docket No.,train,7,linear,193.4591952409631
+llm-book/JGLUE,JSQuAD,context,title,train,10000,linear,193.4563865644652
+maveriq/bigbenchhard,multistep_arithmetic_two,input,target,train,250,linear,193.43146702309784
+community-datasets/catalonia_independence,catalan,TWEET,LABEL,train,6028,linear,193.42861646106581
+tasksource/mmlu,nutrition,question,answer,test,306,linear,193.4277602867855
+senti-lex/senti_lex,ka,word,sentiment,train,2202,linear,193.39096791486747
+nguha/legalbench,cuad_termination_for_convenience,text,answer,train,6,linear,193.35221578852511
+RussianNLP/russian_super_glue,terra,"['premise', 'hypothesis']",label,train,2616,linear,193.3483604947835
+benjaminvdb/dbrd,plain_text,text,label,train,10000,linear,193.29369014640963
+ai4bharat/indic_glue,wstp.gu,sectionText,correctTitle,train,10000,linear,193.20969071731105
+tasksource/mmlu,high_school_chemistry,question,answer,test,203,linear,193.18788102495137
+nala-cub/americas_nli,hch,"['premise', 'hypothesis']",label,test,750,linear,193.12510137090118
+AmazonScience/massive,is-IS,annot_utt,scenario,train,10000,linear,193.04646268698392
+AmazonScience/massive,hy-AM,annot_utt,scenario,train,10000,linear,193.012543760833
+ai4bharat/indic_glue,wstp.ml,sectionText,correctTitle,train,10000,linear,193.00934595890737
+nguha/legalbench,cuad_no-solicit_of_employees,text,answer,train,6,linear,192.98146334617587
+AmazonScience/massive,el-GR,annot_utt,scenario,train,10000,linear,192.92525580226464
+nguha/legalbench,cuad_notice_period_to_terminate_renewal,text,answer,train,6,linear,192.91036108363394
+maveriq/bigbenchhard,date_understanding,input,target,train,250,linear,192.82281678156443
+llm-book/wrime-sentiment,default,sentence,label,train,10000,linear,192.80079762190672
+convai-challenge/conv_ai_3,conv_ai_3,topic_desc,initial_request,train,9176,linear,192.79610325641596
+tasksource/defeasible-nli,snli,Premise,UpdateType,train,10000,linear,192.75071738757592
+AmazonScience/massive,de-DE,annot_utt,scenario,train,10000,linear,192.74707067366364
+eraser-benchmark/movie_rationales,default,review,label,train,1600,linear,192.65338214816222
+mirfan899/imdb_urdu_reviews,default,sentence,sentiment,train,10000,linear,192.61264889895784
+RussianNLP/russian_super_glue,rwsd,text,label,train,606,linear,192.58116815870505
+DBQ/Burberry.Product.prices.China,default,title,category1_code,train,2014,linear,192.5609121037889
+sileod/pragmeval,persuasiveness-relevance,"['sentence1', 'sentence2']",label,train,725,linear,192.55364104288066
+masakhane/masakhanews,fra,text,label,train,1476,linear,192.2843472979681
+KBLab/overlim,mrpc_da,text_a,label,train,3261,linear,192.1594616579745
+sileod/probability_words_nli,reasoning_2hop,context,label,train,4000,linear,192.0258484330152
+RussianNLP/russian_super_glue,danetqa,passage,label,train,1749,linear,191.87361287494474
+stanfordnlp/sst,default,sentence,label,train,8544,linear,191.82106670106992
+facebook/imppres,presupposition_only_presupposition,"['premise', 'hypothesis']",gold_label,only_presupposition,1900,linear,191.65160104935774
+claudios/cubert_ETHPy150Open,variable_misuse_datasets,function,label,train,10000,linear,191.62861936372698
+senti-lex/senti_lex,gu,word,sentiment,train,2145,linear,191.61347770455805
+nguha/legalbench,supply_chain_disclosure_disclosed_training,text,answer,train,8,linear,191.5452542474075
+senti-lex/senti_lex,zhw,word,sentiment,train,3828,linear,191.35444709468345
+joelniklaus/lextreme,swiss_law_area_prediction_sub_area_facts,input,label,train,10000,linear,191.08901399552752
+maveriq/bigbenchhard,tracking_shuffled_objects_five_objects,input,target,train,250,linear,191.06568577116371
+tmu-nlp/thai_toxicity_tweet,thai_toxicity_tweet,tweet_text,is_toxic,train,3300,linear,191.06063767724328
+tyqiangz/multilingual-sentiments,hindi,text,label,train,1839,linear,191.02489221690112
+KBLab/overlim,copa_sv,premise,label,train,321,linear,190.9408823233274
+KBLab/overlim,sst_nb,text,label,train,10000,linear,190.89826940525614
+facebook/md_gender_bias,name_genders,name,assigned_gender,yob2008,10000,linear,190.8765563151365
+senti-lex/senti_lex,lv,word,sentiment,train,1938,linear,190.82085262666533
+MilaNLProc/honest,es_binary,template_masked,number,honest,810,linear,190.7007718464468
+biu-nlp/alsqa,alsqa,context,title,test,369,linear,190.6472787080554
+maveriq/bigbenchhard,salient_translation_error_detection,input,target,train,250,linear,190.47604218747983
+facebook/md_gender_bias,convai2_inferred,text,binary_label,train,10000,linear,190.4104009503933
+strombergnlp/x-stance,de,comment,label,train,10000,linear,190.2698437035331
+maveriq/bigbenchhard,hyperbaton,input,target,train,250,linear,190.21631755841122
+clarin-pl/polemo2-official,medicine_sentence,text,target,train,10000,linear,190.20550940593586
+nguha/legalbench,cuad_irrevocable_or_perpetual_license,text,answer,train,6,linear,189.99760850658112
+CATIE-AQ/stsb_multi_mt_fr_prompt_sentence_similarity,default,inputs,targets,train,10000,linear,189.98985713033264
+DBQ/Gucci.Product.prices.Canada,default,title,category1_code,train,5185,linear,189.94337650164397
+google/xtreme,PAWS-X.ko,"['sentence1', 'sentence2']",label,train,10000,linear,189.8390522554378
+andreniyongabo/kinnews_kirnews,kirnews_raw,content,label,train,3689,linear,189.8028670787955
+facebook/asset,ratings,original,aspect,full,4500,linear,189.70808972890524
+dumitrescustefan/ro_sent,default,sentence,label,train,10000,linear,189.6926375015844
+nguha/legalbench,cuad_competitive_restriction_exception,text,answer,train,6,linear,189.66323212975402
+kuroneko5943/stock11,medical,sentence,label,train,6308,linear,189.66286661208528
+evaluate/glue-ci,mnli_matched,"['premise', 'hypothesis']",label,validation,9815,linear,189.59570369893885
+nyu-mll/glue,mnli_matched,"['premise', 'hypothesis']",label,validation,9815,linear,189.4164784352804
+klue/klue,nli,"['premise', 'hypothesis']",label,train,10000,linear,189.3541708848336
+kuroneko5943/stock11,wine,sentence,label,train,9683,linear,189.3087724561163
+nguha/legalbench,cuad_third_party_beneficiary,text,answer,train,6,linear,189.29313952428868
+amphora/korfin-asc,default,SRC,SENTIMENT,train,8818,linear,189.26347263081095
+nguha/legalbench,textualism_tool_plain,text,answer,train,4,linear,189.22774622858705
+tasksource/mmlu,professional_law,question,answer,test,1534,linear,189.20264532310108
+clue/clue,csl,abst,label,train,10000,linear,189.1996806622026
+DFKI-SLT/gids,gids,sentence,relation,train,10000,linear,189.06906886271304
+Divyanshu/indicxnli,mr,"['premise', 'hypothesis']",label,train,10000,linear,188.94363984645776
+THUDM/LongBench,lcc,input,language,test,500,linear,188.89738968713544
+almanach/hc3_french_ood,hc3_en_sentence,text,label,train,10000,linear,188.75374503021413
+senti-lex/senti_lex,kn,word,sentiment,train,2173,linear,188.7099764979793
+tasksource/naturallogic,default, sent2 , original_label ,train,6390,linear,188.63929295338878
+kakaobrain/kor_nlu,nli,"['premise', 'hypothesis']",label,train,10000,linear,188.6230789174225
+coastalcph/lex_glue,ledgar,text,label,train,10000,linear,188.61137796670715
+symanto/autextification2023,attribution_es,text,label,train,10000,linear,188.57914894466154
+dlb/plue,mnli,"['premise', 'hypothesis']",label,train,10000,linear,188.5618046082556
+AmazonScience/massive,ta-IN,annot_utt,scenario,train,10000,linear,188.53304640334943
+community-datasets/clickbait_news_bg,default,content,fake_news_score,train,2815,linear,188.49510174645894
+MichiganNLP/TID-8,commitmentbank-ann,question,answer_label,train,7816,linear,188.41446525046726
+AI-Secure/adv_glue,adv_rte,"['sentence1', 'sentence2']",label,validation,81,linear,188.3434238531869
+senti-lex/senti_lex,la,word,sentiment,train,2033,linear,188.32731181573683
+MichiganNLP/TID-8,sentiment-ann,question,answer_label,train,10000,linear,188.2863774938847
+THUDM/LongBench,lcc_e,input,language,test,300,linear,188.25633583573298
+senti-lex/senti_lex,lt,word,sentiment,train,2190,linear,188.22053881616498
+nguha/legalbench,cuad_price_restrictions,text,answer,train,6,linear,188.12717498531623
+joelniklaus/lextreme,swiss_judgment_prediction_xl_facts,input,label,train,10000,linear,188.05395073102613
+THUDM/LongBench,repobench-p_e,input,language,test,300,linear,188.0114964736418
+sbx/superlim-2,swesat,item,label,train,83,linear,187.8927891232098
+tyqiangz/multilingual-sentiments,all,text,label,train,10000,linear,187.8260274882464
+community-datasets/tapaco,all_languages,paraphrase,language,train,10000,linear,187.82407417835984
+nguha/legalbench,proa,text,answer,train,5,linear,187.79042174792605
+nguha/legalbench,cuad_rofr-rofo-rofn,text,answer,train,6,linear,187.71406413742108
+wmt/wmt20_mlqe_task2,en-de,pe,hter,train,7000,linear,187.69948986025628
+Divyanshu/indicxnli,te,"['premise', 'hypothesis']",label,train,10000,linear,187.69497082011014
+tasksource/mmlu,high_school_psychology,question,answer,test,545,linear,187.42160202016768
+nguha/legalbench,contract_nli_no_licensing,text,answer,train,8,linear,187.41850170016357
+kuroneko5943/stock11,tech,sentence,label,train,10000,linear,187.36768202485064
+KBLab/overlim,mnli_da,"['premise', 'hypothesis']",label,train,10000,linear,187.35196257610295
+tasksource/mmlu,high_school_biology,question,answer,test,310,linear,187.34453537920928
+scaredmeow/shopee-reviews-tl-stars,default,text,label,train,10000,linear,187.31860495987632
+hpprc/janli,base,"['premise', 'hypothesis']",label,train,10000,linear,187.31672917488805
+nguha/legalbench,cuad_source_code_escrow,text,answer,train,6,linear,187.27274841834884
+facebook/imppres,presupposition_cleft_existence,"['premise', 'hypothesis']",gold_label,cleft_existence,1900,linear,187.23160901344863
+AmazonScience/massive,kn-IN,annot_utt,scenario,train,10000,linear,187.0228269082851
+universityofbucharest/moroco,moroco,sample,category,train,10000,linear,186.8760800677153
+KBLab/overlim,mnli_nb,"['premise', 'hypothesis']",label,train,10000,linear,186.79761676664606
+KBLab/overlim,boolq_da,passage,label,train,6285,linear,186.72909425526404
+KETI-AIR/kor_amazon_polarity,default,content,label,train,10000,linear,186.68204878623428
+google/xtreme,PAWS-X.de,"['sentence1', 'sentence2']",label,train,10000,linear,186.48881945554834
+facebook/imppres,presupposition_all_n_presupposition,"['premise', 'hypothesis']",gold_label,all_n_presupposition,1900,linear,186.4876708855929
+ejschwartz/oo-method-test-split,bylibrarydedupall,Disassembly,Type,train,1433,linear,186.15191821845278
+maveriq/bigbenchhard,temporal_sequences,input,target,train,250,linear,186.11978930183204
+sileod/probability_words_nli,reasoning_1hop,context,label,train,4000,linear,186.0956381643042
+nguha/legalbench,opp115_international_and_specific_audiences,text,answer,train,8,linear,185.99660331513837
+tasksource/mmlu,international_law,question,answer,test,121,linear,185.9804192971041
+aps/super_glue,copa,premise,label,train,400,linear,185.89571964892713
+cardiffnlp/tweet_eval,sentiment,text,label,train,10000,linear,185.7840157442012
+KBLab/overlim,sst_sv,text,label,train,10000,linear,185.7633119331859
+nguha/legalbench,function_of_decision_section,Paragraph,Citation,train,7,linear,185.60951190868025
+nguha/legalbench,supply_chain_disclosure_disclosed_verification,text,answer,train,8,linear,185.55290103371203
+nguha/legalbench,opp115_data_retention,text,answer,train,8,linear,185.37933794117703
+google/civil_comments,default,text,toxicity,train,10000,linear,185.34135139741687
+d0rj/rudetoxifier_data,default,text,toxic,train,10000,linear,185.29593723222268
+Elnagara/hard,plain_text,text,label,train,10000,linear,185.22199888073342
+masakhane/masakhanews,ibo,text,label,train,1356,linear,185.03657503448272
+google-research-datasets/paws-x,es,"['sentence1', 'sentence2']",label,train,10000,linear,184.9958742191032
+shunk031/jsnli,without-filtering,"['premise', 'hypothesis']",label,train,10000,linear,184.9390988969261
+AmazonScience/massive,te-IN,annot_utt,scenario,train,10000,linear,184.75766249293991
+google/xtreme,PAWS-X.es,"['sentence1', 'sentence2']",label,train,10000,linear,184.72341877134778
+webis/Touche23-ValueEval,nyt-meta,Argument ID,URL,meta,80,linear,184.65155229307413
+boun-tabi/nli_tr,multinli_tr,"['premise', 'hypothesis']",label,train,10000,linear,184.54148142447565
+senti-lex/senti_lex,es,word,sentiment,train,4275,linear,184.48852590315576
+tasksource/autotnli,default,premises,label,train,10000,linear,184.486400035882
+ccdv/patent-classification,abstract,text,label,train,10000,linear,184.46252989543143
+savasy/ttc4900,ttc4900,text,category,train,4900,linear,184.10053670539273
+MilaNLProc/honest,en_binary,template_masked,number,honest,810,linear,183.98315580102906
+maveriq/bigbenchhard,logical_deduction_five_objects,input,target,train,250,linear,183.96534237416563
+climatebert/climate_sentiment,default,text,label,train,1000,linear,183.9210948537687
+KETI-AIR/kor_ag_news,default,text,label,train,10000,linear,183.63456975899896
+tillschwoerer/tagesschau,default,text,label,train,1200,linear,183.62577043141397
+nguha/legalbench,learned_hands_consumer,text,answer,train,6,linear,183.52459614219478
+AI-Secure/adv_glue,adv_qqp,"['question1', 'question2']",label,validation,78,linear,183.4770019459968
+kuroneko5943/stock11,car,sentence,label,train,10000,linear,183.2798314379985
+nguha/legalbench,learned_hands_crime,text,answer,train,6,linear,183.25152907744152
+tyqiangz/multilingual-sentiments,indonesian,text,label,train,10000,linear,183.22498277094277
+nguha/legalbench,telemarketing_sales_rule,text,answer,train,4,linear,183.18234651754454
+nguha/legalbench,cuad_ip_ownership_assignment,text,answer,train,6,linear,183.1500515911935
+senti-lex/senti_lex,te,word,sentiment,train,2523,linear,182.99763753197317
+senti-lex/senti_lex,nn,word,sentiment,train,1894,linear,182.95350671725367
+cardiffnlp/tweet_sentiment_multilingual,spanish,text,label,train,1839,linear,182.80466076103693
+nguha/legalbench,cuad_covenant_not_to_sue,text,answer,train,6,linear,182.7265102802151
+ckandemir/bitcoin_tweets_sentiment_kaggle,default,text,Sentiment,train,10000,linear,182.63744844057624
+KBLab/overlim,sst_da,text,label,train,10000,linear,182.6110411045388
+AmazonScience/massive,mn-MN,annot_utt,scenario,train,10000,linear,182.59958523397086
+davebulaval/CSMD,meaning_holdout_unrelated,simplification,label,test,359,linear,182.58693477109068
+senti-lex/senti_lex,pt,word,sentiment,train,3953,linear,182.54966254818572
+masakhane/masakhanews,eng,text,label,train,3309,linear,182.5141753225325
+claudios/cubert_ETHPy150Open,swapped_operands_datasets,function,label,train,10000,linear,182.5105457982454
+tasksource/lingnli,default,"['premise', 'hypothesis']",label,train,10000,linear,182.4315859084322
+ai4bharat/indic_glue,sna.bn,text,label,train,10000,linear,182.19753653019285
+google/xtreme,PAWS-X.fr,"['sentence1', 'sentence2']",label,train,10000,linear,182.17704272752238
+BDas/ArabicNLPDataset,ArabicData,text,label,train,10000,linear,182.16395637154142
+cjvt/sentinews,sentence_level,content,sentiment,train,10000,linear,182.14587425687637
+AmazonScience/massive,ar-SA,annot_utt,scenario,train,10000,linear,182.09231638054473
+senti-lex/senti_lex,ro,word,sentiment,train,3329,linear,182.09118311946924
+senti-lex/senti_lex,da,word,sentiment,train,3340,linear,181.8577244815387
+AI-Secure/adv_glue,adv_sst2,sentence,label,validation,148,linear,181.82641170291865
+nguha/legalbench,opp115_first_party_collection_use,text,answer,train,8,linear,181.7727077493327
+ufukhaman/uspto_balanced_200k_ipc_classification,default,text,label,train,10000,linear,181.63172432177427
+nguha/legalbench,learned_hands_housing,text,answer,train,6,linear,181.5226133075721
+AI-Secure/adv_glue,adv_qnli,sentence,label,validation,148,linear,181.49432208704133
+cassandra-themis/QR-AN,qran_answer,text,label,train,10000,linear,181.4248944884755
+CogComp/trec,default,text,coarse_label,train,5452,linear,181.3616703524993
+nguha/legalbench,cuad_volume_restriction,text,answer,train,6,linear,181.31510678385408
+tasksource/lonli,default,"['premise', 'hypothesis']",label,train,10000,linear,181.1465408448555
+senti-lex/senti_lex,af,word,sentiment,train,2299,linear,181.12341179145972
+scaredmeow/shopee-reviews-tl-binary,default,text,label,train,10000,linear,181.06477693533844
+almanach/hc3_french_ood,hc3_fr_qa,answer,label,train,10000,linear,181.01074711816648
+nguha/legalbench,textualism_tool_dictionaries,text,answer,train,4,linear,180.94283595703507
+senti-lex/senti_lex,mk,word,sentiment,train,2965,linear,180.8870414655912
+aps/super_glue,axg,"['premise', 'hypothesis']",label,test,356,linear,180.82044149616252
+cardiffnlp/tweet_sentiment_multilingual,all,text,label,train,10000,linear,180.70333044781404
+maveriq/bigbenchhard,logical_deduction_seven_objects,input,target,train,250,linear,180.70298047106962
+legacy-datasets/allegro_reviews,default,text,rating,train,9577,linear,180.45534989208954
+jcblaise/newsph_nli,default,"['premise', 'hypothesis']",label,train,10000,linear,180.44348577799911
+senti-lex/senti_lex,eo,word,sentiment,train,2604,linear,180.32072951001228
+google-research-datasets/paws,labeled_final,"['sentence1', 'sentence2']",label,train,10000,linear,180.10961632566523
+masakhane/masakhanews,yor,text,label,train,1433,linear,179.9724130368291
+cassandra-themis/QR-AN,qran_full,text,label,train,10000,linear,179.96313563311057
+CLARIN-PL/wrbsc,default,"['sentence1', 'sentence2']",relationship,train,2827,linear,179.90221043941315
+nguha/legalbench,learned_hands_courts,text,answer,train,6,linear,179.85903245973478
+nguha/legalbench,learned_hands_business,text,answer,train,6,linear,179.73245794727256
+nguha/legalbench,cuad_effective_date,text,answer,train,6,linear,179.71160890426378
+senti-lex/senti_lex,eu,word,sentiment,train,1979,linear,179.70823172837387
+KBLab/overlim,mnli_sv,"['premise', 'hypothesis']",label,train,10000,linear,179.6963297862979
+nguha/legalbench,contract_nli_permissible_copy,text,answer,train,8,linear,179.671121120924
+nguha/legalbench,international_citizenship_questions,question,answer,train,4,linear,179.59754114738308
+ai4bharat/indic_glue,wstp.mr,sectionText,correctTitle,train,10000,linear,179.5948165114961
+symanto/autextification2023,detection_en,text,label,train,10000,linear,179.52335628091635
+bias-amplified-splits/anli,partial_input,"['premise', 'hypothesis']",label,train.biased,10000,linear,179.49109958086143
+senti-lex/senti_lex,cs,word,sentiment,train,2599,linear,179.48593415010902
+stanfordnlp/sst,dictionary,phrase,label,dictionary,10000,linear,179.3811930631906
+fbougares/tsac,default,sentence,target,train,10000,linear,179.10835171122568
+rezacsedu/bn_hate_speech,default,text,label,train,3418,linear,178.98739426536252
+senti-lex/senti_lex,gl,word,sentiment,train,2714,linear,178.96309335452628
+nguha/legalbench,opp115_data_security,text,answer,train,8,linear,178.94300594992126
+CATIE-AQ/xnli_fr_prompt_textual_entailment,default,inputs,targets,train,10000,linear,178.88749250665512
+nguha/legalbench,contract_nli_permissible_acquirement_of_similar_information,text,answer,train,8,linear,178.6325203982901
+RussianNLP/russian_super_glue,russe,"['sentence1', 'sentence2']",label,train,10000,linear,178.3061218719263
+nguha/legalbench,cuad_renewal_term,text,answer,train,6,linear,178.15317653223775
+DFKI-SLT/kbp37,kbp37,sentence,relation,train,10000,linear,178.09710737900127
+cassandra-themis/QR-AN,qran_question,text,label,train,10000,linear,178.06306157268943
+nguha/legalbench,abercrombie,text,answer,train,5,linear,178.00513748847104
+CATIE-AQ/fever_fr_prompt_textual_entailment,default,inputs,targets,train,10000,linear,177.91564745414115
+senti-lex/senti_lex,sr,word,sentiment,train,2034,linear,177.85188745112924
+nguha/legalbench,cuad_audit_rights,text,answer,train,6,linear,177.52143885252863
+PiC/phrase_similarity,PS-hard,"['sentence1', 'sentence2']",label,train,7004,linear,177.51507249718117
+tyqiangz/multilingual-sentiments,english,text,label,train,1839,linear,177.31241631075176
+nyu-mll/glue,mnli,"['premise', 'hypothesis']",label,train,10000,linear,177.25366754171608
+evaluate/glue-ci,mnli,"['premise', 'hypothesis']",label,train,10000,linear,177.22656266318293
+senti-lex/senti_lex,it,word,sentiment,train,4491,linear,177.17858523255654
+westphal-jan/mnli_matched,default,"['premise', 'hypothesis']",label,train,10000,linear,176.9975870714509
+tasksource/mmlu,moral_scenarios,question,answer,test,895,linear,176.97425824722816
+nyu-mll/multi_nli,default,"['premise', 'hypothesis']",label,train,10000,linear,176.85646551350925
+nguha/legalbench,supply_chain_disclosure_best_practice_audits,text,answer,train,8,linear,176.40720487566145
+McGill-NLP/stereoset,intrasentence,context,target,validation,2106,linear,176.28590952447036
+nyu-mll/multi_nli_mismatch,plain_text,"['premise', 'hypothesis']",label,train,10000,linear,176.05449557696255
+statworx/swiss-dialects,default,sentence,label,train,4743,linear,175.8557929464826
+HausaNLP/NaijaSenti-Twitter,ibo,tweet,label,train,10000,linear,175.74865986705515
+shmuhammad/AfriSenti-twitter-sentiment,ibo,tweet,label,train,10000,linear,175.70768892664285
+nguha/legalbench,cuad_minimum_commitment,text,answer,train,6,linear,175.4415092971991
+tblard/allocine,allocine,review,label,train,10000,linear,175.19075732700801
+THUDM/LongBench,repobench-p,input,language,test,500,linear,175.1032603078268
+nguha/legalbench,cuad_affiliate_license-licensee,text,answer,train,6,linear,174.9170067182281
+glombardo/misogynistic-statements-classification,default,text,label,train,127,linear,174.86631835848135
+timpal0l/swedish_reviews,plain_text,text,label,train,10000,linear,174.7397125991984
+nguha/legalbench,cuad_affiliate_license-licensor,text,answer,train,6,linear,174.40366208507214
+senti-lex/senti_lex,hi,word,sentiment,train,3640,linear,174.3721624522945
+sbx/superlim-2,swenli,"['premise', 'hypothesis']",label,train,10000,linear,174.34720017005282
+google/xtreme,PAWS-X.en,"['sentence1', 'sentence2']",label,train,10000,linear,174.2879977829306
+shmuhammad/AfriSenti-twitter-sentiment,ary,tweet,label,train,5583,linear,174.10035986618868
+nguha/legalbench,learned_hands_divorce,text,answer,train,6,linear,174.07224497826058
+senti-lex/senti_lex,pl,word,sentiment,train,3533,linear,173.77325621177752
+nguha/legalbench,ucc_v_common_law,contract,answer,train,6,linear,173.64873801681824
+nguha/legalbench,cuad_unlimited-all-you-can-eat-license,text,answer,train,6,linear,173.6074481389661
+senti-lex/senti_lex,hr,word,sentiment,train,2208,linear,173.34925363210897
+senti-lex/senti_lex,bn,word,sentiment,train,2393,linear,172.81026479636995
+RamAnanth1/talkrl-podcast,default,transcript,title,train,39,linear,172.60722268295063
+senti-lex/senti_lex,sv,word,sentiment,train,3722,linear,172.57797576733805
+google-research-datasets/paws-x,de,"['sentence1', 'sentence2']",label,train,10000,linear,172.3353221771204
+senti-lex/senti_lex,bg,word,sentiment,train,2847,linear,172.2744857048308
+BEE-spoke-data/yahoo_answers_topics-long-text,default,text,topic,train,3352,linear,172.27168113894265
+google-research-datasets/schema_guided_dstc8,schema,description,service_name,train,26,linear,172.26914994157858
+senti-lex/senti_lex,km,word,sentiment,train,956,linear,172.09576543905533
+senti-lex/senti_lex,ru,word,sentiment,train,2914,linear,172.0580397353812
+BerMaker/test,plain_text,context,title,train,10000,linear,172.0303446646971
+stanfordnlp/snli,plain_text,"['premise', 'hypothesis']",label,train,10000,linear,171.965161535719
+senti-lex/senti_lex,be,word,sentiment,train,1526,linear,171.85018753579368
+nguha/legalbench,cuad_most_favored_nation,text,answer,train,6,linear,171.8474472534012
+nguha/legalbench,definition_classification,text,answer,train,8,linear,171.7010217417028
+nguha/legalbench,supply_chain_disclosure_best_practice_verification,text,answer,train,8,linear,171.63011431526962
+nguha/legalbench,learned_hands_benefits,text,answer,train,6,linear,171.47587965616515
+senti-lex/senti_lex,fi,word,sentiment,train,3295,linear,170.8753119432916
+masakhane/masakhanews,run,text,label,train,1117,linear,170.83108747615034
+clarin-pl/polemo2-official,products_sentence,text,target,train,5942,linear,170.4141229515308
+CATIE-AQ/mnli_fr_prompt_textual_entailment,default,inputs,targets,train,10000,linear,170.25627902187583
+senti-lex/senti_lex,hu,word,sentiment,train,3522,linear,169.96659163511265
+google-research-datasets/paws-x,en,"['sentence1', 'sentence2']",label,train,10000,linear,169.78753903371648
+senti-lex/senti_lex,hy,word,sentiment,train,1657,linear,169.65636215038734
+sbx/superlim-2,argumentation_sent,sentence,label,train,3450,linear,169.5488904780961
+nguha/legalbench,supply_chain_disclosure_best_practice_training,text,answer,train,8,linear,169.35664362274838
+nguha/legalbench,cuad_no-solicit_of_customers,text,answer,train,6,linear,169.26093155702833
+ejschwartz/oo-method-test-split,byfuncname,Disassembly,Type,train,10000,linear,168.66935037299376
+facebook/anli,plain_text,"['premise', 'hypothesis']",label,train_r3,10000,linear,168.5273810576864
+vietgpt/anli_r3_en,default,"['premise', 'hypothesis']",label,train,10000,linear,168.34044904062793
+tasksource/PLANE-ood,default,seq,label,train,10000,linear,168.00549577149462
+nguha/legalbench,cuad_uncapped_liability,text,answer,train,6,linear,167.98225196145515
+shunk031/jsnli,with-filtering,"['premise', 'hypothesis']",label,train,10000,linear,167.94498492359355
+wenhu/tab_fact,tab_fact,table_text,label,train,10000,linear,167.93042426672565
+nguha/legalbench,personal_jurisdiction,text,answer,train,4,linear,167.9160804854537
+philschmid/emotion,split,text,label,train,10000,linear,167.79596910285636
+stanfordnlp/sst2,default,sentence,label,train,10000,linear,167.69859844976352
+dair-ai/emotion,split,text,label,train,10000,linear,167.49964916776656
+evaluate/glue-ci,sst2,sentence,label,train,10000,linear,167.46203304518554
+maveriq/bigbenchhard,navigate,input,target,train,250,linear,167.362157426281
+nyu-mll/glue,sst2,sentence,label,train,10000,linear,167.3437193227562
+mrm8488/sst2-es-mt,default,sentence,label,train,10000,linear,167.10985993696758
+nlp-thedeep/humset,2.0.0,excerpt,lang,train,10000,linear,167.0190325387497
+nguha/legalbench,jcrew_blocker,text,answer,train,6,linear,166.71718486150968
+senti-lex/senti_lex,bs,word,sentiment,train,2020,linear,166.60226585922177
+legacy-datasets/banking77,default,text,label,train,10000,linear,166.3752233310223
+senti-lex/senti_lex,sl,word,sentiment,train,2244,linear,165.9972514493939
+senti-lex/senti_lex,uk,word,sentiment,train,2827,linear,165.7048415721601
+CATIE-AQ/paws-x_fr_prompt_paraphrase_detection,default,inputs,targets,train,10000,linear,165.4846865377491
+nguha/legalbench,cuad_non-transferable_license,text,answer,train,6,linear,164.7669110800072
+claudios/cubert_ETHPy150Open,wrong_binary_operator_datasets,function,label,train,10000,linear,164.3441961522629
+CATIE-AQ/ling_fr_prompt_textual_entailment,default,inputs,targets,train,10000,linear,164.32452053882798
+DBQ/Gucci.Product.prices.Germany,default,title,category1_code,train,5418,linear,163.3973983238957
+nlp-thedeep/humset,1.0.0,excerpt,lang,train,10000,linear,163.12119722646747
+Deysi/spam-detection-dataset,default,text,label,train,8175,linear,163.1114278513652
+cjvt/sentinews,document_level,content,sentiment,train,10000,linear,163.10784209965868
+senti-lex/senti_lex,ca,word,sentiment,train,3204,linear,162.52946649092027
+joelniklaus/lextreme,swiss_law_area_prediction_facts,input,label,train,10000,linear,161.89735853470984
+hpprc/janli,original,sentence_A_Ja,entailment_label_Ja,train,10000,linear,161.7481329108265
+joelniklaus/lextreme,greek_legal_code_volume,input,label,train,10000,linear,161.62320755471504
+hezarai/sentiment-dksf,default,text,label,train,10000,linear,161.59749883546644
+cjvt/sentinews,paragraph_level,content,sentiment,train,10000,linear,161.25099502460716
+sileod/pragmeval,emobank-valence,sentence,label,train,5150,linear,161.05241825084187
+CATIE-AQ/allocine_fr_prompt_sentiment_analysis,default,inputs,targets,train,10000,linear,160.75293665905457
+facebook/md_gender_bias,light_inferred,text,binary_label,train,10000,linear,160.18469168443687
+ejschwartz/oo-method-test-split,bylibrary,Disassembly,Type,train,10000,linear,160.13896579549709
+joelniklaus/lextreme,swiss_law_area_prediction_considerations,input,label,train,10000,linear,159.76038260241478
+maveriq/bigbenchhard,web_of_lies,input,target,train,250,linear,159.44644885655936
+senti-lex/senti_lex,no,word,sentiment,train,3089,linear,159.35762928969137
+BDas/EnglishNLPDataset,EnglishData,text,label,train,10000,linear,159.1445230600276
+webis/Touche23-ValueEval,ibm-meta,Argument ID,WA,meta,7368,linear,155.5462041226662
+sbx/superlim-2,swedn,article,article_category,train,10000,linear,155.5404956478209
+fancyzhx/dbpedia_14,dbpedia_14,content,label,train,10000,linear,155.30164259955137
+jakartaresearch/indonews,default,text,label,train,6127,linear,152.1995172553239
+community-datasets/has_part,default,arg2,score,train,10000,linear,152.07208060511238
+senti-lex/senti_lex,sk,word,sentiment,train,2428,linear,151.3500034577169
+McGill-NLP/stereoset,intersentence,context,target,validation,2123,linear,150.91674097720363
+tasksource/scone,default,sentence1_edited,gold_label_edited,train,5010,linear,150.17604124141747
+facebook/md_gender_bias,wizard,text,gender,train,10000,linear,149.9531211958393
+emotone-ar-cicling2017/emotone_ar,default,tweet,label,train,10000,linear,147.33611347815554
+claritylab/utcd,aspect-normalized-in-domain,text,aspect,train,10000,linear,145.44300232388514
+Filippo/osdg_cd,main_config,text,label,train,10000,linear,145.21675741382887
+Patt/ReCoRD_TH_drop,default,passage,score_passage,train,10000,linear,144.01924731541305
+tasksource/defeasible-nli,atomic,Update,UpdateType,train,10000,linear,143.34677779838796
+senti-lex/senti_lex,de,word,sentiment,train,3974,linear,138.38723023053885
+SemEvalWorkshop/hyperpartisan_news_detection,bypublisher,text,bias,train,10000,linear,127.75118123349475
+masakhane/masakhanews,hau,text,label,train,2219,linear,126.25243996935217
+community-datasets/per_sent,default,DOCUMENT,TRUE_SENTIMENT,train,3355,linear,121.98417984762432
+biglam/old_bailey_proceedings,default,text,type,train,2638,linear,114.52687730304339
+neurae/dnd_style_intents,default,examples,label_names,train,10000,linear,114.23586578695021
+metaeval/ethics,commonsense,text,label,train,10000,linear,105.01097538820804
+facebook/lama,conceptnet,masked_sentence,pred,train,10000,linear,104.59203365277048
+kejian/codeparrot-train-more-filter-3.3b-cleaned,default,org_text,avg_score,train,10000,linear,62.546099460213526
+stanfordnlp/imdb,plain_text,text,label,train,10000,linear,54.665806408018014
+davanstrien/test_imdb_embedd2,default,text,label,train,10000,linear,52.37763247294392
+davanstrien/test1,default,text,label,train,10000,linear,51.33524489661139
+davanstrien/test_imdb_embedd,default,text,label,train,10000,linear,51.21085738956761
