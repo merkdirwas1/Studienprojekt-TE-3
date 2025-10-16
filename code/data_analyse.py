@@ -14,7 +14,7 @@ simplefilter(action="ignore", category=pd.errors.PerformanceWarning)
 
 
 
-def in_class_topk_sim(con, identifikator="language",group="korean", min_group_size = 15, filter=0):
+def in_class_dist_sim(con, identifikator="language",group="korean", min_group_size = 15, filter=0):
     cursor = con.cursor()
     res = cursor.execute("SELECT Name FROM Metadata WHERE " + identifikator + " LIKE '%" + group + "%' AND cast(size as decimal)>=" + str(filter) + ";")
     names = res.fetchall()
@@ -188,4 +188,5 @@ def create_graph(tabelle_gesammt):
         fig.add_trace(go.Scatter(x=[x], y=[y],mode="markers+text", marker=dict(size=10),text=node,))
     # Show the figure
     fig.update_traces(textfont_size=10,textposition="top center")
+
     fig.show()
