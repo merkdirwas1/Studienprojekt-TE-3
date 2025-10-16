@@ -11,9 +11,13 @@
 8. [Are the mean / minimum / maximum in a class different from the values out of the group?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#are-the-mean--minimum--maximum-in-a-class-different-from-the-values-out-of-the-group)
 
 ## Reproducibility
-- run calc logs -> neads querry 
-- after that -> prüfe voll -> needs help scores
-- create database -> verschiedene funcs -> needs names
+1. Calculate the LogMe Scores for each dataset. For that use the calculate_LogME.py which need the dataset_call csv. Alternatively use Data1-3 for the database creation.
+2. After calculating all LogMe scores use the prüfe_vollständigkeit.py script to check for complettness or to get a new list of queries. The script need the help_scores for that.
+3. The data are needed to create the database. To create the database the create_database.py script has 4 functions.
+  3.1. The first is the create_meta_table() to create a table which holds Name, size, language, categorie, size_group as information
+  3.2. After that run the create_datatables() function to create a table for each Task which use the meta_table to hold Name, score, language, categorie, size, size_group for each intermediate task for each task.
+  3.3. The function create_matrix() create a table which holds a 2d matrix which all scores. left is the intermediate taks and top is the target task. 
+  3.4. todo   statistiscs
 - todo: schauen was wofür war
 - 
 
