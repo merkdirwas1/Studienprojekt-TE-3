@@ -19,8 +19,16 @@
   3.3. The function create_matrix() create a table which holds a 2d matrix which all scores. left is the intermediate taks and top is the target task. 
   3.4. todo   statistiscs
 - todo: schauen was wofür war
-- 
 
+werte_verteilung_size for Which impact has the Task size on the LogMe Score? first 
+
+Which Tasks are often in the Top k intermediate Tasks?
+
+top_k_all_data Which Tasks are often in the Top k intermediate Tasks?
+create_fig_topk How symmetrical in order of top-k symmetrie are the Groups?
+create_fig_size How symmetrical in order of top-k symmetrie are the Groups?
+overall_sym How symmetrical in order of distance symmetrie are the groups?
+tabelle Are the mean / minimum / maximum in a class different from the values out of the group?
 ## Methods
 
 **Definition class:**<br>
