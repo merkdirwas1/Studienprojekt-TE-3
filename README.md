@@ -16,19 +16,16 @@
 3. The data are needed to create the database. To create the database the create_database.py script has 4 functions.
   3.1. The first is the create_meta_table() to create a table which holds Name, size, language, categorie, size_group as information
   3.2. After that run the create_datatables() function to create a table for each Task which use the meta_table to hold Name, score, language, categorie, size, size_group for each intermediate task for each task.
-  3.3. The function create_matrix() create a table which holds a 2d matrix which all scores. left is the intermediate taks and top is the target task. 
-  3.4. todo   statistiscs
-- todo: schauen was wofür war
+  3.3. The function create_matrix() create a table which holds a 2d matrix which all scores. left is the intermediate taks and top is the target task.
+4. There are a variety of function to calculate / plot the result of the project.
+  4.1 For the first plot of the question "Which impact has the Task size on the LogMe Score?" the function werte_verteilung_size() is used
+  4.2. For the second plot TODO is used
+  4.3 For the 4 plots of the question Which Tasks are often in the Top k intermediate Tasks? the top_k_all_data() is used
+  4.4 For the symmetrie in order of top-k the functions create_fig_topk and create_fig_size
+  4.5 for the symmetrie in order of distance the function overall_sym and TODO is used
+  4.6 for the tables of the mean / min / max different the table tabelle is used
 
-werte_verteilung_size for Which impact has the Task size on the LogMe Score? first 
 
-Which Tasks are often in the Top k intermediate Tasks?
-
-top_k_all_data Which Tasks are often in the Top k intermediate Tasks?
-create_fig_topk How symmetrical in order of top-k symmetrie are the Groups?
-create_fig_size How symmetrical in order of top-k symmetrie are the Groups?
-overall_sym How symmetrical in order of distance symmetrie are the groups?
-tabelle Are the mean / minimum / maximum in a class different from the values out of the group?
 ## Methods
 
 **Definition class:**<br>
