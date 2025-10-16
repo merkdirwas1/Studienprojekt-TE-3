@@ -14,16 +14,16 @@
 1. Calculate the LogMe Scores for each dataset. For that use the calculate_LogME.py which need the dataset_call csv. Alternatively use Data1-3 for the database creation.
 2. After calculating all LogMe scores use the prüfe_vollständigkeit.py script to check for complettness or to get a new list of queries. The script need the help_scores for that.
 3. The data are needed to create the database. To create the database the create_database.py script has 4 functions.
-  3.1. The first is the create_meta_table() to create a table which holds Name, size, language, categorie, size_group as information
-  3.2. After that run the create_datatables() function to create a table for each Task which use the meta_table to hold Name, score, language, categorie, size, size_group for each intermediate task for each task.
-  3.3. The function create_matrix() create a table which holds a 2d matrix which all scores. left is the intermediate taks and top is the target task.
+  3.1. The first is the create_meta_table() to create a table which holds Name, size, language, categorie, size_group as information <br>
+  3.2. After that run the create_datatables() function to create a table for each Task which use the meta_table to hold Name, score, language, categorie, size, size_group for each intermediate task for each task. <br>
+  3.3. The function create_matrix() create a table which holds a 2d matrix which all scores. left is the intermediate taks and top is the target task. <br>
 4. There are a variety of function to calculate / plot the result of the project.
-  4.1 For the first plot of the question "Which impact has the Task size on the LogMe Score?" the function werte_verteilung_size() is used
-  4.2. For the second plot TODO is used
-  4.3 For the 4 plots of the question Which Tasks are often in the Top k intermediate Tasks? the top_k_all_data() is used
-  4.4 For the symmetrie in order of top-k the functions create_fig_topk and create_fig_size
-  4.5 for the symmetrie in order of distance the function overall_sym and TODO is used
-  4.6 for the tables of the mean / min / max different the table tabelle is used
+  4.1 For the first plot of the question "Which impact has the Task size on the LogMe Score?" the function werte_verteilung_size() is used <br>
+  4.2. For the second plot TODO is used <br>
+  4.3 For the plots and tables of the question Which Tasks are often in the Top k intermediate Tasks? the top_k_all_data() is used <br>
+  4.4 For the symmetrie in order of top-k the functions create_fig_topk and create_fig_size <br>
+  4.5 for the symmetrie in order of distance the function overall_sym and TODO is used <br>
+  4.6 for the tables of the mean / min / max different the table tabelle is used <br>
 
 
 ## Methods
