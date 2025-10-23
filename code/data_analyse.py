@@ -190,3 +190,42 @@ def create_graph(tabelle_gesammt):
     fig.update_traces(textfont_size=10,textposition="top center")
 
     fig.show()
+
+
+def spread_length():
+    # pd.set_option('display.max_rows', None)
+    # pd.set_option('display.max_columns', None)
+    pf = pd.read_csv("statistics.csv", sep="\t")  #
+    df_len = pd.read_csv("test.csv", sep="\t")
+
+    help_list = []
+    ready = []
+    cnt = 1
+    for name in pf["Name"]:
+        for index, row in df_len.iterrows():
+            set_name = row["name"].replace("/", "_")
+            set_name = set_name + "_" + row["subset"]
+            if name in set_name and name not in ready:
+                help_list.append(row["lenght"])
+                ready.append(name)
+
+    pf["lenght"] = help_list
+
+    pf = pf.sort_values(by="spread")
+
+    spread = pf["spread"].tolist()
+    length = pf["lenght"].tolist()
+    print(spread, length)
+
+    cnt = []
+    for i in range(len(length)):
+        if length[i] <= 10:
+            cnt.append(i)
+
+    cnt.reverse()
+    for i in cnt:
+        del length[i]
+        del spread[i]
+
+    fig = px.scatter(x=spread, y=length)
+    fig.show()
