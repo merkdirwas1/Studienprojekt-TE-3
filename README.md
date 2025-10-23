@@ -1,7 +1,7 @@
 # Studienprojekt-TE-3
 
 ## Table of Contents
-1. [Reproducibility]()
+1. [Reproducibility](https://github.com/merkdirwas1/Studienprojekt-TE-3?tab=readme-ov-file#reproducibility)
 2. [Methods](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#methods)
 3. [Which impact has the Task size on the LogMe Score?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#which-impact-has-the-task-size-on-the-logme-score)
 4. [Which Tasks are often in the Top k intermediate Tasks?](https://github.com/merkdirwas1/Studienprojekt-TE-3/tree/main?tab=readme-ov-file#which-tasks-are-often-in-the-top-k-intermediate-tasks)
@@ -19,7 +19,7 @@
   3.3. The function create_matrix() create a table which holds a 2d matrix which all scores. left is the intermediate taks and top is the target task. <br>
 4. There are a variety of function to calculate / plot the result of the project.<br>
   4.1 For the first plot of the question "Which impact has the Task size on the LogMe Score?" the function werte_verteilung_size() is used <br>
-  4.2. For the second plot TODO is used <br>
+  4.2. For the second plot spread_length() is used <br>
   4.3 For the plots and tables of the question Which Tasks are often in the Top k intermediate Tasks? the top_k_all_data() is used <br>
   4.4 For the symmetrie in order of top-k the functions create_fig_topk and create_fig_size <br>
   4.5 for the symmetrie in order of distance the function overall_sym and in_class_dist_sim for the groups  is used <br>
